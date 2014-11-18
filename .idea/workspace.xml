@@ -3175,7 +3175,11 @@
       <created>1416285990193</created>
       <updated>1416285990193</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="workspace">
+      <created>1416286020502</created>
+      <updated>1416286020502</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -3265,7 +3269,8 @@
     <MESSAGE value="Fix &amp; Revert repo" />
     <MESSAGE value="new workplace" />
     <MESSAGE value=".gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value=".gitignore" />
+    <MESSAGE value="workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
