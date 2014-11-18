@@ -28,4 +28,5 @@ dependencies {
     compile files('libs/httpmime-4.2.2.jar')
     compile files('libs/ypylibs.jar')
     compile 'cn.pedant.sweetalert:library:1.1'
+    compile 'com.ToxicBakery.viewpager.transforms:view-pager-transforms:1.0.0@aar'
 }

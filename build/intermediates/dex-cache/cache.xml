@@ -2,11 +2,11 @@
 <pre-dex-items>
 
     <item
-        dex="/home/yassine/PlacesFinder/placesFinder/build/intermediates/pre-dexed/debug/classes-fa93544f856e3f7c99a0abce03163fdec48f8f18.jar"
-        jar="/home/yassine/PlacesFinder/placesFinder/build/intermediates/exploded-aar/cn.pedant.sweetalert/library/1.1/classes.jar"
+        dex="/home/yassine/AndroidstudioProjects/PlacesFinder/placesFinder/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-832929b88be78a4307b29fa84c57000975432d08.jar"
+        jar="/home/yassine/AndroidstudioProjects/PlacesFinder/placesFinder/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/libs/internal_impl-20.0.0.jar"
         jumboMode="false"
         revision="21.1.1"
-        sha1="4ebe2626650bb5d8e3d4546a5107a85e9df8775b"/>
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
     <item
         dex="/home/yassine/AndroidstudioProjects/PlacesFinder/placesFinder/build/intermediates/pre-dexed/debug/classes-fdf39ec48a70be9c568afdfec529e2bdd190f18f.jar"
         jar="/home/yassine/AndroidstudioProjects/PlacesFinder/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/classes.jar"
@@ -14,11 +14,11 @@
         revision="21.1.1"
         sha1="0f6d5c1ef2e982c3b7858408e3df389cf5d202da"/>
     <item
-        dex="/home/yassine/AndroidstudioProjects/PlacesFinder/placesFinder/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-832929b88be78a4307b29fa84c57000975432d08.jar"
-        jar="/home/yassine/AndroidstudioProjects/PlacesFinder/placesFinder/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/libs/internal_impl-20.0.0.jar"
+        dex="/home/yassine/PlacesFinder/placesFinder/build/intermediates/pre-dexed/debug/classes-fa93544f856e3f7c99a0abce03163fdec48f8f18.jar"
+        jar="/home/yassine/PlacesFinder/placesFinder/build/intermediates/exploded-aar/cn.pedant.sweetalert/library/1.1/classes.jar"
         jumboMode="false"
         revision="21.1.1"
-        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
+        sha1="4ebe2626650bb5d8e3d4546a5107a85e9df8775b"/>
     <item
         dex="/home/yassine/PlacesFinder/placesFinder/build/intermediates/pre-dexed/debug/ypylibs-2745c57cfb042ad4e876667c7b15d81d879e8687.jar"
         jar="/home/yassine/PlacesFinder/placesFinder/libs/ypylibs.jar"
@@ -85,6 +85,12 @@
         jumboMode="false"
         revision="21.1.1"
         sha1="f4a958db2495065c7cf62ad35f0e52c293bcef83"/>
+    <item
+        dex="/home/yassine/Desktop/MarocPlaceExplorer/placesFinder/build/intermediates/pre-dexed/debug/classes-fa8cea2ca79e2146ef4c8e383558d2edf9cd8677.jar"
+        jar="/home/yassine/Desktop/MarocPlaceExplorer/placesFinder/build/intermediates/exploded-aar/com.ToxicBakery.viewpager.transforms/view-pager-transforms/1.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="c418d21b2c378aee586a310cec01d1c244a7ec9a"/>
     <item
         dex="/home/yassine/PlacesFinder/placesFinder/build/intermediates/pre-dexed/debug/classes-8bc35e884001ad435191d0ef4c9f7c047d5ebfed.jar"
         jar="/home/yassine/PlacesFinder/placesFinder/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/classes.jar"

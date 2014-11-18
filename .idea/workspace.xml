@@ -40,6 +40,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9e0c9e3-d4dd-4b16-bd08-f9f2dab22f64" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_21_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_21_0_0.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/WelcomeActivity.java" afterPath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/WelcomeActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/build.gradle" afterPath="$PROJECT_DIR$/placesFinder/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/placesFinder.iml" afterPath="$PROJECT_DIR$/placesFinder/placesFinder.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_20_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_20_0_0.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PlacesFinder.iws" />
@@ -62,7 +69,30 @@
     <favorites_list name="PlacesFinder" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="build.gradle" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/placesFinder/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.475" vertical-offset="0" max-vertical-offset="600">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WelcomeActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/WelcomeActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+              <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -1745,6 +1775,11 @@
                 <option name="name" value="prepareComGoogleAndroidGmsPlayServices6171Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.ToxicBakery.viewpager.transforms:view-pager-transforms:1.0.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/placesFinder" />
+                <option name="name" value="prepareComToxicBakeryViewpagerTransformsViewPagerTransforms100Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/placesFinder" />
                 <option name="name" value="prepareDebugDependencies" />
               </ExternalTaskPojo>
@@ -2255,7 +2290,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="8496694282878" />
+        <entry key="$PROJECT_DIR$" value="8496707492863" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2562,6 +2597,8 @@
                             <option value="$USER_HOME$/sdk/extras/google/m2repository/com/google/android/gms/play-services/6.1.71/play-services-6.1.71.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/cn.pedant.sweetalert/library/1.1/fb1a9a0466fddf7918bf3a4aee66f018a72549de/library-1.1-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/cn.pedant.sweetalert/library/1.1/973ea127c6bbe8ef43c190674b356b43f636dd46/library-1.1.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ToxicBakery.viewpager.transforms/view-pager-transforms/1.0.0/36941c6dae1a224a0b52205d4cc4ce8244e73718/view-pager-transforms-1.0.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ToxicBakery.viewpager.transforms/view-pager-transforms/1.0.0/a02007f653403696b9ff19888d776e2c4db3cc4c/view-pager-transforms-1.0.0.aar" />
                             <option value="$USER_HOME$/sdk/extras/android/m2repository/com/android/support/support-v4/20.0.0/support-v4-20.0.0-sources.jar" />
                             <option value="$USER_HOME$/sdk/extras/android/m2repository/com/android/support/support-v4/20.0.0/support-v4-20.0.0.aar" />
                             <option value="$USER_HOME$/sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0-sources.jar" />
@@ -2767,7 +2804,6 @@
         <option value="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/MainSearchActivity.java" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/FragmentStep1.java" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/res/menu/menu_welcome.xml" />
-        <option value="$PROJECT_DIR$/placesFinder/build.gradle" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout-sw600dp/fragment_favorites.xml" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout-sw800dp/fragment_favorites.xml" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/res/values/colors.xml" />
@@ -2791,7 +2827,6 @@
         <option value="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/adapter/DetailMapInfoAdapter.java" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/adapter/DrawerSearchAdapter.java" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/adapter/AboutUsAdapter.java" />
-        <option value="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/WelcomeActivity.java" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/SplashActivity.java" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/MainActivity.java" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/AndroidManifest.xml" />
@@ -2809,6 +2844,8 @@
         <option value="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/fragment/FragmentStep1.java" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/fragment/FragmentStep2.java" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/fragment/FragmentStep3.java" />
+        <option value="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/WelcomeActivity.java" />
+        <option value="$PROJECT_DIR$/placesFinder/build.gradle" />
       </list>
     </option>
   </component>
@@ -2852,37 +2889,15 @@
               <option name="myItemId" value="PlacesFinder" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PlacesFinder" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="placesFinder" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="PlacesFinder" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="placesFinder" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ypyproductions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2893,18 +2908,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="placesFinder" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wheresmyplaces" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -3179,12 +3182,16 @@
       <created>1416286020502</created>
       <updated>1416286020502</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="workspace">
+      <created>1416286068948</created>
+      <updated>1416286068948</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="24" width="1317" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -3199,14 +3206,14 @@
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0031796503" sideWeight="0.49960783" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0031796503" sideWeight="0.49960783" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23921569" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23921569" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.49960783" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="149" y="96" width="1117" height="572" />
@@ -3270,7 +3277,8 @@
     <MESSAGE value="new workplace" />
     <MESSAGE value=".gitignore" />
     <MESSAGE value="workspace" />
-    <option name="LAST_COMMIT_MESSAGE" value="workspace" />
+    <MESSAGE value="Add animation to welcome screen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add animation to welcome screen" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3278,17 +3286,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/res/layout/splash.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.576923" vertical-offset="0" max-vertical-offset="555">
-          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/placesFinder/src/main/res/layout-sw600dp/splash.xml">
       <provider editor-type-id="android-designer">
         <state />
@@ -3553,16 +3550,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/WelcomeActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/placesFinder/src/main/res/layout/activity_welcome.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
@@ -3808,6 +3795,24 @@
             <element signature="e#863#882#0" expanded="true" />
             <element signature="e#1162#1186#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/WelcomeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/placesFinder/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.475" vertical-offset="0" max-vertical-offset="600">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
