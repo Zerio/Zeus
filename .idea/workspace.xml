@@ -40,392 +40,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9e0c9e3-d4dd-4b16-bd08-f9f2dab22f64" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jazzyListView/build/intermediates/exploded-aar/MarocPlaceExplorer/nineOldAndroids/unspecified/classes.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jazzyListView/build/intermediates/exploded-aar/PlacesFinder/nineOldAndroids/unspecified/classes.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/MarocPlaceExplorer/jazzyListView/unspecified/classes.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/MarocPlaceExplorer/nineOldAndroids/unspecified/classes.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/MarocPlaceExplorer/smoothProgressBar/unspecified/classes.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/PlacesFinder/jazzyListView/unspecified/classes.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/PlacesFinder/nineOldAndroids/unspecified/classes.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/PlacesFinder/smoothProgressBar/unspecified/classes.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/cn.pedant.sweetalert/library/1.1/classes.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.ToxicBakery.viewpager.transforms/view-pager-transforms/1.0.0/classes.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/classes.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/classes.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-hdpi/common_full_open_on_phone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-hdpi/common_ic_googleplayservices.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-hdpi/common_signin_btn_icon_disabled_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-mdpi/common_signin_btn_icon_disabled_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/common_signin_btn_icon_disabled_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xxhdpi/common_signin_btn_icon_disabled_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-hdpi/common_signin_btn_icon_disabled_focus_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-mdpi/common_signin_btn_icon_disabled_focus_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/common_signin_btn_icon_disabled_focus_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xxhdpi/common_signin_btn_icon_disabled_focus_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-hdpi/common_signin_btn_icon_disabled_focus_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-mdpi/common_signin_btn_icon_disabled_focus_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/common_signin_btn_icon_disabled_focus_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xxhdpi/common_signin_btn_icon_disabled_focus_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-hdpi/common_signin_btn_icon_disabled_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-mdpi/common_signin_btn_icon_disabled_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/common_signin_btn_icon_disabled_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xxhdpi/common_signin_btn_icon_disabled_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-hdpi/common_signin_btn_icon_focus_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-mdpi/common_signin_btn_icon_focus_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/common_signin_btn_icon_focus_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xxhdpi/common_signin_btn_icon_focus_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-hdpi/common_signin_btn_icon_focus_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-mdpi/common_signin_btn_icon_focus_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/common_signin_btn_icon_focus_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xxhdpi/common_signin_btn_icon_focus_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-hdpi/common_signin_btn_icon_normal_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-mdpi/common_signin_btn_icon_normal_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/common_signin_btn_icon_normal_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xxhdpi/common_signin_btn_icon_normal_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-hdpi/common_signin_btn_icon_normal_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-mdpi/common_signin_btn_icon_normal_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/common_signin_btn_icon_normal_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xxhdpi/common_signin_btn_icon_normal_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-hdpi/common_signin_btn_icon_pressed_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-mdpi/common_signin_btn_icon_pressed_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/common_signin_btn_icon_pressed_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xxhdpi/common_signin_btn_icon_pressed_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-hdpi/common_signin_btn_icon_pressed_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-mdpi/common_signin_btn_icon_pressed_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/common_signin_btn_icon_pressed_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xxhdpi/common_signin_btn_icon_pressed_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-hdpi/common_signin_btn_text_disabled_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-mdpi/common_signin_btn_text_disabled_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/common_signin_btn_text_disabled_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xxhdpi/common_signin_btn_text_disabled_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-hdpi/common_signin_btn_text_disabled_focus_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-mdpi/common_signin_btn_text_disabled_focus_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/common_signin_btn_text_disabled_focus_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xxhdpi/common_signin_btn_text_disabled_focus_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-hdpi/common_signin_btn_text_disabled_focus_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-mdpi/common_signin_btn_text_disabled_focus_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/common_signin_btn_text_disabled_focus_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xxhdpi/common_signin_btn_text_disabled_focus_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-hdpi/common_signin_btn_text_disabled_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-mdpi/common_signin_btn_text_disabled_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/common_signin_btn_text_disabled_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xxhdpi/common_signin_btn_text_disabled_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-hdpi/common_signin_btn_text_focus_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-mdpi/common_signin_btn_text_focus_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/common_signin_btn_text_focus_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xxhdpi/common_signin_btn_text_focus_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-hdpi/common_signin_btn_text_focus_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-mdpi/common_signin_btn_text_focus_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/common_signin_btn_text_focus_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xxhdpi/common_signin_btn_text_focus_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-hdpi/common_signin_btn_text_normal_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-mdpi/common_signin_btn_text_normal_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/common_signin_btn_text_normal_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xxhdpi/common_signin_btn_text_normal_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-hdpi/common_signin_btn_text_normal_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-mdpi/common_signin_btn_text_normal_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/common_signin_btn_text_normal_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xxhdpi/common_signin_btn_text_normal_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-hdpi/common_signin_btn_text_pressed_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-mdpi/common_signin_btn_text_pressed_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/common_signin_btn_text_pressed_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xxhdpi/common_signin_btn_text_pressed_dark.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-hdpi/common_signin_btn_text_pressed_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-mdpi/common_signin_btn_text_pressed_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/common_signin_btn_text_pressed_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xxhdpi/common_signin_btn_text_pressed_light.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-hdpi/ic_plusone_medium_off_client.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-mdpi/ic_plusone_medium_off_client.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-tvdpi/ic_plusone_medium_off_client.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/ic_plusone_medium_off_client.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xxhdpi/ic_plusone_medium_off_client.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-hdpi/ic_plusone_small_off_client.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-mdpi/ic_plusone_small_off_client.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-tvdpi/ic_plusone_small_off_client.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/ic_plusone_small_off_client.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xxhdpi/ic_plusone_small_off_client.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-hdpi/ic_plusone_standard_off_client.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-mdpi/ic_plusone_standard_off_client.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-tvdpi/ic_plusone_standard_off_client.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/ic_plusone_standard_off_client.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xxhdpi/ic_plusone_standard_off_client.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-hdpi/ic_plusone_tall_off_client.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-mdpi/ic_plusone_tall_off_client.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-tvdpi/ic_plusone_tall_off_client.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/ic_plusone_tall_off_client.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xxhdpi/ic_plusone_tall_off_client.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/libs/internal_impl-20.0.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/model_data.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-hdpi/powered_by_google_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-mdpi/powered_by_google_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/powered_by_google_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xxhdpi/powered_by_google_dark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-hdpi/powered_by_google_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-mdpi/powered_by_google_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xhdpi/powered_by_google_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable-xxhdpi/powered_by_google_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/templates.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jazzyListView/build/intermediates/exploded-aar/MarocPlaceExplorer/nineOldAndroids/unspecified/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jazzyListView/build/intermediates/exploded-aar/PlacesFinder/nineOldAndroids/unspecified/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jazzyListView/src/main/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nineOldAndroids/src/main/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/MarocPlaceExplorer/jazzyListView/unspecified/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/MarocPlaceExplorer/nineOldAndroids/unspecified/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/MarocPlaceExplorer/smoothProgressBar/unspecified/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/PlacesFinder/jazzyListView/unspecified/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/PlacesFinder/nineOldAndroids/unspecified/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/PlacesFinder/smoothProgressBar/unspecified/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/cn.pedant.sweetalert/library/1.1/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.ToxicBakery.viewpager.transforms/view-pager-transforms/1.0.0/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smoothProgressBar/src/main/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nineOldAndroids/src/main/java/com/nineoldandroids/animation/Animator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nineOldAndroids/src/main/java/com/nineoldandroids/animation/AnimatorInflater.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nineOldAndroids/src/main/java/com/nineoldandroids/animation/AnimatorListenerAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nineOldAndroids/src/main/java/com/nineoldandroids/view/animation/AnimatorProxy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nineOldAndroids/src/main/java/com/nineoldandroids/animation/AnimatorSet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nineOldAndroids/src/main/java/com/nineoldandroids/animation/ArgbEvaluator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jazzyListView/build/generated/source/buildConfig/debug/com/twotoasters/jazzylistview/BuildConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jazzyListView/build/generated/source/buildConfig/release/com/twotoasters/jazzylistview/BuildConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jazzyListView/build/generated/source/buildConfig/test/debug/com/twotoasters/jazzylistview/test/BuildConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nineOldAndroids/build/generated/source/buildConfig/debug/com/nineoldandroids/BuildConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nineOldAndroids/build/generated/source/buildConfig/release/com/nineoldandroids/BuildConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nineOldAndroids/build/generated/source/buildConfig/test/debug/com/nineoldandroids/test/BuildConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/generated/source/buildConfig/debug/com/places/nearby/BuildConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/generated/source/buildConfig/test/debug/com/places/nearby/test/BuildConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smoothProgressBar/build/generated/source/buildConfig/debug/fr/castorflex/android/smoothprogressbar/BuildConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smoothProgressBar/build/generated/source/buildConfig/release/fr/castorflex/android/smoothprogressbar/BuildConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smoothProgressBar/build/generated/source/buildConfig/test/debug/fr/castorflex/android/smoothprogressbar/test/BuildConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jazzyListView/src/main/java/com/twotoasters/jazzylistview/effects/CardsEffect.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jazzyListView/src/main/java/com/twotoasters/jazzylistview/effects/CurlEffect.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jazzyListView/src/main/java/com/twotoasters/jazzylistview/effects/FadeEffect.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jazzyListView/src/main/java/com/twotoasters/jazzylistview/effects/FanEffect.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jazzyListView/src/main/java/com/twotoasters/jazzylistview/effects/FlipEffect.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nineOldAndroids/src/main/java/com/nineoldandroids/animation/FloatEvaluator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nineOldAndroids/src/main/java/com/nineoldandroids/animation/FloatKeyframeSet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nineOldAndroids/src/main/java/com/nineoldandroids/util/FloatProperty.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jazzyListView/src/main/java/com/twotoasters/jazzylistview/effects/FlyEffect.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jazzyListView/src/main/java/com/twotoasters/jazzylistview/effects/GrowEffect.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jazzyListView/src/main/java/com/twotoasters/jazzylistview/effects/HelixEffect.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/aidl/android/support/v4/app/INotificationSideChannel.aidl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/aidl/android/support/v4/app/INotificationSideChannel.aidl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/generated/source/aidl/debug/com/ypyproductions/location/ITrackRecordingService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nineOldAndroids/src/main/java/com/nineoldandroids/animation/IntEvaluator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nineOldAndroids/src/main/java/com/nineoldandroids/animation/IntKeyframeSet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nineOldAndroids/src/main/java/com/nineoldandroids/util/IntProperty.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jazzyListView/src/main/java/com/twotoasters/jazzylistview/JazzyEffect.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jazzyListView/src/main/java/com/twotoasters/jazzylistview/JazzyGridView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jazzyListView/src/main/java/com/twotoasters/jazzylistview/JazzyHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jazzyListView/src/main/java/com/twotoasters/jazzylistview/JazzyListView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nineOldAndroids/src/main/java/com/nineoldandroids/animation/Keyframe.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nineOldAndroids/src/main/java/com/nineoldandroids/animation/KeyframeSet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MarocPlaceExplorer.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nineOldAndroids/src/main/java/com/nineoldandroids/util/NoSuchPropertyException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nineOldAndroids/src/main/java/com/nineoldandroids/animation/ObjectAnimator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nineOldAndroids/src/main/java/com/nineoldandroids/animation/PreHoneycombCompat.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nineOldAndroids/src/main/java/com/nineoldandroids/util/Property.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nineOldAndroids/src/main/java/com/nineoldandroids/animation/PropertyValuesHolder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jazzyListView/build/generated/source/r/debug/com/twotoasters/jazzylistview/R.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jazzyListView/build/generated/source/r/release/com/twotoasters/jazzylistview/R.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jazzyListView/build/generated/source/r/test/debug/com/twotoasters/jazzylistview/R.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jazzyListView/build/generated/source/r/test/debug/com/twotoasters/jazzylistview/test/R.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/generated/source/r/debug/cn/pedant/SweetAlert/R.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/generated/source/r/debug/com/google/android/gms/R.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/generated/source/r/debug/com/places/nearby/R.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/generated/source/r/debug/com/twotoasters/jazzylistview/R.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/generated/source/r/debug/fr/castorflex/android/smoothprogressbar/R.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smoothProgressBar/build/generated/source/r/debug/fr/castorflex/android/smoothprogressbar/R.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smoothProgressBar/build/generated/source/r/release/fr/castorflex/android/smoothprogressbar/R.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smoothProgressBar/build/generated/source/r/test/debug/fr/castorflex/android/smoothprogressbar/R.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smoothProgressBar/build/generated/source/r/test/debug/fr/castorflex/android/smoothprogressbar/test/R.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/MarocPlaceExplorer/jazzyListView/unspecified/R.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/MarocPlaceExplorer/smoothProgressBar/unspecified/R.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/PlacesFinder/jazzyListView/unspecified/R.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/PlacesFinder/smoothProgressBar/unspecified/R.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/cn.pedant.sweetalert/library/1.1/R.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/R.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nineOldAndroids/src/main/java/com/nineoldandroids/util/ReflectiveProperty.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jazzyListView/src/main/java/com/twotoasters/jazzylistview/effects/ReverseFlyEffect.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jazzyListView/src/main/java/com/twotoasters/jazzylistview/effects/SlideInEffect.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smoothProgressBar/src/main/java/fr/castorflex/android/smoothprogressbar/SmoothProgressBar.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smoothProgressBar/src/main/java/fr/castorflex/android/smoothprogressbar/SmoothProgressDrawable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jazzyListView/src/main/java/com/twotoasters/jazzylistview/effects/StandardEffect.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jazzyListView/src/main/java/com/twotoasters/jazzylistview/effects/TiltEffect.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nineOldAndroids/src/main/java/com/nineoldandroids/animation/TimeAnimator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jazzyListView/src/main/java/com/twotoasters/jazzylistview/effects/TwirlEffect.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nineOldAndroids/src/main/java/com/nineoldandroids/animation/TypeEvaluator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nineOldAndroids/src/main/java/com/nineoldandroids/animation/ValueAnimator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nineOldAndroids/src/main/java/com/nineoldandroids/view/ViewHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nineOldAndroids/src/main/java/com/nineoldandroids/view/ViewPropertyAnimator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nineOldAndroids/src/main/java/com/nineoldandroids/view/ViewPropertyAnimatorHC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nineOldAndroids/src/main/java/com/nineoldandroids/view/ViewPropertyAnimatorICS.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nineOldAndroids/src/main/java/com/nineoldandroids/view/ViewPropertyAnimatorPreHC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jazzyListView/src/main/java/com/twotoasters/jazzylistview/effects/WaveEffect.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jazzyListView/src/main/java/com/twotoasters/jazzylistview/effects/ZipperEffect.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values/admob_ads_attrs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values/admob_iap_style.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values/admob_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/cn.pedant.sweetalert/library/1.1/res/layout/alert_dialog.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jazzyListView/src/main/res/values/attrs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smoothProgressBar/src/main/res/values/attrs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/cn.pedant.sweetalert/library/1.1/res/drawable/blue_button_background.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jazzyListView/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nineOldAndroids/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smoothProgressBar/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values/common_colors.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable/common_signin_btn_icon_dark.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable/common_signin_btn_icon_light.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/color/common_signin_btn_text_dark.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable/common_signin_btn_text_dark.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/color/common_signin_btn_text_light.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/drawable/common_signin_btn_text_light.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-af/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-am/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-ar/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-be/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-bg/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-bn-rBD/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-ca/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-cs/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-da/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-de/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-el/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-en-rGB/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-en-rIN/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-es/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-es-rUS/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-et-rEE/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-eu-rES/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-fa/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-fi/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-fr/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-fr-rCA/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-gl-rES/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-hi/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-hr/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-hu/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-hy-rAM/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-in/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-is-rIS/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-it/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-iw/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-ja/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-ka-rGE/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-kk-rKZ/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-km-rKH/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-kn-rIN/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-ko/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-ky-rKG/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-lo-rLA/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-lt/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-lv/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-mk-rMK/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-ml-rIN/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-mn-rMN/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-mr-rIN/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-ms-rMY/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-my-rMM/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-nb/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-ne-rNP/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-nl/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-pl/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-pt/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-pt-rBR/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-pt-rPT/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-ro/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-ru/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-si-rLK/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-sk/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-sl/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-sr/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-sv/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-sw/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-ta-rIN/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-te-rIN/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-th/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-tl/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-tr/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-uk/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-ur-rPK/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-uz-rUZ/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-vi/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-zh-rCN/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-zh-rHK/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-zh-rTW/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-zu/common_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/crouton_1_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smoothProgressBar/src/main/res/values/defaults.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/cn.pedant.sweetalert/library/1.1/res/drawable/dialog_background.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/cn.pedant.sweetalert/library/1.1/res/drawable/error_center_x.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/cn.pedant.sweetalert/library/1.1/res/drawable/error_circle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/cn.pedant.sweetalert/library/1.1/res/anim/error_frame_in.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/cn.pedant.sweetalert/library/1.1/res/anim/error_x_in.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradlew.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradlew" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/cn.pedant.sweetalert/library/1.1/res/drawable/gray_button_background.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/helperslib.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/httpmime_4_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jazzyListView/jazzyListView.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/library_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/local.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values/maps_attrs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/cn.pedant.sweetalert/library/1.1/res/anim/modal_in.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/cn.pedant.sweetalert/library/1.1/res/anim/modal_out.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nineOldAndroids/nineOldAndroids.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_6_1_71.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/proguard.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/cn.pedant.sweetalert/library/1.1/res/drawable/red_button_background.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/settings.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smoothProgressBar/smoothProgressBar.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smoothProgressBar/src/main/res/values/styles.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/smoothProgressBar/src/main/res/values-v14/styles.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/cn.pedant.sweetalert/library/1.1/res/drawable/success_bow.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/cn.pedant.sweetalert/library/1.1/res/anim/success_bow_roate.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/cn.pedant.sweetalert/library/1.1/res/drawable/success_circle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/cn.pedant.sweetalert/library/1.1/res/anim/success_mask_layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_20_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_21_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_20_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_21_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/MarocPlaceExplorer/jazzyListView/unspecified/res/values/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/MarocPlaceExplorer/smoothProgressBar/unspecified/res/values/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/MarocPlaceExplorer/smoothProgressBar/unspecified/res/values-v14/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/PlacesFinder/jazzyListView/unspecified/res/values/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/PlacesFinder/smoothProgressBar/unspecified/res/values/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/PlacesFinder/smoothProgressBar/unspecified/res/values-v14/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/cn.pedant.sweetalert/library/1.1/res/values/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values/version.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/view_pager_transforms_1_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values/wallet_attrs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values/wallet_colors.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/color/wallet_primary_text_holo_light.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/color/wallet_secondary_text_holo_dark.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values/wallet_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values-es/wallet_strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/res/values/wallet_styles.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/cn.pedant.sweetalert/library/1.1/res/drawable/warning_circle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/build/intermediates/exploded-aar/cn.pedant.sweetalert/library/1.1/res/drawable/warning_sigh.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/yassine.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/ypylibs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PlacesFinder.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -3238,6 +2853,60 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlacesFinder" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="placesFinder" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlacesFinder" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="placesFinder" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ypyproductions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlacesFinder" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="placesFinder" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wheresmyplaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="ProjectPane" />
@@ -3486,7 +3155,11 @@
       <created>1416282357673</created>
       <updated>1416282357673</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fix &amp; Revert repo">
+      <created>1416285176982</created>
+      <updated>1416285176982</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -3779,13 +3452,13 @@
         <state vertical-scroll-proportion="0.5016611" vertical-offset="1483" max-vertical-offset="2100">
           <caret line="119" column="35" selection-start-line="119" selection-start-column="35" selection-end-line="119" selection-end-column="35" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1925#2114#0" expanded="true" />
-            <element signature="e#2103#2104#0" expanded="true" />
-            <element signature="e#2649#2650#0" expanded="true" />
-            <element signature="e#2710#2711#0" expanded="true" />
-            <element signature="e#3189#3228#0" expanded="true" />
-            <element signature="e#4666#4691#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1925#2114#0" expanded="false" />
+            <element signature="e#2103#2104#0" expanded="false" />
+            <element signature="e#2649#2650#0" expanded="false" />
+            <element signature="e#2710#2711#0" expanded="false" />
+            <element signature="e#3189#3228#0" expanded="false" />
+            <element signature="e#4666#4691#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3795,38 +3468,38 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="9896" max-vertical-offset="10545">
           <caret line="697" column="1" selection-start-line="697" selection-start-column="1" selection-end-line="697" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3804#3814#0" expanded="true" />
-            <element signature="e#5943#5963#0" expanded="true" />
-            <element signature="e#5965#5986#0" expanded="true" />
-            <element signature="e#7270#7288#0" expanded="true" />
-            <element signature="e#8353#9703#0" expanded="true" />
-            <element signature="e#9692#9693#0" expanded="true" />
-            <element signature="e#14242#14289#0" expanded="true" />
-            <element signature="e#17254#17295#0" expanded="true" />
-            <element signature="e#17444#17487#0" expanded="true" />
-            <element signature="e#17631#17672#0" expanded="true" />
-            <element signature="e#23046#23077#0" expanded="true" />
-            <element signature="e#23357#23581#0" expanded="true" />
-            <element signature="e#23566#23567#0" expanded="true" />
-            <element signature="e#23666#23687#0" expanded="true" />
-            <element signature="e#23689#24191#0" expanded="true" />
-            <element signature="e#24176#24177#0" expanded="true" />
-            <element signature="e#24232#24253#0" expanded="true" />
-            <element signature="e#24255#24542#0" expanded="true" />
-            <element signature="e#24527#24528#0" expanded="true" />
-            <element signature="e#24765#24805#0" expanded="true" />
-            <element signature="e#24807#24830#0" expanded="true" />
-            <element signature="e#24832#24853#0" expanded="true" />
-            <element signature="e#24871#24910#0" expanded="true" />
-            <element signature="e#25796#25825#0" expanded="true" />
-            <element signature="e#26712#26745#0" expanded="true" />
-            <element signature="e#27065#27098#0" expanded="true" />
-            <element signature="e#27621#27654#0" expanded="true" />
-            <element signature="e#27974#28007#0" expanded="true" />
-            <element signature="e#28410#28443#0" expanded="true" />
-            <element signature="e#28715#28748#0" expanded="true" />
-            <element signature="e#29053#29070#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3804#3814#0" expanded="false" />
+            <element signature="e#5943#5963#0" expanded="false" />
+            <element signature="e#5965#5986#0" expanded="false" />
+            <element signature="e#7270#7288#0" expanded="false" />
+            <element signature="e#8353#9703#0" expanded="false" />
+            <element signature="e#9692#9693#0" expanded="false" />
+            <element signature="e#14242#14289#0" expanded="false" />
+            <element signature="e#17254#17295#0" expanded="false" />
+            <element signature="e#17444#17487#0" expanded="false" />
+            <element signature="e#17631#17672#0" expanded="false" />
+            <element signature="e#23046#23077#0" expanded="false" />
+            <element signature="e#23357#23581#0" expanded="false" />
+            <element signature="e#23566#23567#0" expanded="false" />
+            <element signature="e#23666#23687#0" expanded="false" />
+            <element signature="e#23689#24191#0" expanded="false" />
+            <element signature="e#24176#24177#0" expanded="false" />
+            <element signature="e#24232#24253#0" expanded="false" />
+            <element signature="e#24255#24542#0" expanded="false" />
+            <element signature="e#24527#24528#0" expanded="false" />
+            <element signature="e#24765#24805#0" expanded="false" />
+            <element signature="e#24807#24830#0" expanded="false" />
+            <element signature="e#24832#24853#0" expanded="false" />
+            <element signature="e#24871#24910#0" expanded="false" />
+            <element signature="e#25796#25825#0" expanded="false" />
+            <element signature="e#26712#26745#0" expanded="false" />
+            <element signature="e#27065#27098#0" expanded="false" />
+            <element signature="e#27621#27654#0" expanded="false" />
+            <element signature="e#27974#28007#0" expanded="false" />
+            <element signature="e#28410#28443#0" expanded="false" />
+            <element signature="e#28715#28748#0" expanded="false" />
+            <element signature="e#29053#29070#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3862,7 +3535,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
           <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
