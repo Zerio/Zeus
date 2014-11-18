@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_card_without_shadow" >
+
+    <TextView
+        android:id="@+id/tv_name_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp"
+        android:layout_marginTop="5sp"
+        android:singleLine="true"
+        android:text="Yassine El Fadili"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <RatingBar
+        android:id="@+id/user_ratingBar1"
+        style="@style/small_ratingbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_name_user"
+        android:layout_marginLeft="5sp"
+        android:layout_marginTop="5sp"
+        android:isIndicator="true"
+        android:rating="5" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/user_ratingBar1"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp"
+        android:layout_toRightOf="@+id/user_ratingBar1"
+        android:singleLine="true"
+        android:text="05/01/2014"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_ratingBar1"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp"
+        android:layout_marginTop="-35sp"
+        android:text="A very good place, I love it!"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/sort_by_distance"
+        android:icon="@drawable/ic_sort_by_distance"
+        android:title="@string/title_sort_by_distance">
+    </item>
+    <item
+        android:id="@+id/sort_by_rating"
+        android:icon="@drawable/ic_action_important"
+        android:title="@string/title_sort_by_rating">
+    </item>
+    <item
+        android:id="@+id/action_map"
+        android:icon="@drawable/ic_all_map"
+        android:title="@string/title_all_place">
+    </item>
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/ic_action_refresh"
+        android:title="@string/title_refresh">
+    </item>
+
+</menu>

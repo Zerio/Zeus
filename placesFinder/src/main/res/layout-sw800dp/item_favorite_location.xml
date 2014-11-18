@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150sp"
+        android:background="@color/white" >
+
+        <ImageView
+            android:id="@+id/img_location"
+            android:layout_width="120sp"
+            android:layout_height="120sp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5sp"
+            android:scaleType="fitXY"
+            android:src="@drawable/icon_location_default" />
+
+        <LinearLayout
+            android:id="@+id/layout_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_toLeftOf="@+id/img_cat"
+            android:layout_toRightOf="@+id/img_location"
+            android:layout_centerVertical="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_name_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="ATM SeABank"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_sumary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5sp"
+                android:layout_marginTop="5sp"
+                android:singleLine="true"
+                android:text="Phan chau trinh"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <RatingBar
+                android:id="@+id/ratingBar1"
+                style="@style/big_ratingbar"
+                android:layout_width="wrap_content"
+                android:layout_height="70sp"
+                android:isIndicator="true"
+                android:rating="5" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/img_cat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10sp"
+            android:minHeight="1sp"
+            android:minWidth="1sp"
+            android:scaleType="center"
+            android:src="@drawable/icon_pin_atm" />
+    </RelativeLayout>
+
+</RelativeLayout>

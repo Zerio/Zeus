@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:paddingBottom="5sp"
+    android:paddingTop="5sp" >
+
+    <ImageView
+        android:id="@+id/img_icon"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10sp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_toRightOf="@+id/img_icon"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_descriptions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ATM SeABank"
+            android:textColor="@color/black"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/tv_distance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5sp"
+            android:text="500 m"
+            android:textColor="#999999"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</RelativeLayout>

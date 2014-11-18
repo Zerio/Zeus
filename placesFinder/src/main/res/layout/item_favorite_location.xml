@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="104sp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/bg_card" >
+
+        <ImageView
+            android:id="@+id/img_location"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_centerVertical="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/icon_location_default" />
+
+        <TextView
+            android:id="@+id/tv_name_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:layout_marginTop="5sp"
+            android:layout_toLeftOf="@+id/img_cat"
+            android:layout_toRightOf="@+id/img_location"
+            android:singleLine="true"
+            android:text="Technopark"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_sumary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tv_name_location"
+            android:layout_below="@+id/tv_name_location"
+            android:layout_marginRight="5sp"
+            android:layout_marginTop="3sp"
+            android:layout_toLeftOf="@+id/img_cat"
+            android:maxLines="2"
+            android:text="Hub technologique"
+            android:textColor="@color/black"
+            android:textSize="13sp" />
+
+        <!-- <CheckBox -->
+        <!-- android:id="@+id/cb_add_favorite" -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_alignParentRight="true" -->
+        <!-- android:layout_centerVertical="true" -->
+        <!-- android:layout_marginRight="5sp" -->
+        <!-- android:button="@drawable/cb_favorite" -->
+        <!-- android:minHeight="1sp" -->
+        <!-- android:minWidth="1sp" /> -->
+
+        <ImageView
+            android:id="@+id/img_cat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5sp"
+            android:src="@drawable/icon_pin_atm"
+            android:scaleType="center"
+            android:minHeight="1sp"
+            android:minWidth="1sp" />
+
+        <RatingBar
+            android:id="@+id/ratingBar1"
+            style="@style/small_ratingbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tv_name_location"
+            android:layout_below="@+id/tv_sumary"
+            android:layout_marginTop="3sp"
+            android:isIndicator="true"
+            android:rating="5" />
+    </RelativeLayout>
+
+</RelativeLayout>

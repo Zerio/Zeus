@@ -1,0 +1,388 @@
+[{
+    "name" : "Accounting",
+    "keyword" : "accounting"
+},
+{
+    "name" : "Aiport",
+    "keyword" : "airport"
+},
+{
+    "name" : "Amusement Park",
+    "keyword" : "amusement_park"
+},
+{
+    "name" : "Aquarium",
+    "keyword" : "aquarium"
+},
+{
+    "name" : "Art Gallery",
+    "keyword" : "art_gallery"
+},
+{
+    "name" : "Atm",
+    "keyword" : "atm"
+},
+{
+    "name" : "Bakery",
+    "keyword" : "bakery"
+},
+{
+    "name" : "Bank",
+    "keyword" : "bank"
+},
+{
+    "name" : "Bar",
+    "keyword" : "bar"
+},
+{
+    "name" : "Beauty Salon",
+    "keyword" : "beauty_salon"
+},
+{
+    "name" : "Bicycle Store",
+    "keyword" : "bicycle_store"
+},
+{
+    "name" : "Bicycle Store",
+    "keyword" : "bicycle_store"
+},
+{
+    "name" : "Book Store",
+    "keyword" : "book_store"
+},
+{
+    "name" : "Bowling Alley",
+    "keyword" : "bowling_alley"
+},
+{
+    "name" : "Bus Station",
+    "keyword" : "bus_station"
+},
+{
+    "name" : "Cafe",
+    "keyword" : "cafe"
+},
+{
+    "name" : "Campground",
+    "keyword" : "campground"
+},
+{
+    "name" : "Car Dealer",
+    "keyword" : "car_dealer"
+},
+{
+    "name" : "Car Rental",
+    "keyword" : "car_rental"
+},
+{
+    "name" : "Car Repair",
+    "keyword" : "car_repair"
+},
+{
+    "name" : "Car Wash",
+    "keyword" : "car_wash"
+},
+{
+    "name" : "Casino",
+    "keyword" : "casino"
+},
+{
+    "name" : "Cemetery",
+    "keyword" : "cemetery"
+},
+{
+    "name" : "Church",
+    "keyword" : "church"
+},
+{
+    "name" : "City Hall",
+    "keyword" : "city_hall"
+},
+{
+    "name" : "Clothing Store",
+    "keyword" : "clothing_store"
+},
+{
+    "name" : "Convenience Store",
+    "keyword" : "convenience_store"
+},
+{
+    "name" : "Courthouse",
+    "keyword" : "courthouse"
+},
+{
+    "name" : "Dentist",
+    "keyword" : "dentist"
+},
+{
+    "name" : "Department Store",
+    "keyword" : "department_store"
+},
+{
+    "name" : "Doctor",
+    "keyword" : "doctor"
+},
+{
+    "name" : "Electrician",
+    "keyword" : "electrician"
+},
+{
+    "name" : "Electronics Store",
+    "keyword" : "electronics_store"
+},
+{
+    "name" : "Embassy",
+    "keyword" : "embassy"
+},
+{
+    "name" : "Establishment",
+    "keyword" : "establishment"
+},
+{
+    "name" : "Finance",
+    "keyword" : "finance"
+},
+{
+    "name" : "Fire Station",
+    "keyword" : "fire_station"
+},
+{
+    "name" : "Florist",
+    "keyword" : "florist"
+},
+{
+    "name" : "Food",
+    "keyword" : "food"
+},
+{
+    "name" : "Funeral Home",
+    "keyword" : "funeral_home"
+},
+{
+    "name" : "Furniture Store",
+    "keyword" : "furniture_store"
+},
+{
+    "name" : "Gas Station",
+    "keyword" : "gas_station"
+},
+{
+    "name" : "General Contractor",
+    "keyword" : "general_contractor"
+},
+{
+    "name" : "Grocery Or Supermarket",
+    "keyword" : "grocery_or_supermarket"
+},
+{
+    "name" : "Gym",
+    "keyword" : "gym"
+},
+{
+    "name" : "Hair Care",
+    "keyword" : "hair_care"
+},
+{
+    "name" : "Hardware Store",
+    "keyword" : "hardware_store"
+},
+{
+    "name" : "Health",
+    "keyword" : "health"
+},
+{
+    "name" : "Hindu Temple",
+    "keyword" : "hindu_temple"
+},
+{
+    "name" : "Home Goods Store",
+    "keyword" : "home_goods_store"
+},
+{
+    "name" : "Hospital",
+    "keyword" : "hospital"
+},
+{
+    "name" : "Insurance Agency",
+    "keyword" : "insurance_agency"
+},
+{
+    "name" : "Jewelry Store",
+    "keyword" : "jewelry_store"
+},
+{
+    "name" : "Laundry",
+    "keyword" : "laundry"
+},
+{
+    "name" : "Lawyer",
+    "keyword" : "lawyer"
+},
+{
+    "name" : "Library",
+    "keyword" : "library"
+},
+{
+    "name" : "Liquor Store",
+    "keyword" : "liquor_store"
+},
+{
+    "name" : "Local Government Office",
+    "keyword" : "local_government_office"
+},
+{
+    "name" : "Locksmith",
+    "keyword" : "locksmith"
+},
+{
+    "name" : "Lodging",
+    "keyword" : "lodging"
+},
+{
+    "name" : "Meal Delivery",
+    "keyword" : "meal_delivery"
+},
+{
+    "name" : "Meal Takeaway",
+    "keyword" : "meal_takeaway"
+},
+{
+    "name" : "Mosque",
+    "keyword" : "mosque"
+},
+{
+    "name" : "Movie Rental",
+    "keyword" : "movie_rental"
+},
+{
+    "name" : "Movie Theater",
+    "keyword" : "movie_theater"
+},
+{
+    "name" : "Moving Company",
+    "keyword" : "moving_company"
+},
+{
+    "name" : "Museum",
+    "keyword" : "museum"
+},
+{
+    "name" : "Night Club",
+    "keyword" : "night_club"
+},
+{
+    "name" : "Painter",
+    "keyword" : "painter"
+},
+{
+    "name" : "Park",
+    "keyword" : "park"
+},
+{
+    "name" : "Parking",
+    "keyword" : "parking"
+},
+{
+    "name" : "Pet Store",
+    "keyword" : "pet_store"
+},
+{
+    "name" : "Pharmacy",
+    "keyword" : "pharmacy"
+},
+{
+    "name" : "Physiotherapist",
+    "keyword" : "physiotherapist"
+},
+{
+    "name" : "Place Of Worship",
+    "keyword" : "place_of_worship"
+},
+{
+    "name" : "Plumber",
+    "keyword" : "plumber"
+},
+{
+    "name" : "Police",
+    "keyword" : "police"
+},
+{
+    "name" : "Post Office",
+    "keyword" : "post_office"
+},
+{
+    "name" : "Real Estate Agency",
+    "keyword" : "real_estate_agency"
+},
+{
+    "name" : "Restaurant",
+    "keyword" : "restaurant"
+},
+{
+    "name" : "Roofing Contractor",
+    "keyword" : "roofing_contractor"
+},
+{
+    "name" : "Rv Park",
+    "keyword" : "rv_park"
+},
+{
+    "name" : "School",
+    "keyword" : "school"
+},
+{
+    "name" : "Shoe Store",
+    "keyword" : "shoe_store"
+},
+{
+    "name" : "Shopping Mall",
+    "keyword" : "shopping_mall"
+},
+{
+    "name" : "Spa",
+    "keyword" : "spa"
+},
+{
+    "name" : "Stadium",
+    "keyword" : "stadium"
+},
+{
+    "name" : "Storage",
+    "keyword" : "storage"
+},
+{
+    "name" : "Store",
+    "keyword" : "store"
+},
+{
+    "name" : "Subway Station",
+    "keyword" : "subway_station"
+},
+{
+    "name" : "Synagogue",
+    "keyword" : "synagogue"
+},
+{
+    "name" : "Taxi Stand",
+    "keyword" : "taxi_stand"
+},
+{
+    "name" : "Train Station",
+    "keyword" : "train_station"
+},
+{
+    "name" : "Travel Agency",
+    "keyword" : "travel_agency"
+},
+{
+    "name" : "University",
+    "keyword" : "university"
+},
+{
+    "name" : "Veterinary Care",
+    "keyword" : "veterinary_care"
+},
+{
+    "name" : "Zoo",
+    "keyword" : "zoo"
+}]

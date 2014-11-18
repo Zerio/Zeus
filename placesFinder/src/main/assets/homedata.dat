@@ -1,0 +1,114 @@
+[
+    {
+        "type": 1,
+        "name": "ATM",
+		"realname":"Atms",
+        "keyword": "atm",
+        "img": "atm.png"
+    },
+    {
+        "type": 1,
+        "name": "BANK",
+		"realname":"Banks",
+        "keyword": "bank",
+        "img": "bank.png"
+    },
+	{
+        "type": 1,
+        "name": "POLICE",
+		"realname":"Police Stations",
+        "keyword": "police",
+        "img": "police.png"
+    },
+	{
+        "type": 1,
+        "name": "UNIVERSITY",
+		"realname":"Universities",
+        "keyword": "university",
+        "img": "university.png"
+    },
+    {
+        "type": 1,
+        "name": "GAS",
+		"realname":"Gas Stations",
+        "keyword": "gas_station",
+        "img": "gas_station.png"
+    },
+    {
+        "type": 1,
+        "name": "TAXI",
+		"realname":"Taxi Stands",
+        "keyword": "taxi_stand",
+        "img": "taxi_stand.png"
+    },
+    {
+        "type": 1,
+        "name": "BUS",
+		"realname":"Bus Stations",
+        "keyword": "bus_station",
+        "img": "bus_station.png"
+    },
+    {
+        "type": 1,
+        "name": "AIRPORT",
+		"realname":"Airports",
+        "keyword": "airport",
+        "img": "airport.png"
+    },
+    {
+        "type": 1,
+        "name": "HOSPITAL",
+		"realname":"Hospitals",
+        "keyword": "doctor|hospital",
+        "img": "hospital.png"
+    },
+    {
+        "type": 1,
+        "name": "HOTEL",
+		"realname":"Hotels",
+        "keyword": "lodging",
+        "img": "hotel.png"
+    },
+    {
+        "type": 1,
+        "name": "PARK",
+		"realname":"Parks",
+        "keyword": "park",
+        "img": "park.png"
+    },
+    {
+        "type": 1,
+        "name": "ZOO",
+		"realname":"Zoos",
+        "keyword": "zoo",
+        "img": "zoo.png"
+    },
+    {
+        "type": 1,
+        "name": "CINEMA",
+		"realname":"Cinemas",
+        "keyword": "movie_rental|movie_theater",
+        "img": "cinema.png"
+    },
+    {
+        "type": 1,
+        "name": "SHOPPING",
+		"realname":"Shops",
+        "keyword": "clothing_store|shoe_store|shopping_mall",
+        "img": "shop.png"
+    },
+    {
+        "type": 1,
+        "name": "CAFE",
+		"realname":"Cafes",
+        "keyword": "cafe",
+        "img": "cafe.png"
+    },
+    {
+        "type": 1,
+        "name": "BAR",
+		"realname":"Bars",
+        "keyword": "bar",
+        "img": "bar.png"
+    }
+]

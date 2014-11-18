@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Maroc Place Explorer</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="loading">Please wait...</string>
+    <string name="title_info">Information</string>
+    <string name="title_my_location">My Location</string>
+    <string name="title_unknown_location">Unknown Location</string>
+    <string name="title_unknown_address">Unknown Address</string>
+    <string name="title_share">Share</string>
+    <string name="title_back">Back</string>
+    <string name="title_images">Images</string>
+    <string name="title_image">Image</string>
+    <string name="title_custom_search">CUSTOM</string>
+    <string name="title_all_place">All places in map</string>
+    <string name="title_refresh">Refresh</string>
+    <string name="title_settings">Settings</string>
+    
+    <string name="title_search">Search the location</string>
+    <string name="title_quick_distance">Change radius</string>
+    
+    <string name="title_place_info">Place Information</string>
+    <string name="title_user_reviews">User Reviews</string>
+    
+    <string name="format_reviews">%1$s Reviews</string>
+    <string name="format_review">%1$s Review</string>
+    
+    <string name="format_radius">Radius: %1$s %2$s</string>
+    <string name="format_address">Address: %1$s </string>
+    <string name="format_area">Area: %1$s </string>
+    <string name="format_lat">Latitude: %1$s </string>
+    <string name="format_long">Longitude: %1$s </string>
+    <string name="format_country">Country: %1$s </string>
+    <string name="format_country_code">Country Code: %1$s </string>
+    <string name="format_add_favorite">Add %1$s to favorite locations </string>
+    <string name="format_remove_favorite">Remove %1$s to favorite locations </string>
+    
+    <string name="title_units">Unit Systems</string>
+    <string name="title_piority">Piority</string>
+    <string name="title_travel_modes">Travel Modes</string>
+    
+    <string name="info_loading_more">Finding more locations surrounding you.Please wait...</string>
+    
+    <string name="title_improve_location">Improve your location</string>
+    <string name="title_location_services_disable">Location services disabled</string>
+    <string name="info_location_services_disable">Places Finder needs access to your location.Please turn on location access</string>
+    
+    <string name="title_enable">Enable</string>
+    <string name="info_get_location_error">Get location error!Please try again later</string>
+    <string name="info_gps_enable">Turn on the following to improve your location:GPS</string>
+    <string name="info_process_find_location">Finding your location.Please wait...</string>
+    <string name="info_format_process_find_location">Start finding %1$s surrounding you </string>
+    <string name="info_format_process_detail_location">Start getting information of %1$s </string>
+    <string name="info_show_again">Don\'t show again</string>
+    <string name="info_no_location">Can\'t not find locations surrounding you!</string>
+    
+    <string name="menu_location_terrain">Terrain View</string>
+    <string name="menu_location_satellite">Satellite View</string>
+    <string name="menu_location_traffic">Traffic View</string>
+    <string name="menu_location_details">Location Details</string>
+    
+    <string name="tab_infomation">Information</string>
+    <string name="tab_map">Map</string>
+
+    <string-array name="metric_array">
+        <item>Kilometers</item>
+        <item>Miles</item>
+    </string-array>
+    
+    <string-array name="sorting_array">
+        <item>Distance</item>
+        <item>Rating</item>
+    </string-array>
+    
+    <string-array name="travel_mode_array">
+        <item>Driving</item>
+        <item>Walking</item>
+    </string-array>
+    
+    <string name="title_distance">Distance</string>
+    <string name="title_rating">Rating</string>
+    <string name="format_distance">Distance: ~%1$s</string>
+    
+    <string name="title_get_directions">Get Directions</string>
+    
+    <string name="title_sort_by_distance">Sort by distance</string>
+    <string name="title_sort_by_rating">Sort by rating</string>
+
+    <string name="title_contact_us">Contact me</string>
+    <string name="info_contact_us">Contact me if you need any help!</string>
+    <string name="link_contact_us">Email</string>
+
+    <!-- Start - Confirmation and popups-->
+    <string name="title_confirm_call">Call Confirmation</string>
+    <string name="confirm_call">Would you like to do this call?"</string>
+    <string name="title_yes">Yes</string>
+    <string name="title_no">No</string>
+    <string name="title_ok">OK</string>
+    <string name="title_cancel">Cancel</string>
+    <string name="title_confirm">Confirm</string>
+    <string name="title_warning">Warning</string>
+    <string name="title_deleted">"Deleted!"</string>
+    <string name="confirm_deleted">"Your favorite places has been deleted!"</string>
+    <string name="title_cancelled">"Cancelled!"</string>
+    <string name="confirm_cancelled">Your favorite places are safe =)</string>
+    <!-- End - Confirmation and popups-->
+
+    <string name="title_website">Website</string>
+    <string name="info_website">Visit my website</string>
+    <string name="title_google_plus">Google +</string>
+    <string name="info_google_plus">Visit my page</string>
+    <string name="title_facebook">Facebook</string>
+    <string name="info_facebook">Visit our fanpage</string>
+    <string name="title_rate_us">Rate me</string>
+    <string name="info_rate_us">Rate me in Google Play Store</string>
+    <string name="title_more_app">More apps</string>
+    <string name="info_more_app">Feel fun with my application</string>
+    <string name="info_no_result">No Result Found</string>
+    <string name="quit_message">Do you want to quit this application?</string>
+    <string name="info_delete_favorites">Do you want to delete all favorite locations?</string>
+    <string name="info_no_delete_favorites">No favorite location to delete!</string>
+    <string name="title_warning_close">Exit</string>
+    <string name="info_lose_internet">No internet connection.Please check again!</string>
+    <string name="info_empty">Please enter the keyword!</string>
+    <string name="info_close_app">Do you want to exit the application?</string>
+    <string name="info_server_error">We can not connect to server.Please try again!</string>
+    <string name="info_parse_error">We can not process data.Please try again!</string>
+    <string name="dircache">/auctions</string>
+    <string name="lru_dircache">auctions</string>
+    <string name="info_login_facebook_error">Login facebook error!Try again</string>
+    <string name="info_login_twitter_error">Login twitter error!Try again</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="info_about_us"><b>\"Places Finder"</b> gives you an edge in finding the most wonderful places surrounding you!</string>
+    <string name="info_version_format">Version %1$s</string>
+    <string name="info_distance_km_format">~ %1$s km</string>
+    <string name="info_distance_miles_format">~ %1$s mi</string>
+    <string name="copyright">© 2014 Places Finder</string>
+    <string name ="format_start_address"><Data><![CDATA[<font color=\'#999999\'>From&nbsp;</font><font color=\'#000000\'>%1$s</font>]]></Data></string>
+    <string name ="format_end_address"><Data><![CDATA[<font color=\'#999999\'>To&nbsp;</font><font color=\'#000000\'>%1$s</font>]]></Data></string>
+    <string name ="format_duration_distance"><Data><![CDATA[<font color=\'#000000\'>%1$s&nbsp;</font><font color=\'#999999\'>(%2$s)</font>]]></Data></string>
+    <string name ="format_sumary"><Data><![CDATA[<font color=\'#999999\'>Via %1$s</font>]]></Data></string>
+    <string name="no_result">No result</string>
+
+    <string-array name="list_options">
+        <item>Home</item>
+        <item>My Location</item>
+        <item>Favorites</item>
+        <item>Settings</item>
+        <item>Real World</item>
+        <item>About</item>
+    </string-array>
+
+</resources>
