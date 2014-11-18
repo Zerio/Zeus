@@ -39,7 +39,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.places.nearby" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9e0c9e3-d4dd-4b16-bd08-f9f2dab22f64" name="Default" comment="">
+    <list default="true" id="b9e0c9e3-d4dd-4b16-bd08-f9f2dab22f64" name="Default" comment="Fix &amp; Revert repo">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PlacesFinder.iws" />
@@ -3159,7 +3159,11 @@
       <created>1416285176982</created>
       <updated>1416285176982</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Fix &amp; Revert repo">
+      <created>1416285499030</created>
+      <updated>1416285499030</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
