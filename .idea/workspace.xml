@@ -39,8 +39,8 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.places.nearby" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9e0c9e3-d4dd-4b16-bd08-f9f2dab22f64" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+    <list default="true" id="b9e0c9e3-d4dd-4b16-bd08-f9f2dab22f64" name="Default" comment=".gitignore">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PlacesFinder.iws" />
@@ -3168,7 +3168,11 @@
       <created>1416285624191</created>
       <updated>1416285624191</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary=".gitignore">
+      <created>1416285774699</created>
+      <updated>1416285774699</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -3257,7 +3261,8 @@
     <MESSAGE value=".." />
     <MESSAGE value="Fix &amp; Revert repo" />
     <MESSAGE value="new workplace" />
-    <option name="LAST_COMMIT_MESSAGE" value="new workplace" />
+    <MESSAGE value=".gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value=".gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
