@@ -42,9 +42,9 @@ import com.elfadili.wheresmyplaces.object.PlaceObject;
 import com.elfadili.wheresmyplaces.object.ResponcePlaceResult;
 import com.elfadili.wheresmyplaces.object.RouteObject;
 
-public class DetailLocationAcitivity extends DBFragmentActivity implements IWhereMyLocationConstants, OnMenuItemClickListener {
+public class DetailLocationActivity extends DBFragmentActivity implements IWhereMyLocationConstants, OnMenuItemClickListener {
 
-	public static final String TAG = DetailLocationAcitivity.class.getSimpleName();
+	public static final String TAG = DetailLocationActivity.class.getSimpleName();
 	public static final String KEY_TAB = "tab";
 	public static final String KEY_INDEX_LOCATION = "indexLocation";
 
@@ -127,7 +127,7 @@ public class DetailLocationAcitivity extends DBFragmentActivity implements IWher
 									startGetDetailPlaceObject();
 								}
 								else{
-									mTabsAdapter = new TabsAdapter(DetailLocationAcitivity.this, mTabHost, mViewPager);
+									mTabsAdapter = new TabsAdapter(DetailLocationActivity.this, mTabHost, mViewPager);
 									createTab();
 								}
 							}
@@ -164,22 +164,22 @@ public class DetailLocationAcitivity extends DBFragmentActivity implements IWher
 
 			@Override
 			public void onDoInBackground() {
-				mPlaceDetailObject = YPYNetUtils.getPlaceDetailObject(DetailLocationAcitivity.this, mCurrentPlaceObject.getReferenceToken());
-				mRouteObject = YPYNetUtils.getRouteObject(DetailLocationAcitivity.this, mCurrentLocation, mCurrentPlaceObject.getLocation());
+				mPlaceDetailObject = YPYNetUtils.getPlaceDetailObject(DetailLocationActivity.this, mCurrentPlaceObject.getReferenceToken());
+				mRouteObject = YPYNetUtils.getRouteObject(DetailLocationActivity.this, mCurrentLocation, mCurrentPlaceObject.getLocation());
 			}
 
 			@Override
 			public void onPostExcute() {
 				dimissProgressDialog();
 				if(mPlaceDetailObject==null){
-					Toast.makeText(DetailLocationAcitivity.this, R.string.info_server_error, Toast.LENGTH_LONG).show();
+					Toast.makeText(DetailLocationActivity.this, R.string.info_server_error, Toast.LENGTH_LONG).show();
 					return;
 				}
 				mCurrentPlaceObject.setPlaceDetailObject(mPlaceDetailObject);
 				if(mRouteObject!=null){
 					mCurrentPlaceObject.setRouteObject(mRouteObject);
 				}
-				mTabsAdapter = new TabsAdapter(DetailLocationAcitivity.this, mTabHost, mViewPager);
+				mTabsAdapter = new TabsAdapter(DetailLocationActivity.this, mTabHost, mViewPager);
 				createTab();
 			}
 
@@ -362,12 +362,12 @@ public class DetailLocationAcitivity extends DBFragmentActivity implements IWher
 			else if(mStartFrom.equals(START_FROM_MAIN)){
 				Intent mIntent = new Intent(this, MainActivity.class);
 				mIntent.putExtra(KEY_START_FROM, START_FROM_DETAIL);
-				DirectionUtils.changeActivity(DetailLocationAcitivity.this, R.anim.slide_in_from_left, R.anim.slide_out_to_right, true, mIntent);
+				DirectionUtils.changeActivity(DetailLocationActivity.this, R.anim.slide_in_from_left, R.anim.slide_out_to_right, true, mIntent);
 			}
 		}
 		else{
 			Intent mIntent = new Intent(this, MainSearchActivity.class);
-			DirectionUtils.changeActivity(DetailLocationAcitivity.this, R.anim.slide_in_from_left, R.anim.slide_out_to_right, true, mIntent);
+			DirectionUtils.changeActivity(DetailLocationActivity.this, R.anim.slide_in_from_left, R.anim.slide_out_to_right, true, mIntent);
 		}
 	}
 

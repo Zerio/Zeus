@@ -30,12 +30,12 @@ public final class R {
 		public static final int float_transparent = 0x7f080014;
 		public static final int gray_btn_bg_color = 0x7f080015;
 		public static final int gray_btn_bg_pressed_color = 0x7f080016;
-		public static final int red_btn_bg_color = 0x7f08001e;
-		public static final int red_btn_bg_pressed_color = 0x7f08001f;
-		public static final int success_stroke_color = 0x7f080021;
-		public static final int sweet_dialog_bg_color = 0x7f080022;
-		public static final int trans_success_stroke_color = 0x7f080023;
-		public static final int warning_stroke_color = 0x7f080033;
+		public static final int red_btn_bg_color = 0x7f08001f;
+		public static final int red_btn_bg_pressed_color = 0x7f080020;
+		public static final int success_stroke_color = 0x7f080022;
+		public static final int sweet_dialog_bg_color = 0x7f080023;
+		public static final int trans_success_stroke_color = 0x7f080024;
+		public static final int warning_stroke_color = 0x7f080034;
 	}
 	public static final class drawable {
 		public static final int blue_button_background = 0x7f020013;

@@ -46,7 +46,7 @@ import com.ypyproductions.utils.DBLog;
 import com.ypyproductions.utils.ResolutionUtils;
 import com.ypyproductions.utils.StringUtils;
 import com.places.nearby.R;
-import com.elfadili.wheresmyplaces.DetailLocationAcitivity;
+import com.elfadili.wheresmyplaces.DetailLocationActivity;
 import com.elfadili.wheresmyplaces.adapter.MapInfoAdapter;
 import com.elfadili.wheresmyplaces.constanst.IWhereMyLocationConstants;
 import com.elfadili.wheresmyplaces.dataMng.TotalDataManager;
@@ -64,7 +64,7 @@ public class FragmentLocationDetailMap extends SupportMapFragment implements IWh
 	public static final float ZOOM_LEVEL = 13;
 
 	private RelativeLayout mRootView;
-	private DetailLocationAcitivity mContext;
+	private DetailLocationActivity mContext;
 
 	private boolean isFindView;
 	private GoogleMap mMap;
@@ -108,7 +108,7 @@ public class FragmentLocationDetailMap extends SupportMapFragment implements IWh
 	}
 
 	private void findView() {
-		this.mContext = (DetailLocationAcitivity) getActivity();
+		this.mContext = (DetailLocationActivity) getActivity();
 		this.mTvDistanceDuration =(TextView) mRootView.findViewById(R.id.tv_duration_distance);
 		this.mTvSummary =(TextView) mRootView.findViewById(R.id.tv_sumary);
 		this.mLayoutListDirections = (LinearLayout) mRootView.findViewById(R.id.list_directions);

@@ -24,7 +24,7 @@ public final class R {
 		public static final int spb_default_reversed = 0x7f070001;
 	}
 	public static final class color {
-		public static final int spb_default_color = 0x7f080020;
+		public static final int spb_default_color = 0x7f080021;
 	}
 	public static final class dimen {
 		public static final int spb_default_stroke_separator_length = 0x7f090002;

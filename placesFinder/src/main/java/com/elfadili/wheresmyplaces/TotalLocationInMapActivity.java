@@ -111,8 +111,8 @@ public class TotalLocationInMapActivity extends DBFragmentActivity implements IW
 	}
 	
 	public void goToDetail(int indexLocation){
-		Intent mIntent = new Intent(this, DetailLocationAcitivity.class);
-		mIntent.putExtra(DetailLocationAcitivity.KEY_INDEX_LOCATION, indexLocation);
+		Intent mIntent = new Intent(this, DetailLocationActivity.class);
+		mIntent.putExtra(DetailLocationActivity.KEY_INDEX_LOCATION, indexLocation);
 		mIntent.putExtra(KEY_START_FROM, START_FROM_TOTAL_PLACE);
 		startActivity(mIntent);
 	}

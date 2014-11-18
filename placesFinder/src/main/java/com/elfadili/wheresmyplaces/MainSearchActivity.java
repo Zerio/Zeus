@@ -33,14 +33,12 @@ import android.widget.AbsListView.OnScrollListener;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.PopupMenu;
 import android.widget.SearchView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.android.gms.ads.AdView;
 import com.ypyproductions.bitmap.ImageCache.ImageCacheParams;
 import com.ypyproductions.bitmap.ImageFetcher;
 import com.ypyproductions.location.TrackRecordServiceController;
@@ -347,8 +345,8 @@ public class MainSearchActivity extends DBFragmentActivity implements IWhereMyLo
 							return;
 						}
 						isAllowDestroyAll = false;
-						Intent mIntent = new Intent(MainSearchActivity.this, DetailLocationAcitivity.class);
-						mIntent.putExtra(DetailLocationAcitivity.KEY_INDEX_LOCATION, position);
+						Intent mIntent = new Intent(MainSearchActivity.this, DetailLocationActivity.class);
+						mIntent.putExtra(DetailLocationActivity.KEY_INDEX_LOCATION, position);
 						mIntent.putExtra(KEY_START_FROM, START_FROM_SEARCH);
 						onDestroyTrackingService();
 						DirectionUtils.changeActivity(MainSearchActivity.this, R.anim.slide_in_from_right, R.anim.slide_out_to_left, true, mIntent);

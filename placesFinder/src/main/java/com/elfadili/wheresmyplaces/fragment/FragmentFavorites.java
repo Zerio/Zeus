@@ -16,6 +16,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.elfadili.wheresmyplaces.DetailLocationActivity;
 import com.ypyproductions.location.DBLastLocationFinder;
 import com.ypyproductions.location.DBLastLocationFinder.ILastLocationFinder;
 import com.ypyproductions.location.utils.LocationUtils;
@@ -24,7 +25,6 @@ import com.ypyproductions.utils.DBListExcuteAction;
 import com.ypyproductions.utils.DBLog;
 import com.ypyproductions.utils.DirectionUtils;
 import com.places.nearby.R;
-import com.elfadili.wheresmyplaces.DetailLocationAcitivity;
 import com.elfadili.wheresmyplaces.MainActivity;
 import com.elfadili.wheresmyplaces.adapter.FavoritePlaceAdapter;
 import com.elfadili.wheresmyplaces.adapter.FavoritePlaceAdapter.OnFavoriteAdapterListener;
@@ -257,9 +257,9 @@ public class FragmentFavorites extends Fragment implements IWhereMyLocationConst
 			float distance = LocationUtils.calculateDistance(mCurrentLocation, mPlaceObject.getLocation())/1000f;
 			mPlaceObject.setDistance(distance);
 			
-			Intent mIt = new Intent(mContext, DetailLocationAcitivity.class);
-			mIt.putExtra(DetailLocationAcitivity.KEY_INDEX_LOCATION, index);
-			mIt.putExtra(DetailLocationAcitivity.KEY_START_FROM, START_FROM_MAIN);
+			Intent mIt = new Intent(mContext, DetailLocationActivity.class);
+			mIt.putExtra(DetailLocationActivity.KEY_INDEX_LOCATION, index);
+			mIt.putExtra(DetailLocationActivity.KEY_START_FROM, START_FROM_MAIN);
 			DirectionUtils.changeActivity(mContext, R.anim.slide_in_from_right, R.anim.slide_out_to_left, true, mIt);
 //			startActivity(mIt);
 //			mContext.finish();

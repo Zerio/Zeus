@@ -5,6 +5,7 @@
     <color name="white">#ffffffff</color>
     <color name="trans_white">#50ffffff</color>
     <color name="red">#ff8b141e</color>
+    <color name="light_black">#444841</color>
     <color name="blue">#ff33b5e5</color>
     <color name="violet">#ff64015e</color>
     <color name="grey">#ffe5e5e5</color>

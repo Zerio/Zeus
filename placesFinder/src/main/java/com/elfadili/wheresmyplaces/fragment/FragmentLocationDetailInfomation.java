@@ -24,7 +24,7 @@ import com.ypyproductions.utils.DateTimeUtils;
 import com.ypyproductions.utils.ResolutionUtils;
 import com.ypyproductions.utils.StringUtils;
 import com.places.nearby.R;
-import com.elfadili.wheresmyplaces.DetailLocationAcitivity;
+import com.elfadili.wheresmyplaces.DetailLocationActivity;
 import com.elfadili.wheresmyplaces.ShowUrlActivity;
 import com.elfadili.wheresmyplaces.constanst.IWhereMyLocationConstants;
 import com.elfadili.wheresmyplaces.dataMng.TotalDataManager;
@@ -48,7 +48,7 @@ public class FragmentLocationDetailInfomation extends Fragment implements IWhere
 
 	private View mRootView;
 
-	private DetailLocationAcitivity mContext;
+	private DetailLocationActivity mContext;
 
 	private boolean isFindView;
 
@@ -62,7 +62,6 @@ public class FragmentLocationDetailInfomation extends Fragment implements IWhere
 	private LinearLayout mLayoutDetailInfo;
 	private LinearLayout mLayoutDetailReviews;
 
-	private TextView mTvTitleImages;
 	private TextView mTvTitlePlaceInfos;
 	private TextView mTvTitleUserReviews;
 
@@ -85,17 +84,15 @@ public class FragmentLocationDetailInfomation extends Fragment implements IWhere
 	}
 
 	private void findView() {
-		this.mContext = (DetailLocationAcitivity) getActivity();
+		this.mContext = (DetailLocationActivity) getActivity();
 		this.mCbFavorite =(CheckBox) mRootView.findViewById(R.id.cb_add_favorite);
 		this.mTvNameLocation=(TextView) mRootView.findViewById(R.id.tv_name_location);
 		this.mRatingBar=(RatingBar) mRootView.findViewById(R.id.ratingBar1);
 		this.mTvNumberReviews=(TextView) mRootView.findViewById(R.id.tv_number_reviews);
-		
-		this.mTvTitleImages=(TextView) mRootView.findViewById(R.id.tv_title_img);
+
 		this.mTvTitlePlaceInfos=(TextView) mRootView.findViewById(R.id.tv_title_info);
 		this.mTvTitleUserReviews=(TextView) mRootView.findViewById(R.id.tv_title_user_reviews);
 		
-		//this.mTvTitleImages.setTypeface(mContext.mTypeFaceRobotoBold);
 		this.mTvTitlePlaceInfos.setTypeface(mContext.mTypeFaceRobotoBold);
 		this.mTvTitleUserReviews.setTypeface(mContext.mTypeFaceRobotoBold);
 		

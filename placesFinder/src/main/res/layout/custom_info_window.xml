@@ -33,7 +33,7 @@
                 android:layout_height="wrap_content"
                 android:ellipsize="end"
                 android:singleLine="true"
-                android:text="Casablanca CITY"
+                android:text="Anfa.."
                 android:textColor="@color/black"
                 android:textSize="15sp" />
         </LinearLayout>
