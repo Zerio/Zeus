@@ -1,0 +1,4 @@
+include ':nineOldAndroids'
+include ':jazzyListView'
+include ':smoothProgressBar'
+include ':placesFinder'

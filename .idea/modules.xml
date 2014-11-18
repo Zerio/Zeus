@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MarocPlaceExplorer.iml" filepath="$PROJECT_DIR$/MarocPlaceExplorer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PlacesFinder.iml" filepath="$PROJECT_DIR$/PlacesFinder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jazzyListView/jazzyListView.iml" filepath="$PROJECT_DIR$/jazzyListView/jazzyListView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nineOldAndroids/nineOldAndroids.iml" filepath="$PROJECT_DIR$/nineOldAndroids/nineOldAndroids.iml" />
+      <module fileurl="file://$PROJECT_DIR$/placesFinder/placesFinder.iml" filepath="$PROJECT_DIR$/placesFinder/placesFinder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smoothProgressBar/smoothProgressBar.iml" filepath="$PROJECT_DIR$/smoothProgressBar/smoothProgressBar.iml" />
+    </modules>
+  </component>
+</project>
+
