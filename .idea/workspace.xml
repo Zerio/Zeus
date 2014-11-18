@@ -39,7 +39,8 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.places.nearby" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9e0c9e3-d4dd-4b16-bd08-f9f2dab22f64" name="Default" comment="Fix &amp; Revert repo">
+    <list default="true" id="b9e0c9e3-d4dd-4b16-bd08-f9f2dab22f64" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PlacesFinder.iws" />
@@ -3163,12 +3164,16 @@
       <created>1416285499030</created>
       <updated>1416285499030</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="new workplace">
+      <created>1416285624191</created>
+      <updated>1416285624191</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="24" width="1317" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -3251,7 +3256,8 @@
     <MESSAGE value="Add Welcome Screen + improuvments" />
     <MESSAGE value=".." />
     <MESSAGE value="Fix &amp; Revert repo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix &amp; Revert repo" />
+    <MESSAGE value="new workplace" />
+    <option name="LAST_COMMIT_MESSAGE" value="new workplace" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
