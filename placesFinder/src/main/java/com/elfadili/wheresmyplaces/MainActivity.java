@@ -38,7 +38,7 @@ import android.widget.PopupMenu;
 import android.widget.SearchView;
 import android.widget.TextView;
 
-import com.google.android.gms.ads.AdView;
+import com.elfadili.wheresmyplaces.constanst.IMarocPlaceExplorerConstants;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.android.gms.maps.GoogleMap;
@@ -54,7 +54,6 @@ import com.ypyproductions.utils.DirectionUtils;
 import com.ypyproductions.utils.StringUtils;
 import com.places.nearby.R;
 import com.elfadili.wheresmyplaces.adapter.DrawerAdapter;
-import com.elfadili.wheresmyplaces.constanst.IWhereMyLocationConstants;
 import com.elfadili.wheresmyplaces.dataMng.TotalDataManager;
 import com.elfadili.wheresmyplaces.fragment.FragmentAR;
 import com.elfadili.wheresmyplaces.fragment.FragmentAboutUs;
@@ -70,7 +69,7 @@ import com.elfadili.wheresmyplaces.settings.SettingManager;
 import com.elfadili.wheresmyplaces.view.DBSeekBarView;
 import com.elfadili.wheresmyplaces.view.DBSeekBarView.OnSeekBarChangeListener;
 
-public class MainActivity extends DBFragmentActivity implements IWhereMyLocationConstants, PopupMenu.OnMenuItemClickListener {
+public class MainActivity extends DBFragmentActivity implements IMarocPlaceExplorerConstants, PopupMenu.OnMenuItemClickListener {
 
     public static final String TAG = MainActivity.class.getSimpleName();
     public static final int PLAY_SERVICES_RESOLUTION_REQUEST = 1000;

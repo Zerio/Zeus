@@ -28,6 +28,7 @@
         android:id="@+id/tv_no_result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
         android:layout_centerInParent="true"
         android:singleLine="true"
         android:text="@string/info_no_result"

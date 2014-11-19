@@ -11,14 +11,14 @@ import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.elfadili.wheresmyplaces.constanst.IMarocPlaceExplorerConstants;
 import com.places.nearby.R;
 import com.elfadili.wheresmyplaces.MainActivity;
-import com.elfadili.wheresmyplaces.constanst.IWhereMyLocationConstants;
 import com.elfadili.wheresmyplaces.settings.SettingManager;
 import com.elfadili.wheresmyplaces.view.DBSeekBarView;
 import com.elfadili.wheresmyplaces.view.DBSeekBarView.OnSeekBarChangeListener;
 
-public class FragmentSettings extends Fragment implements IWhereMyLocationConstants {
+public class FragmentSettings extends Fragment implements IMarocPlaceExplorerConstants {
 	
 	public static final String TAG = FragmentSettings.class.getSimpleName();
 
@@ -146,10 +146,10 @@ public class FragmentSettings extends Fragment implements IWhereMyLocationConsta
 		
 		String travelMode = SettingManager.getTravelMode(mContext);
 		if(travelMode.equals(TRAVEL_MODE_DRIVING)){
-			mTvTravelMode.setText(DRIVING);
+			mTvTravelMode.setText(getString(R.string.title_driving));
 		}
 		else if(travelMode.equals(TRAVEL_MODE_WALKING)){
-			mTvTravelMode.setText(WALKING);
+			mTvTravelMode.setText(getString(R.string.title_walking));
 		}
 		
 	}
@@ -256,11 +256,11 @@ public class FragmentSettings extends Fragment implements IWhereMyLocationConsta
 			public void onClick(DialogInterface dialog, int which) {
 				if(which==0){
 					SettingManager.setTravelMode(mContext, TRAVEL_MODE_DRIVING);
-					mTvTravelMode.setText(DRIVING);
+					mTvTravelMode.setText(getString(R.string.title_driving));
 				}
 				else if(which==1){
 					SettingManager.setTravelMode(mContext, TRAVEL_MODE_WALKING);
-					mTvTravelMode.setText(WALKING);
+					mTvTravelMode.setText(getString(R.string.title_walking));
 				}
 				dialog.dismiss();
 			}

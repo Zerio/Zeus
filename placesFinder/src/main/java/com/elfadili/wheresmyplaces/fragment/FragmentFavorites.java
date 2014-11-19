@@ -17,6 +17,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.elfadili.wheresmyplaces.DetailLocationActivity;
+import com.elfadili.wheresmyplaces.constanst.IMarocPlaceExplorerConstants;
 import com.ypyproductions.location.DBLastLocationFinder;
 import com.ypyproductions.location.DBLastLocationFinder.ILastLocationFinder;
 import com.ypyproductions.location.utils.LocationUtils;
@@ -28,13 +29,12 @@ import com.places.nearby.R;
 import com.elfadili.wheresmyplaces.MainActivity;
 import com.elfadili.wheresmyplaces.adapter.FavoritePlaceAdapter;
 import com.elfadili.wheresmyplaces.adapter.FavoritePlaceAdapter.OnFavoriteAdapterListener;
-import com.elfadili.wheresmyplaces.constanst.IWhereMyLocationConstants;
 import com.elfadili.wheresmyplaces.dataMng.TotalDataManager;
 import com.elfadili.wheresmyplaces.object.PlaceObject;
 
 import cn.pedant.SweetAlert.SweetAlertDialog;
 
-public class FragmentFavorites extends Fragment implements IWhereMyLocationConstants , ILastLocationFinder{
+public class FragmentFavorites extends Fragment implements IMarocPlaceExplorerConstants, ILastLocationFinder{
 
 	public static final String TAG = FragmentFavorites.class.getSimpleName();
 
@@ -144,7 +144,7 @@ public class FragmentFavorites extends Fragment implements IWhereMyLocationConst
                                     .setConfirmClickListener(null)
                                     .changeAlertType(SweetAlertDialog.SUCCESS_TYPE);
                         }
-                    })
+                    })/*
                     .setCancelClickListener(new SweetAlertDialog.OnSweetClickListener() {
                         @Override
                         public void onClick(SweetAlertDialog sweetAlertDialog) {
@@ -156,31 +156,8 @@ public class FragmentFavorites extends Fragment implements IWhereMyLocationConst
                                     .setConfirmClickListener(null)
                                     .changeAlertType(SweetAlertDialog.ERROR_TYPE);
                         }
-                    })
+                    })*/
                     .show();
-            /*
-			AlertDialogUtils.createFullDialog(mContext, android.R.drawable.ic_dialog_alert, R.string.title_warning, R.string.title_ok, R.string.title_cancel,
-					R.string.info_delete_favorites, new IOnDialogListener() {
-
-						@Override
-						public void onClickButtonPositive() {
-							mListViewFavorites.setAdapter(null);
-							mTotalMng.setListFavoriteObjects(new ArrayList<PlaceObject>());
-							mTvNoResult.setVisibility(View.VISIBLE);
-							DBListExcuteAction.getInstance().queueAction(new IDBCallback() {
-								@Override
-								public void onAction() {
-									mTotalMng.saveFavoritePlaces(mContext);
-								}
-							});
-						}
-
-						@Override
-						public void onClickButtonNegative() {
-
-						}
-					}).show();
-					*/
 		}
 		else{
 			Toast.makeText(mContext, R.string.info_no_delete_favorites, Toast.LENGTH_SHORT).show();

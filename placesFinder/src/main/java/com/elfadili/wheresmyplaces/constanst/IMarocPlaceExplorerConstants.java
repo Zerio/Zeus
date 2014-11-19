@@ -5,7 +5,7 @@ import android.net.Uri;
 
 import com.places.nearby.R;
 
-public interface IWhereMyLocationConstants {
+public interface IMarocPlaceExplorerConstants {
 	
 	public static final String MAP_KEY = "AIzaSyC-w3Rb8V3Asgk0wIDewR7KLkZgqM1uIaw";
 	public static final String API_KEY = "AIzaSyDusxiAhOhd7JGncPp6_rKXMyCgmpFVVGs";
@@ -70,10 +70,7 @@ public interface IWhereMyLocationConstants {
     public static final String DIRECTION_LANGUAGE = "fr"; // "ar"
 
 	public static final String TRAVEL_MODE_DRIVING = "driving";
-	public static final String DRIVING = "Driving";
-
 	public static final String TRAVEL_MODE_WALKING = "walking";
-	public static final String WALKING = "Walking ";
 
 	public static final String UNIT_KILOMETTER = "Kilometers";
 	public static final String UNIT_MILE = "Miles";

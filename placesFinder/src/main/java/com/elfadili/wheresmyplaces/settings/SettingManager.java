@@ -4,9 +4,9 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 
-import com.elfadili.wheresmyplaces.constanst.IWhereMyLocationConstants;
+import com.elfadili.wheresmyplaces.constanst.IMarocPlaceExplorerConstants;
 
-public class SettingManager implements ISettingConstants, IWhereMyLocationConstants  {
+public class SettingManager implements ISettingConstants, IMarocPlaceExplorerConstants {
 	
 	public static final String TAG = SettingManager.class.getSimpleName();
 	

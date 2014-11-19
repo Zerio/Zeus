@@ -6,7 +6,7 @@
     <string name="hello_world">3iw!</string>
     <string name="loading">Please wait...</string>
     <string name="title_info">Information</string>
-    <string name="title_my_location">My Location</string>
+    <string name="title_my_location">Mon emplacement</string>
     <string name="title_unknown_location">Unknown Location</string>
     <string name="title_unknown_address">Unknown Address</string>
     <string name="title_share">Partager</string>
@@ -50,7 +50,7 @@
     <string name="title_enable">Activer</string>
     <string name="info_get_location_error">Erreur de localisation! Veuillez réessayer plus tard</string>
     <string name="info_gps_enable">Turn on the following to improve your location:GPS</string>
-    <string name="info_process_find_location">Finding your location.Please wait...</string>
+    <string name="info_process_find_location">Localisation en cours..</string>
     <string name="info_format_process_find_location">Start finding %1$s surrounding you </string>
     <string name="info_format_process_detail_location">Start getting information of %1$s </string>
     <string name="info_show_again">Ne plus afficher</string>
@@ -59,11 +59,12 @@
     <string name="menu_location_terrain">Terrain View</string>
     <string name="menu_location_satellite">Satellite View</string>
     <string name="menu_location_traffic">Traffic View</string>
-    <string name="menu_location_details">Location Details</string>
+    <string name="menu_location_details">Détails</string>
     
     <string name="tab_infomation">Information</string>
     <string name="tab_map">Carte</string>
 
+    <!-- Start - Settings-->
     <string-array name="metric_array">
         <item>Kilometers</item>
         <item>Miles</item>
@@ -80,13 +81,17 @@
     </string-array>
     
     <string name="title_distance">Distance</string>
-    <string name="title_rating">Rating</string>
+    <string name="title_rating">Évaluation</string>
     <string name="format_distance">Distance: ~%1$s</string>
     
     <string name="title_get_directions">Itinéraire</string>
     
     <string name="title_sort_by_distance">Par distance</string>
     <string name="title_sort_by_rating">Par évaluation</string>
+
+    <string name="title_driving">En voiture</string>
+    <string name="title_walking">À pied</string>
+    <!-- End - Settings-->
 
     <string name="title_contact_us">Contact me</string>
     <string name="info_contact_us">Contactez-moi si vous avez besoin d\'aide!</string>
@@ -104,7 +109,7 @@
     <string name="title_deleted">"Supprimé!"</string>
     <string name="confirm_deleted">Vos adresses préférées sont supprimées!</string>
     <string name="title_cancelled">"Annulé!"</string>
-    <string name="confirm_cancelled">Vos adresses préférées sont toujours là</string>
+    <string name="confirm_cancelled">Vos adresses préférées sont toujours là!</string>
     <!-- End - Confirmation and popups-->
 
     <string name="title_website">Website</string>
@@ -119,7 +124,7 @@
     <string name="info_more_app">Feel fun with my application</string>
     <string name="info_no_result">La liste est vide!</string>
     <string name="quit_message">Voulez-vous quitter cette application?</string>
-    <string name="info_delete_favorites">Voulez-vous supprimer tous les endroits préférés?</string>
+    <string name="info_delete_favorites">Voulez-vous supprimer tous vos favoris?</string>
     <string name="info_no_delete_favorites">Aucun emplacement favori à supprimer!</string>
     <string name="title_warning_close">Quittez</string>
     <string name="info_lose_internet">Veuillez vérifier votre connexion Internet!</string>

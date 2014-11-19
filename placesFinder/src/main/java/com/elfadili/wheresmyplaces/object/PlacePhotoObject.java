@@ -1,7 +1,7 @@
 package com.elfadili.wheresmyplaces.object;
 
+import com.elfadili.wheresmyplaces.constanst.IMarocPlaceExplorerConstants;
 import com.ypyproductions.utils.StringUtils;
-import com.elfadili.wheresmyplaces.constanst.IWhereMyLocationConstants;
 
 /**
  * 
@@ -14,7 +14,7 @@ import com.elfadili.wheresmyplaces.constanst.IWhereMyLocationConstants;
  * @project :WhereMyLocation
  * @Package :com.ypyproductions.wheremylocation.object
  */
-public class PlacePhotoObject implements IWhereMyLocationConstants {
+public class PlacePhotoObject implements IMarocPlaceExplorerConstants {
 	private String photoReference;
 	private int width;
 	private int height;

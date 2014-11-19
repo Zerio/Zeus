@@ -6,11 +6,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.elfadili.wheresmyplaces.constanst.IMarocPlaceExplorerConstants;
 import com.places.nearby.R;
 import com.elfadili.wheresmyplaces.MainActivity;
-import com.elfadili.wheresmyplaces.constanst.IWhereMyLocationConstants;
 
-public class FragmentAR  extends Fragment implements IWhereMyLocationConstants {
+public class FragmentAR  extends Fragment implements IMarocPlaceExplorerConstants {
     public static final String TAG = FragmentAboutUs.class.getSimpleName();
 
     private View mRootView;

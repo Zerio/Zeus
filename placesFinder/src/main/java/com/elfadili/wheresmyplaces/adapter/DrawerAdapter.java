@@ -10,11 +10,11 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
+import com.elfadili.wheresmyplaces.constanst.IMarocPlaceExplorerConstants;
 import com.places.nearby.R;
-import com.elfadili.wheresmyplaces.constanst.IWhereMyLocationConstants;
 import com.elfadili.wheresmyplaces.object.ItemDrawerObject;
 
-public class DrawerAdapter extends BaseAdapter implements IWhereMyLocationConstants {
+public class DrawerAdapter extends BaseAdapter implements IMarocPlaceExplorerConstants {
 	public static final String TAG = DrawerAdapter.class.getSimpleName();
 
 	private Context mContext;
