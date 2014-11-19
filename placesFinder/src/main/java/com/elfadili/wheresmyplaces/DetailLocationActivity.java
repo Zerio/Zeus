@@ -21,8 +21,8 @@ import android.widget.TabHost;
 import android.widget.TabWidget;
 import android.widget.Toast;
 
+import com.elfadili.wheresmyplaces.constanst.IMarocPlaceExplorerConstants;
 import com.elfadili.wheresmyplaces.fragment.FragmentLocationDetailInformation;
-import com.google.android.gms.ads.AdView;
 import com.google.android.gms.maps.GoogleMap;
 import com.ypyproductions.bitmap.ImageCache.ImageCacheParams;
 import com.ypyproductions.bitmap.ImageFetcher;
@@ -32,7 +32,6 @@ import com.ypyproductions.utils.ApplicationUtils;
 import com.ypyproductions.utils.DBLog;
 import com.ypyproductions.utils.DirectionUtils;
 import com.places.nearby.R;
-import com.elfadili.wheresmyplaces.constanst.IWhereMyLocationConstants;
 import com.elfadili.wheresmyplaces.dataMng.TotalDataManager;
 import com.elfadili.wheresmyplaces.dataMng.YPYNetUtils;
 import com.elfadili.wheresmyplaces.fragment.FragmentLocationDetailMap;
@@ -42,7 +41,7 @@ import com.elfadili.wheresmyplaces.object.PlaceObject;
 import com.elfadili.wheresmyplaces.object.ResponcePlaceResult;
 import com.elfadili.wheresmyplaces.object.RouteObject;
 
-public class DetailLocationActivity extends DBFragmentActivity implements IWhereMyLocationConstants, OnMenuItemClickListener {
+public class DetailLocationActivity extends DBFragmentActivity implements IMarocPlaceExplorerConstants, OnMenuItemClickListener {
 
 	public static final String TAG = DetailLocationActivity.class.getSimpleName();
 	public static final String KEY_TAB = "tab";

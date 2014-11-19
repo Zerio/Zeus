@@ -39,6 +39,7 @@ import android.widget.SearchView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.elfadili.wheresmyplaces.constanst.IMarocPlaceExplorerConstants;
 import com.ypyproductions.bitmap.ImageCache.ImageCacheParams;
 import com.ypyproductions.bitmap.ImageFetcher;
 import com.ypyproductions.location.TrackRecordServiceController;
@@ -57,7 +58,6 @@ import com.twotoasters.jazzylistview.JazzyHelper;
 import com.twotoasters.jazzylistview.JazzyListView;
 import com.elfadili.wheresmyplaces.adapter.DrawerSearchAdapter;
 import com.elfadili.wheresmyplaces.adapter.PlaceAdapter;
-import com.elfadili.wheresmyplaces.constanst.IWhereMyLocationConstants;
 import com.elfadili.wheresmyplaces.dataMng.TotalDataManager;
 import com.elfadili.wheresmyplaces.dataMng.YPYNetUtils;
 import com.elfadili.wheresmyplaces.object.HomeSearchObject;
@@ -67,7 +67,7 @@ import com.elfadili.wheresmyplaces.object.ResponcePlaceResult;
 import com.elfadili.wheresmyplaces.provider.MySuggestionDAO;
 import com.elfadili.wheresmyplaces.settings.SettingManager;
 
-public class MainSearchActivity extends DBFragmentActivity implements IWhereMyLocationConstants, PopupMenu.OnMenuItemClickListener, OnScrollListener {
+public class MainSearchActivity extends DBFragmentActivity implements IMarocPlaceExplorerConstants, PopupMenu.OnMenuItemClickListener, OnScrollListener {
 
 	public static final String TAG = MainSearchActivity.class.getSimpleName();
 	

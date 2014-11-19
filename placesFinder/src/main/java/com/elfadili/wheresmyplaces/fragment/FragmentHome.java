@@ -12,16 +12,16 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.GridView;
 
+import com.elfadili.wheresmyplaces.constanst.IMarocPlaceExplorerConstants;
 import com.ypyproductions.utils.DirectionUtils;
 import com.places.nearby.R;
 import com.elfadili.wheresmyplaces.MainActivity;
 import com.elfadili.wheresmyplaces.MainSearchActivity;
 import com.elfadili.wheresmyplaces.adapter.HomeAdapter;
-import com.elfadili.wheresmyplaces.constanst.IWhereMyLocationConstants;
 import com.elfadili.wheresmyplaces.dataMng.TotalDataManager;
 import com.elfadili.wheresmyplaces.object.HomeSearchObject;
 
-public class FragmentHome extends Fragment implements IWhereMyLocationConstants {
+public class FragmentHome extends Fragment implements IMarocPlaceExplorerConstants {
 	
 	public static final String TAG = FragmentHome.class.getSimpleName();
 	

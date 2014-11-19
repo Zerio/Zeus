@@ -20,6 +20,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.elfadili.wheresmyplaces.constanst.IMarocPlaceExplorerConstants;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.android.gms.maps.CameraUpdate;
@@ -48,7 +49,6 @@ import com.ypyproductions.utils.StringUtils;
 import com.places.nearby.R;
 import com.elfadili.wheresmyplaces.DetailLocationActivity;
 import com.elfadili.wheresmyplaces.adapter.MapInfoAdapter;
-import com.elfadili.wheresmyplaces.constanst.IWhereMyLocationConstants;
 import com.elfadili.wheresmyplaces.dataMng.TotalDataManager;
 import com.elfadili.wheresmyplaces.dataMng.YPYNetUtils;
 import com.elfadili.wheresmyplaces.object.PlaceDetailObject;
@@ -57,7 +57,7 @@ import com.elfadili.wheresmyplaces.object.RouteObject;
 import com.elfadili.wheresmyplaces.object.StepObject;
 import com.elfadili.wheresmyplaces.settings.SettingManager;
 
-public class FragmentLocationDetailMap extends SupportMapFragment implements IWhereMyLocationConstants, IDBConstantURL {
+public class FragmentLocationDetailMap extends SupportMapFragment implements IMarocPlaceExplorerConstants, IDBConstantURL {
 
 	public static final String TAG = FragmentLocationDetailMap.class.getSimpleName();
 	public static final int REQUEST_CODE_RECOVER_PLAY_SERVICES = 1111;

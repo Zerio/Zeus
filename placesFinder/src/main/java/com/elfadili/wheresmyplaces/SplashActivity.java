@@ -4,22 +4,20 @@ import java.io.File;
 import java.util.ArrayList;
 
 import android.content.Intent;
-import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.KeyEvent;
 import android.view.View;
 import android.widget.ProgressBar;
-import android.widget.TextView;
 import android.widget.Toast;
 
+import com.elfadili.wheresmyplaces.constanst.IMarocPlaceExplorerConstants;
 import com.ypyproductions.net.task.DBTask;
 import com.ypyproductions.net.task.IDBTaskListener;
 import com.ypyproductions.utils.DBLog;
 import com.ypyproductions.utils.DirectionUtils;
 import com.ypyproductions.utils.IOUtils;
 import com.places.nearby.R;
-import com.elfadili.wheresmyplaces.constanst.IWhereMyLocationConstants;
 import com.elfadili.wheresmyplaces.dataMng.JsonParsingUtils;
 import com.elfadili.wheresmyplaces.dataMng.TotalDataManager;
 import com.elfadili.wheresmyplaces.object.HomeSearchObject;
@@ -28,7 +26,7 @@ import com.elfadili.wheresmyplaces.object.PlaceObject;
 import com.elfadili.wheresmyplaces.provider.MySuggestionDAO;
 import com.elfadili.wheresmyplaces.settings.SettingManager;
 
-public class SplashActivity extends DBFragmentActivity implements IDBTaskListener, IWhereMyLocationConstants {
+public class SplashActivity extends DBFragmentActivity implements IDBTaskListener, IMarocPlaceExplorerConstants {
 
     public static final String TAG = SplashActivity.class.getSimpleName();
 

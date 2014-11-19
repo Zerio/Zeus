@@ -9,6 +9,7 @@ import org.json.JSONArray;
 import android.content.Context;
 import android.location.Location;
 
+import com.elfadili.wheresmyplaces.constanst.IMarocPlaceExplorerConstants;
 import com.ypyproductions.net.task.IDBCallback;
 import com.ypyproductions.utils.ApplicationUtils;
 import com.ypyproductions.utils.DBListExcuteAction;
@@ -16,12 +17,11 @@ import com.ypyproductions.utils.DBLog;
 import com.ypyproductions.utils.IOUtils;
 import com.ypyproductions.utils.StringUtils;
 import com.places.nearby.R;
-import com.elfadili.wheresmyplaces.constanst.IWhereMyLocationConstants;
 import com.elfadili.wheresmyplaces.object.HomeSearchObject;
 import com.elfadili.wheresmyplaces.object.KeywordObject;
 import com.elfadili.wheresmyplaces.object.PlaceObject;
 
-public class TotalDataManager implements IWhereMyLocationConstants {
+public class TotalDataManager implements IMarocPlaceExplorerConstants {
 
 	public static final String TAG = TotalDataManager.class.getSimpleName();
 

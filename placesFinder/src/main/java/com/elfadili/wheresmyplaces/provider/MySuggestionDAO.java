@@ -6,8 +6,8 @@ import android.content.Context;
 import android.database.Cursor;
 import android.net.Uri;
 
+import com.elfadili.wheresmyplaces.constanst.IMarocPlaceExplorerConstants;
 import com.ypyproductions.utils.DBLog;
-import com.elfadili.wheresmyplaces.constanst.IWhereMyLocationConstants;
 import com.elfadili.wheresmyplaces.object.KeywordObject;
 
 
@@ -16,7 +16,7 @@ import com.elfadili.wheresmyplaces.object.KeywordObject;
  * @author DOBao
  * 3/11/2011 
  */
-public class MySuggestionDAO implements IWhereMyLocationConstants {
+public class MySuggestionDAO implements IMarocPlaceExplorerConstants {
 	
 	
 	private static final String TAG = MySuggestionDAO.class.getSimpleName();

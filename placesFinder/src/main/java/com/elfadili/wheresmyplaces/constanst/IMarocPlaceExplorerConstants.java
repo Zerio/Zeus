@@ -5,7 +5,7 @@ import android.net.Uri;
 
 import com.places.nearby.R;
 
-public interface IWhereMyLocationConstants {
+public interface IMarocPlaceExplorerConstants {
 	
 	public static final String MAP_KEY = "AIzaSyC-w3Rb8V3Asgk0wIDewR7KLkZgqM1uIaw";
 	public static final String API_KEY = "AIzaSyDusxiAhOhd7JGncPp6_rKXMyCgmpFVVGs";
@@ -23,18 +23,24 @@ public interface IWhereMyLocationConstants {
 	public static final String URL_FACEBOOK = "https://facebook.com/elfadili.yassine";
 	public static final String URL_MORE_APP = "https://play.google.com/store/search?q=mobiacube";
 	
-	public static final String FORMAT_URL_PHOTO_REF = "https://maps.googleapis.com/maps/api/place/photo?photoreference=%1$s&sensor=false&maxwidth=%2$s&maxheight=%3$s&key=%4$s";
-	public static final String FORMAT_DETAIL_LOCATION_REF = "https://maps.googleapis.com/maps/api/place/details/json?reference=%1$s&sensor=%2$s&key=%3$s";
+	public static final String FORMAT_URL_PHOTO_REF = "https://maps.googleapis.com/maps/api/place/photo?"
+            +"photoreference=%1$s&sensor=false&maxwidth=%2$s&maxheight=%3$s&key=%4$s";
+	public static final String FORMAT_DETAIL_LOCATION_REF = "https://maps.googleapis.com/maps/api/place/details/json?"
+            + "reference=%1$s&sensor=%2$s&key=%3$s";
 	public static final String FORMAT_URL_TYPE_SEARCH = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?"
 			+ "location=%1$s,%2$s&radius=%3$s&types=%4$s&sensor=%5$s&key=%6$s";
 	public static final String FORMAT_URL_TEXT_SEARCH = "https://maps.googleapis.com/maps/api/place/textsearch/json?"
 			+ "location=%1$s,%2$s&radius=%3$s&query=%4$s&sensor=%5$s&key=%6$s";
 
-	public static final String FORMAT_URL_PHOTO = "https://maps.googleapis.com/maps/api/place/photo?photoreference=%1$s&maxheight=320&maxwidth=320&sensor=false&key=%2$s";
+	public static final String FORMAT_URL_PHOTO = "https://maps.googleapis.com/maps/api/place/photo?"
+            + "photoreference=%1$s&maxheight=320&maxwidth=320&sensor=false&key=%2$s";
 
-	public static final String FORMAT_DIRECTION_URL = "https://maps.googleapis.com/maps/api/directions/json?origin=%1$s&destination=%2$s&sensor=%3$s&key=%4$s&mode=%5$s";
-	public static final String FORMAT_NEXTPAGE_TYPE_SEARCH_URL = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=%1$s,%2$s&radius=%3$s&types=%4$s&sensor=%5$s&key=%6$s&pagetoken=%7$s";
-	public static final String FORMAT_NEXTPAGE_TEXT_SEARCH_URL = "https://maps.googleapis.com/maps/api/place/textsearch/json?location=%1$s,%2$s&radius=%3$s&types=%4$s&sensor=%5$s&key=%6$s&pagetoken=%7$s";
+	public static final String FORMAT_DIRECTION_URL = "https://maps.googleapis.com/maps/api/directions/json?"
+            + "origin=%1$s&destination=%2$s&sensor=%3$s&key=%4$s&mode=%5$s&language=%6$s";
+	public static final String FORMAT_NEXTPAGE_TYPE_SEARCH_URL = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?"
+            + "location=%1$s,%2$s&radius=%3$s&types=%4$s&sensor=%5$s&key=%6$s&pagetoken=%7$s";
+	public static final String FORMAT_NEXTPAGE_TEXT_SEARCH_URL = "https://maps.googleapis.com/maps/api/place/textsearch/json?"
+            + "location=%1$s,%2$s&radius=%3$s&types=%4$s&sensor=%5$s&key=%6$s&pagetoken=%7$s";
 
 	public static final int TYPE_SEARCH_BY_TYPES = 1;
 	public static final int TYPE_SEARCH_BY_TEXT = 2;
@@ -60,6 +66,8 @@ public interface IWhereMyLocationConstants {
 
 	public static final String PIORITY_DISTANCE = "distance";
 	public static final String PIORITY_RATING = "prominence";
+
+    public static final String DIRECTION_LANGUAGE = "fr"; // "ar"
 
 	public static final String TRAVEL_MODE_DRIVING = "driving";
 	public static final String DRIVING = "Driving";

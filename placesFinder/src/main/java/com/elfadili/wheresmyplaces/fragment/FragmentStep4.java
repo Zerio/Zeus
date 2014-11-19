@@ -9,10 +9,10 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 import com.elfadili.wheresmyplaces.MainActivity;
-import com.elfadili.wheresmyplaces.constanst.IWhereMyLocationConstants;
+import com.elfadili.wheresmyplaces.constanst.IMarocPlaceExplorerConstants;
 import com.places.nearby.R;
 
-public class FragmentStep4 extends Fragment implements IWhereMyLocationConstants{
+public class FragmentStep4 extends Fragment implements IMarocPlaceExplorerConstants {
 
     public FragmentStep4() {
         // Required empty public constructor
