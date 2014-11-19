@@ -11,13 +11,13 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.elfadili.wheresmyplaces.constanst.IMarocPlaceExplorerConstants;
 import com.ypyproductions.bitmap.ImageFetcher;
 import com.places.nearby.R;
+import com.elfadili.wheresmyplaces.constanst.IWhereMyLocationConstants;
 import com.elfadili.wheresmyplaces.dataMng.TotalDataManager;
 import com.elfadili.wheresmyplaces.object.HomeSearchObject;
 
-public class HomeAdapter extends BaseAdapter implements IMarocPlaceExplorerConstants {
+public class HomeAdapter extends BaseAdapter implements IWhereMyLocationConstants {
 	public static final String TAG = HomeAdapter.class.getSimpleName();
 
 	private Context mContext;

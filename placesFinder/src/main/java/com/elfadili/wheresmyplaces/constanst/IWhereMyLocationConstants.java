@@ -5,7 +5,7 @@ import android.net.Uri;
 
 import com.places.nearby.R;
 
-public interface IMarocPlaceExplorerConstants {
+public interface IWhereMyLocationConstants {
 	
 	public static final String MAP_KEY = "AIzaSyC-w3Rb8V3Asgk0wIDewR7KLkZgqM1uIaw";
 	public static final String API_KEY = "AIzaSyDusxiAhOhd7JGncPp6_rKXMyCgmpFVVGs";

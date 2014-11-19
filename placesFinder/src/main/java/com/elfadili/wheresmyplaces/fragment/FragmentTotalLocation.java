@@ -14,7 +14,6 @@ import android.view.ViewGroup;
 import android.view.ViewTreeObserver.OnGlobalLayoutListener;
 import android.widget.Toast;
 
-import com.elfadili.wheresmyplaces.constanst.IMarocPlaceExplorerConstants;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.GoogleMap.OnInfoWindowClickListener;
@@ -34,13 +33,14 @@ import com.ypyproductions.utils.StringUtils;
 import com.places.nearby.R;
 import com.elfadili.wheresmyplaces.TotalLocationInMapActivity;
 import com.elfadili.wheresmyplaces.adapter.DetailMapInfoAdapter;
+import com.elfadili.wheresmyplaces.constanst.IWhereMyLocationConstants;
 import com.elfadili.wheresmyplaces.dataMng.TotalDataManager;
 import com.elfadili.wheresmyplaces.object.HomeSearchObject;
 import com.elfadili.wheresmyplaces.object.PlaceObject;
 import com.elfadili.wheresmyplaces.object.PlacePhotoObject;
 import com.elfadili.wheresmyplaces.object.ResponcePlaceResult;
 
-public class FragmentTotalLocation extends Fragment implements IMarocPlaceExplorerConstants, OnMarkerClickListener {
+public class FragmentTotalLocation extends Fragment implements IWhereMyLocationConstants, OnMarkerClickListener {
 
 	public static final String TAG = FragmentTotalLocation.class.getSimpleName();
 	public static final int TIME_OUT = 20;

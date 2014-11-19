@@ -12,13 +12,13 @@ import android.os.PowerManager.WakeLock;
 import android.os.RemoteException;
 import android.util.Log;
 
-import com.elfadili.wheresmyplaces.constanst.IMarocPlaceExplorerConstants;
 import com.google.android.gms.location.LocationListener;
 import com.ypyproductions.location.utils.LocationUtils;
 import com.ypyproductions.location.utils.SystemUtils;
 import com.ypyproductions.utils.DBLog;
+import com.elfadili.wheresmyplaces.constanst.IWhereMyLocationConstants;
 
-public class TrackRecordingService extends Service implements IMarocPlaceExplorerConstants {
+public class TrackRecordingService extends Service implements IWhereMyLocationConstants  {
 
 	private static final String TAG = TrackRecordingService.class.getSimpleName();
 	

@@ -6,7 +6,6 @@ import android.content.Context;
 import android.location.Location;
 import android.util.Log;
 
-import com.elfadili.wheresmyplaces.constanst.IMarocPlaceExplorerConstants;
 import com.ypyproductions.location.utils.LocationUtils;
 import com.ypyproductions.utils.DownloadUtils;
 import com.ypyproductions.utils.StringUtils;
@@ -15,12 +14,13 @@ import com.elfadili.helperslib.location.utils.LocationUtils;
 import com.elfadili.helperslib.utils.DownloadUtils;
 import com.elfadili.helperslib.utils.StringUtils;
 */
+import com.elfadili.wheresmyplaces.constanst.IWhereMyLocationConstants;
 import com.elfadili.wheresmyplaces.object.PlaceDetailObject;
 import com.elfadili.wheresmyplaces.object.ResponcePlaceResult;
 import com.elfadili.wheresmyplaces.object.RouteObject;
 import com.elfadili.wheresmyplaces.settings.SettingManager;
 
-public class YPYNetUtils implements IMarocPlaceExplorerConstants {
+public class YPYNetUtils implements IWhereMyLocationConstants {
 
 	private static final String TAG = YPYNetUtils.class.getSimpleName();
 

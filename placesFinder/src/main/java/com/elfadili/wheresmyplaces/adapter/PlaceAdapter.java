@@ -14,16 +14,16 @@ import android.widget.ImageView;
 import android.widget.RatingBar;
 import android.widget.TextView;
 
-import com.elfadili.wheresmyplaces.constanst.IMarocPlaceExplorerConstants;
 import com.ypyproductions.bitmap.ImageFetcher;
 import com.ypyproductions.utils.StringUtils;
 import com.places.nearby.R;
+import com.elfadili.wheresmyplaces.constanst.IWhereMyLocationConstants;
 import com.elfadili.wheresmyplaces.object.PlaceObject;
 import com.elfadili.wheresmyplaces.object.PlacePhotoObject;
 import com.elfadili.wheresmyplaces.object.RouteObject;
 import com.elfadili.wheresmyplaces.settings.SettingManager;
 
-public class PlaceAdapter extends BaseAdapter implements IMarocPlaceExplorerConstants {
+public class PlaceAdapter extends BaseAdapter implements IWhereMyLocationConstants {
 	public static final String TAG = PlaceAdapter.class.getSimpleName();
 
 	private Context mContext;

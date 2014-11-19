@@ -11,14 +11,14 @@ import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.elfadili.wheresmyplaces.constanst.IMarocPlaceExplorerConstants;
 import com.places.nearby.R;
 import com.elfadili.wheresmyplaces.MainActivity;
+import com.elfadili.wheresmyplaces.constanst.IWhereMyLocationConstants;
 import com.elfadili.wheresmyplaces.settings.SettingManager;
 import com.elfadili.wheresmyplaces.view.DBSeekBarView;
 import com.elfadili.wheresmyplaces.view.DBSeekBarView.OnSeekBarChangeListener;
 
-public class FragmentSettings extends Fragment implements IMarocPlaceExplorerConstants {
+public class FragmentSettings extends Fragment implements IWhereMyLocationConstants {
 	
 	public static final String TAG = FragmentSettings.class.getSimpleName();
 

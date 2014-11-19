@@ -8,12 +8,12 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.ProgressBar;
 
-import com.elfadili.wheresmyplaces.constanst.IMarocPlaceExplorerConstants;
 import com.google.android.gms.ads.AdView;
 import com.ypyproductions.utils.DBLog;
 import com.places.nearby.R;
+import com.elfadili.wheresmyplaces.constanst.IWhereMyLocationConstants;
 
-public class ShowUrlActivity extends DBFragmentActivity implements IMarocPlaceExplorerConstants {
+public class ShowUrlActivity extends DBFragmentActivity implements IWhereMyLocationConstants {
 
 	public static final String TAG = ShowUrlActivity.class.getSimpleName();
 

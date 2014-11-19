@@ -17,7 +17,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.elfadili.wheresmyplaces.DetailLocationActivity;
-import com.elfadili.wheresmyplaces.constanst.IMarocPlaceExplorerConstants;
 import com.ypyproductions.location.DBLastLocationFinder;
 import com.ypyproductions.location.DBLastLocationFinder.ILastLocationFinder;
 import com.ypyproductions.location.utils.LocationUtils;
@@ -29,12 +28,13 @@ import com.places.nearby.R;
 import com.elfadili.wheresmyplaces.MainActivity;
 import com.elfadili.wheresmyplaces.adapter.FavoritePlaceAdapter;
 import com.elfadili.wheresmyplaces.adapter.FavoritePlaceAdapter.OnFavoriteAdapterListener;
+import com.elfadili.wheresmyplaces.constanst.IWhereMyLocationConstants;
 import com.elfadili.wheresmyplaces.dataMng.TotalDataManager;
 import com.elfadili.wheresmyplaces.object.PlaceObject;
 
 import cn.pedant.SweetAlert.SweetAlertDialog;
 
-public class FragmentFavorites extends Fragment implements IMarocPlaceExplorerConstants, ILastLocationFinder{
+public class FragmentFavorites extends Fragment implements IWhereMyLocationConstants , ILastLocationFinder{
 
 	public static final String TAG = FragmentFavorites.class.getSimpleName();
 

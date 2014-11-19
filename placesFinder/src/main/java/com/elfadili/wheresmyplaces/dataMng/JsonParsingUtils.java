@@ -14,9 +14,9 @@ import android.location.Location;
 import android.location.LocationManager;
 import android.util.JsonReader;
 
-import com.elfadili.wheresmyplaces.constanst.IMarocPlaceExplorerConstants;
 import com.ypyproductions.utils.DBLog;
 import com.ypyproductions.utils.StringUtils;
+import com.elfadili.wheresmyplaces.constanst.IWhereMyLocationConstants;
 import com.elfadili.wheresmyplaces.object.HomeSearchObject;
 import com.elfadili.wheresmyplaces.object.KeywordObject;
 import com.elfadili.wheresmyplaces.object.PlaceDetailObject;
@@ -27,7 +27,7 @@ import com.elfadili.wheresmyplaces.object.RouteObject;
 import com.elfadili.wheresmyplaces.object.StepObject;
 import com.elfadili.wheresmyplaces.object.UserReviewObject;
 
-public class JsonParsingUtils implements IMarocPlaceExplorerConstants {
+public class JsonParsingUtils implements IWhereMyLocationConstants {
 
 	public static final String TAG = JsonParsingUtils.class.getSimpleName();
 

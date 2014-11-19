@@ -19,7 +19,6 @@ import android.widget.RatingBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.elfadili.wheresmyplaces.constanst.IMarocPlaceExplorerConstants;
 import com.ypyproductions.net.task.IDBCallback;
 import com.ypyproductions.utils.DateTimeUtils;
 import com.ypyproductions.utils.ResolutionUtils;
@@ -27,6 +26,7 @@ import com.ypyproductions.utils.StringUtils;
 import com.places.nearby.R;
 import com.elfadili.wheresmyplaces.DetailLocationActivity;
 import com.elfadili.wheresmyplaces.ShowUrlActivity;
+import com.elfadili.wheresmyplaces.constanst.IWhereMyLocationConstants;
 import com.elfadili.wheresmyplaces.dataMng.TotalDataManager;
 import com.elfadili.wheresmyplaces.object.PlaceDetailObject;
 import com.elfadili.wheresmyplaces.object.PlaceObject;
@@ -40,7 +40,7 @@ import de.keyboardsurfer.android.widget.crouton.Style;
 
 import cn.pedant.SweetAlert.*;
 
-public class FragmentLocationDetailInformation extends Fragment implements IMarocPlaceExplorerConstants {
+public class FragmentLocationDetailInformation extends Fragment implements IWhereMyLocationConstants {
 
 	public static final String TAG = FragmentLocationDetailInformation.class.getSimpleName();
 

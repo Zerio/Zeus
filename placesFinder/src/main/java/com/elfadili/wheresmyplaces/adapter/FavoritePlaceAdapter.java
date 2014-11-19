@@ -14,14 +14,14 @@ import android.widget.ImageView;
 import android.widget.RatingBar;
 import android.widget.TextView;
 
-import com.elfadili.wheresmyplaces.constanst.IMarocPlaceExplorerConstants;
 import com.ypyproductions.bitmap.ImageFetcher;
 import com.ypyproductions.utils.StringUtils;
 import com.places.nearby.R;
+import com.elfadili.wheresmyplaces.constanst.IWhereMyLocationConstants;
 import com.elfadili.wheresmyplaces.dataMng.TotalDataManager;
 import com.elfadili.wheresmyplaces.object.PlaceObject;
 
-public class FavoritePlaceAdapter extends BaseAdapter implements IMarocPlaceExplorerConstants {
+public class FavoritePlaceAdapter extends BaseAdapter implements IWhereMyLocationConstants {
 	public static final String TAG = FavoritePlaceAdapter.class.getSimpleName();
 
 	private Context mContext;

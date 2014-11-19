@@ -16,11 +16,11 @@ import android.database.sqlite.SQLiteQueryBuilder;
 import android.net.Uri;
 import android.provider.BaseColumns;
 
-import com.elfadili.wheresmyplaces.constanst.IMarocPlaceExplorerConstants;
 import com.ypyproductions.utils.DBLog;
+import com.elfadili.wheresmyplaces.constanst.IWhereMyLocationConstants;
 
 
-public class MySuggestionProvider extends ContentProvider implements IMarocPlaceExplorerConstants {
+public class MySuggestionProvider extends ContentProvider implements IWhereMyLocationConstants {
 
 	public static final String TAG = MySuggestionProvider.class.getSimpleName();
 

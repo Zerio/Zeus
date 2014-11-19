@@ -12,7 +12,6 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.elfadili.wheresmyplaces.constanst.IMarocPlaceExplorerConstants;
 import com.ypyproductions.utils.ApplicationUtils;
 import com.ypyproductions.utils.DBLog;
 import com.ypyproductions.utils.ShareActionUtils;
@@ -20,9 +19,10 @@ import com.ypyproductions.utils.StringUtils;
 import com.places.nearby.R;
 import com.elfadili.wheresmyplaces.MainActivity;
 import com.elfadili.wheresmyplaces.adapter.AboutUsAdapter;
+import com.elfadili.wheresmyplaces.constanst.IWhereMyLocationConstants;
 import com.elfadili.wheresmyplaces.object.AboutUsObject;
 
-public class FragmentAboutUs extends Fragment implements IMarocPlaceExplorerConstants {
+public class FragmentAboutUs extends Fragment implements IWhereMyLocationConstants {
 	
 	public static final String TAG = FragmentAboutUs.class.getSimpleName();
 	

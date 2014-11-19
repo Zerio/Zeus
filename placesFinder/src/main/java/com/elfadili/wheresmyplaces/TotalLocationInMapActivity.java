@@ -13,19 +13,19 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.PopupMenu;
 
-import com.elfadili.wheresmyplaces.constanst.IMarocPlaceExplorerConstants;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.maps.GoogleMap;
 import com.ypyproductions.bitmap.ImageCache.ImageCacheParams;
 import com.ypyproductions.bitmap.ImageFetcher;
 import com.ypyproductions.utils.DirectionUtils;
 import com.places.nearby.R;
+import com.elfadili.wheresmyplaces.constanst.IWhereMyLocationConstants;
 import com.elfadili.wheresmyplaces.dataMng.TotalDataManager;
 import com.elfadili.wheresmyplaces.fragment.FragmentTotalLocation;
 import com.elfadili.wheresmyplaces.object.HomeSearchObject;
 
 
-public class TotalLocationInMapActivity extends DBFragmentActivity implements IMarocPlaceExplorerConstants,PopupMenu.OnMenuItemClickListener {
+public class TotalLocationInMapActivity extends DBFragmentActivity implements IWhereMyLocationConstants,PopupMenu.OnMenuItemClickListener {
 
 	public static final String TAG = TotalLocationInMapActivity.class.getSimpleName();
 	public ImageFetcher mImgFetcher;
