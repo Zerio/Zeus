@@ -40,9 +40,9 @@ import de.keyboardsurfer.android.widget.crouton.Style;
 
 import cn.pedant.SweetAlert.*;
 
-public class FragmentLocationDetailInfomation extends Fragment implements IWhereMyLocationConstants {
+public class FragmentLocationDetailInformation extends Fragment implements IWhereMyLocationConstants {
 
-	public static final String TAG = FragmentLocationDetailInfomation.class.getSimpleName();
+	public static final String TAG = FragmentLocationDetailInformation.class.getSimpleName();
 
 	private static final int MAX_DISPLAY_USER_REVIEWS = 50;
 
@@ -85,10 +85,10 @@ public class FragmentLocationDetailInfomation extends Fragment implements IWhere
 
 	private void findView() {
 		this.mContext = (DetailLocationActivity) getActivity();
-		this.mCbFavorite =(CheckBox) mRootView.findViewById(R.id.cb_add_favorite);
-		this.mTvNameLocation=(TextView) mRootView.findViewById(R.id.tv_name_location);
-		this.mRatingBar=(RatingBar) mRootView.findViewById(R.id.ratingBar1);
-		this.mTvNumberReviews=(TextView) mRootView.findViewById(R.id.tv_number_reviews);
+		this.mCbFavorite = (CheckBox) mRootView.findViewById(R.id.cb_add_favorite);
+		this.mTvNameLocation = (TextView) mRootView.findViewById(R.id.tv_name_location);
+		this.mRatingBar = (RatingBar) mRootView.findViewById(R.id.ratingBar1);
+		this.mTvNumberReviews = (TextView) mRootView.findViewById(R.id.tv_number_reviews);
 
 		this.mTvTitlePlaceInfos=(TextView) mRootView.findViewById(R.id.tv_title_info);
 		this.mTvTitleUserReviews=(TextView) mRootView.findViewById(R.id.tv_title_user_reviews);
@@ -103,7 +103,7 @@ public class FragmentLocationDetailInfomation extends Fragment implements IWhere
 		
 		PlaceDetailObject mPlaceDetailObject = mContext.mPlaceDetailObject;
 		if(mPlaceDetailObject!=null){
-			this.mTvNameLocation.setTypeface(mContext.mTypeFaceRobotoBold);
+			this.mTvNameLocation.setTypeface(mContext.mTypeFacechampagne);
 			this.mTvNameLocation.setText(mPlaceDetailObject.getName());
 			
 			this.mRatingBar.setRating(mPlaceDetailObject.getRating());

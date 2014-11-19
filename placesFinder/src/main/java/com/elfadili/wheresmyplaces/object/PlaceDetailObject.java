@@ -2,18 +2,6 @@ package com.elfadili.wheresmyplaces.object;
 
 import java.util.ArrayList;
 
-/**
- * 
- * LocationDetailObject.java
- * 
- * @author :DOBAO
- * @Email :dotrungbao@gmail.com
- * @Skype :baopfiev_k50
- * @Phone :+84983028786
- * @Date :Nov 21, 2013
- * @project :WhereMyLocation
- * @Package :com.ypyproductions.wheremylocation.object
- */
 public class PlaceDetailObject {
 	private String address;
 	private String phone;

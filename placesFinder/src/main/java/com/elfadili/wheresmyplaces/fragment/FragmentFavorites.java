@@ -82,7 +82,7 @@ public class FragmentFavorites extends Fragment implements IWhereMyLocationConst
 		if (mListPlaceObjects != null && mListPlaceObjects.size() > 0) {
 			this.mTvNoResult.setVisibility(View.GONE);
             this.imgResult.setVisibility(View.GONE);
-			final FavoritePlaceAdapter mPlaceAdapter = new FavoritePlaceAdapter(mContext, mListPlaceObjects, mContext.mTypeFaceRobotoBold, mContext.mTypeFaceRobotoLight,
+			final FavoritePlaceAdapter mPlaceAdapter = new FavoritePlaceAdapter(mContext, mListPlaceObjects, mContext.mTypeFacechampagne, mContext.mTypeFaceRobotoLight,
 					mContext.mImgFetcher);
 			mListViewFavorites.setAdapter(mPlaceAdapter);
 			mPlaceAdapter.setOnFavorieteAdapterListener(new OnFavoriteAdapterListener() {

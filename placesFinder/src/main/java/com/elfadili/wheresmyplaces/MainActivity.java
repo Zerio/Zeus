@@ -86,7 +86,7 @@ public class MainActivity extends DBFragmentActivity implements IWhereMyLocation
     private DrawerAdapter mDrawerAdapter;
 
     public Typeface mTypeFaceRobotoBold;
-
+    public Typeface mTypeFacechampagne;
     public Typeface mTypeFaceRobotoLight;
 
     public ImageFetcher mImgFetcher;
@@ -183,6 +183,7 @@ public class MainActivity extends DBFragmentActivity implements IWhereMyLocation
     private void initTypeFace() {
         mTypeFaceRobotoBold = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Bold.ttf");
         mTypeFaceRobotoLight = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Light.ttf");
+        mTypeFacechampagne = Typeface.createFromAsset(getAssets(), "fonts/champagne.ttf");
     }
 
     private void setUpDrawer() {
@@ -668,7 +669,7 @@ public class MainActivity extends DBFragmentActivity implements IWhereMyLocation
                 }
             }
         });
-        int process =SettingManager.getRadius(this);
+        int process = SettingManager.getRadius(this);
         if(SettingManager.getMetric(this).equals(UNIT_KILOMETTER)){
             mTvInfoRadius.setText(String.format(getString(R.string.format_radius), process,"km"));
             mTvMaxRadius.setText(String.valueOf(MAX_RADIUS));

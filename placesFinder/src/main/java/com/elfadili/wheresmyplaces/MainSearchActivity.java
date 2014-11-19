@@ -88,19 +88,17 @@ public class MainSearchActivity extends DBFragmentActivity implements IWhereMyLo
 	private DrawerSearchAdapter mDrawerAdapter;
 
 	public Typeface mTypeFaceRobotoBold;
-
 	public Typeface mTypeFaceRobotoLight;
+    public Typeface mTypeFacechampagne;
 
 	public ImageFetcher mImgFetcher;
 
 	private ArrayList<HomeSearchObject> mListHomeObjects;
 
 	private TrackLocationBroadcast mTrackLocationReceiver;
-
 	private TrackRecordServiceController mTrackingController;
 
 	private DBTask mDBTask;
-
 	private TotalDataManager mTotalMng;
 	private Handler mHandler = new Handler();
 
@@ -335,7 +333,7 @@ public class MainSearchActivity extends DBFragmentActivity implements IWhereMyLo
 				hideFooterView();
 			}
 			if (mPlaceAdapter == null) {
-				mPlaceAdapter = new PlaceAdapter(MainSearchActivity.this, mListPlaceObjects, mTypeFaceRobotoBold, mTypeFaceRobotoLight, mImgFetcher);
+				mPlaceAdapter = new PlaceAdapter(MainSearchActivity.this, mListPlaceObjects, mTypeFacechampagne, mTypeFaceRobotoLight, mImgFetcher);
 				mLocationListView.setAdapter(mPlaceAdapter);
 				mLocationListView.setOnItemClickListener(new OnItemClickListener() {
 					@Override
@@ -371,6 +369,8 @@ public class MainSearchActivity extends DBFragmentActivity implements IWhereMyLo
 	private void initTypeFace() {
 		mTypeFaceRobotoBold = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Bold.ttf");
 		mTypeFaceRobotoLight = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Light.ttf");
+        mTypeFacechampagne = Typeface.createFromAsset(getAssets(), "fonts/champagne.ttf");
+
 	}
 
 	private void setUpDrawer() {

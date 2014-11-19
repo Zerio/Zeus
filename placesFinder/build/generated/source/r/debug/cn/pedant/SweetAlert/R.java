@@ -38,10 +38,10 @@ public final class R {
 		public static final int warning_stroke_color = 0x7f080034;
 	}
 	public static final class drawable {
-		public static final int blue_button_background = 0x7f020013;
-		public static final int dialog_background = 0x7f02003a;
-		public static final int error_center_x = 0x7f02003d;
-		public static final int error_circle = 0x7f02003e;
+		public static final int blue_button_background = 0x7f020011;
+		public static final int dialog_background = 0x7f020038;
+		public static final int error_center_x = 0x7f02003b;
+		public static final int error_circle = 0x7f02003c;
 		public static final int gray_button_background = 0x7f020040;
 		public static final int red_button_background = 0x7f020099;
 		public static final int success_bow = 0x7f0200a1;

@@ -21,6 +21,7 @@ import android.widget.TabHost;
 import android.widget.TabWidget;
 import android.widget.Toast;
 
+import com.elfadili.wheresmyplaces.fragment.FragmentLocationDetailInformation;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.maps.GoogleMap;
 import com.ypyproductions.bitmap.ImageCache.ImageCacheParams;
@@ -34,7 +35,6 @@ import com.places.nearby.R;
 import com.elfadili.wheresmyplaces.constanst.IWhereMyLocationConstants;
 import com.elfadili.wheresmyplaces.dataMng.TotalDataManager;
 import com.elfadili.wheresmyplaces.dataMng.YPYNetUtils;
-import com.elfadili.wheresmyplaces.fragment.FragmentLocationDetailInfomation;
 import com.elfadili.wheresmyplaces.fragment.FragmentLocationDetailMap;
 import com.elfadili.wheresmyplaces.object.HomeSearchObject;
 import com.elfadili.wheresmyplaces.object.PlaceDetailObject;
@@ -54,6 +54,7 @@ public class DetailLocationActivity extends DBFragmentActivity implements IWhere
 
 	public Typeface mTypeFaceRobotoBold;
 	public Typeface mTypeFaceRobotoLight;
+    public Typeface mTypeFacechampagne;
 	public ImageFetcher mImgFetcher;
 
 	private TotalDataManager mTotalMng;
@@ -65,7 +66,6 @@ public class DetailLocationActivity extends DBFragmentActivity implements IWhere
 	public PlaceDetailObject mPlaceDetailObject;
 	public RouteObject mRouteObject;
 	private String mStartFrom="";
-	private AdView adView;
 	private Menu mMenu;
 	
 	private final ArrayList<Fragment> mListFragments = new ArrayList<Fragment>();
@@ -190,11 +190,12 @@ public class DetailLocationActivity extends DBFragmentActivity implements IWhere
 	private void initTypeFace() {
 		mTypeFaceRobotoBold = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Bold.ttf");
 		mTypeFaceRobotoLight = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Light.ttf");
+        mTypeFacechampagne = Typeface.createFromAsset(getAssets(), "fonts/champagne.ttf");
 	}
 
 	private void createTab() {
 		Bundle mBundle1 = new Bundle();
-		mTabsAdapter.addTab(mTabHost.newTabSpec(getString(R.string.tab_infomation)).setIndicator(getString(R.string.tab_infomation)), FragmentLocationDetailInfomation.class,
+		mTabsAdapter.addTab(mTabHost.newTabSpec(getString(R.string.tab_infomation)).setIndicator(getString(R.string.tab_infomation)), FragmentLocationDetailInformation.class,
 				mBundle1);
 
 		Bundle mBundle2 = new Bundle();
@@ -341,8 +342,8 @@ public class DetailLocationActivity extends DBFragmentActivity implements IWhere
 				((FragmentLocationDetailMap) mFragment).startRoute();
 				setVisibleButtonMenu(true);
 			}
-			else if(mFragment instanceof FragmentLocationDetailInfomation){
-				((FragmentLocationDetailInfomation) mFragment).updateDistance();
+			else if(mFragment instanceof FragmentLocationDetailInformation){
+				((FragmentLocationDetailInformation) mFragment).updateDistance();
 				setVisibleButtonMenu(false);
 			}
 
@@ -378,9 +379,6 @@ public class DetailLocationActivity extends DBFragmentActivity implements IWhere
 			DBLog.d(TAG, "===============>destroy place object");
 			mCurrentPlaceObject.onDestroy();
 			TotalDataManager.getInstance().setCurrentLocation(null);
-		}
-		if (adView != null) {
-			adView.destroy();
 		}
 		if (mImgFetcher != null) {
 			mImgFetcher.setExitTasksEarly(true);

@@ -10,17 +10,6 @@ import android.location.Location;
 import com.ypyproductions.utils.DBLog;
 import com.ypyproductions.utils.StringUtils;
 
-/**
- * LocationObject
- * 
- * @author :DOBAO
- * @Email :dotrungbao@gmail.com
- * @Skype :baopfiev_k50
- * @Phone :+84983028786
- * @Date :Nov 21, 2013
- * @project :WhereMyLocation
- * @Package :com.ypyproductions.wheremylocation.object
- */
 public class PlaceObject {
 
 	private String id;

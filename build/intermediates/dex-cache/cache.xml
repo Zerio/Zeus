@@ -68,17 +68,17 @@
         revision="21.1.1"
         sha1="8694693636ab36910c8100ce527c258ff3ebece0"/>
     <item
-        dex="/home/yassine/AndroidstudioProjects/PlacesFinder/placesFinder/build/intermediates/pre-dexed/debug/httpmime-4.2.2-3f57eaab53bce9655421c6a6ee3769c795b516d5.jar"
-        jar="/home/yassine/AndroidstudioProjects/PlacesFinder/placesFinder/libs/httpmime-4.2.2.jar"
-        jumboMode="false"
-        revision="21.1.1"
-        sha1="92b7ae91cb55150192341962dd7254ef898768ca"/>
-    <item
         dex="/home/yassine/AndroidstudioProjects/PlacesFinder/placesFinder/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-b7a78a0f97df61c13817efb694f2eab56dd95edc.jar"
         jar="/home/yassine/sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
         jumboMode="false"
         revision="21.1.1"
         sha1="9d9013e9ff35fc3756411e62873c363c70c638fa"/>
+    <item
+        dex="/home/yassine/AndroidstudioProjects/PlacesFinder/placesFinder/build/intermediates/pre-dexed/debug/httpmime-4.2.2-3f57eaab53bce9655421c6a6ee3769c795b516d5.jar"
+        jar="/home/yassine/AndroidstudioProjects/PlacesFinder/placesFinder/libs/httpmime-4.2.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="92b7ae91cb55150192341962dd7254ef898768ca"/>
     <item
         dex="/home/yassine/AndroidstudioProjects/PlacesFinder/placesFinder/build/intermediates/pre-dexed/debug/classes-b56c08ecff5d84f9ab54e03f9d801c4bb39b88bd.jar"
         jar="/home/yassine/AndroidstudioProjects/PlacesFinder/placesFinder/build/intermediates/exploded-aar/PlacesFinder/smoothProgressBar/unspecified/classes.jar"
@@ -127,6 +127,12 @@
         jumboMode="false"
         revision="21.1.1"
         sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
+    <item
+        dex="/home/yassine/Desktop/MarocPlaceExplorer/placesFinder/build/intermediates/pre-dexed/debug/classes-e2f7e31a7b36338388d4130dba0404d09bafdc3c.jar"
+        jar="/home/yassine/Desktop/MarocPlaceExplorer/placesFinder/build/intermediates/exploded-aar/com.github.manuelpeinado.fadingactionbar/fadingactionbar/3.1.2/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="1db28e119b406a5fe367b63fb1be083d5dfe298a"/>
     <item
         dex="/home/yassine/PlacesFinder/placesFinder/build/intermediates/pre-dexed/debug/classes-6ed407e5b2179a1df50231df03b4f314b054b148.jar"
         jar="/home/yassine/PlacesFinder/placesFinder/build/intermediates/exploded-aar/PlacesFinder/jazzyListView/unspecified/classes.jar"

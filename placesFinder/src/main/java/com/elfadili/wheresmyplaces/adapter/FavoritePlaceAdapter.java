@@ -37,8 +37,8 @@ public class FavoritePlaceAdapter extends BaseAdapter implements IWhereMyLocatio
 			Typeface mTypefaceLight, ImageFetcher mImageFetcher) {
 		this.mContext = mContext;
 		this.listPlaceObjects = listPlaceObjects;
-		this.mTypefaceBold=mTypefaceBold;
-		this.mTypefaceLight=mTypefaceLight;
+		this.mTypefaceBold = mTypefaceBold;
+		this.mTypefaceLight = mTypefaceLight;
 		this.mImageFetcher = mImageFetcher;
 	}
 

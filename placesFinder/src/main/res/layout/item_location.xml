@@ -32,7 +32,7 @@
             android:singleLine="true"
             android:text="Agence Meditel"
             android:textColor="@color/black"
-            android:textSize="15sp"
+            android:textSize="18sp"
             android:textStyle="bold" />
 
         <TextView
@@ -42,7 +42,7 @@
             android:layout_alignLeft="@+id/tv_name_location"
             android:layout_below="@+id/tv_name_location"
             android:layout_marginRight="5sp"
-            android:layout_marginTop="3sp"
+            android:layout_marginTop="15sp"
             android:maxLines="2"
             android:text="Casablanca"
             android:textColor="@color/black"
@@ -52,15 +52,15 @@
             android:id="@+id/tv_distance"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:layout_marginRight="5sp"
-            android:layout_marginTop="2sp"
             android:background="@drawable/round_rect_distance"
             android:singleLine="true"
             android:text="1.2 Miles"
             android:textColor="@color/white"
             android:textSize="13sp"
-            android:textStyle="italic" />
+            android:textStyle="italic"
+            android:layout_alignTop="@+id/ratingBar1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
 
         <RatingBar
             android:id="@+id/ratingBar1"
