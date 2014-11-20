@@ -8,10 +8,10 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginBottom="20sp"
-        android:layout_marginLeft="15sp"
-        android:layout_marginRight="15sp"
-        android:layout_marginTop="20sp"
+        android:layout_marginBottom="10sp"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp"
+        android:layout_marginTop="6sp"
         android:scrollbars="none" >
 
         <LinearLayout
@@ -84,10 +84,10 @@
 
                     <HorizontalScrollView
                         android:layout_width="wrap_content"
-                        android:layout_height="200sp"
+                        android:layout_height="350sp"
                         android:layout_gravity="center_horizontal"
-                        android:paddingLeft="10sp"
-                        android:paddingRight="10sp"
+                        android:paddingLeft="2sp"
+                        android:paddingRight="2sp"
                         android:scrollbars="none" >
 
                         <LinearLayout
@@ -96,8 +96,8 @@
                             android:layout_height="match_parent"
                             android:gravity="center"
                             android:orientation="horizontal"
-                            android:paddingBottom="10sp"
-                            android:paddingTop="10sp" >
+                            android:paddingBottom="2sp"
+                            android:paddingTop="2sp" >
                         </LinearLayout>
                     </HorizontalScrollView>
                 </LinearLayout>
