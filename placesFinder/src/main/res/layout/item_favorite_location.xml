@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content" >
 
@@ -48,17 +49,6 @@
             android:text="Hub technologique"
             android:textColor="@color/black"
             android:textSize="13sp" />
-
-        <!-- <CheckBox -->
-        <!-- android:id="@+id/cb_add_favorite" -->
-        <!-- android:layout_width="wrap_content" -->
-        <!-- android:layout_height="wrap_content" -->
-        <!-- android:layout_alignParentRight="true" -->
-        <!-- android:layout_centerVertical="true" -->
-        <!-- android:layout_marginRight="5sp" -->
-        <!-- android:button="@drawable/cb_favorite" -->
-        <!-- android:minHeight="1sp" -->
-        <!-- android:minWidth="1sp" /> -->
 
         <ImageView
             android:id="@+id/img_cat"

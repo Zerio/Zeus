@@ -14,10 +14,21 @@
         android:scrollbars="none" >
     </ListView>
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_no_result"
+        android:id="@+id/img_no_result"
+        android:layout_centerInParent="true"
+        android:src="@drawable/empty"
+        android:contentDescription="@string/no_result"
+        android:visibility="gone"/>
+
     <TextView
         android:id="@+id/tv_no_result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
         android:layout_centerInParent="true"
         android:singleLine="true"
         android:text="@string/info_no_result"

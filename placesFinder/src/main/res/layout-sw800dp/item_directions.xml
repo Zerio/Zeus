@@ -28,7 +28,7 @@
             android:id="@+id/tv_descriptions"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="ATM SeABank"
+            android:text="Sir o madorch!"
             android:textColor="@color/black"
             android:textSize="30sp" />
 

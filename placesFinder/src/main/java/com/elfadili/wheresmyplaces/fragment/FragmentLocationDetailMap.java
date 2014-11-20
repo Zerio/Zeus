@@ -232,7 +232,7 @@ public class FragmentLocationDetailMap extends SupportMapFragment implements IMa
 
 				@Override
 				public void onPostExcute() {
-					mContext.dimissProgressDialog();
+					mContext.dismissProgressDialog();
 					if (mRoutObject == null) {
 						Toast.makeText(mContext, R.string.info_server_error, Toast.LENGTH_LONG).show();
 						return;
@@ -413,7 +413,7 @@ public class FragmentLocationDetailMap extends SupportMapFragment implements IMa
 						
 						@Override
 						public void onPostExcute() {
-							mContext.dimissProgressDialog();
+							mContext.dismissProgressDialog();
 							setUpMap();
 						}
 					};

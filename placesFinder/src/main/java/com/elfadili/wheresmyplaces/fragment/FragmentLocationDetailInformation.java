@@ -1,6 +1,7 @@
 package com.elfadili.wheresmyplaces.fragment;
 
 import java.util.ArrayList;
+import java.util.StringTokenizer;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -357,7 +358,18 @@ public class FragmentLocationDetailInformation extends Fragment implements IMaro
 	private void addItemReviews(String nameUser,String content,float rating,long time){
 		RelativeLayout mRelativeLayout = (RelativeLayout) LayoutInflater.from(mContext).inflate(R.layout.item_review, null);
 		TextView mTvNameUser = (TextView) mRelativeLayout.findViewById(R.id.tv_name_user);
-		mTvNameUser.setTypeface(mContext.mTypeFaceRobotoBold);
+		mTvNameUser.setTypeface(mContext.mTypeFaceRobotoMedium);
+        // Capitalize the first letter og each name, eg: yassine el fadili >> Yassine El Fadili
+        StringTokenizer tokenizer = new StringTokenizer(nameUser);
+        StringBuffer sb = new StringBuffer();
+        while (tokenizer.hasMoreTokens()) {
+            String word = tokenizer.nextToken();
+            sb.append(word.substring(0, 1).toUpperCase());
+            sb.append(word.substring(1).toLowerCase());
+            sb.append(' ');
+        }
+        nameUser = sb.toString();
+        //
 		mTvNameUser.setText(nameUser);
 		
 		TextView mTvContent = (TextView) mRelativeLayout.findViewById(R.id.tv_content);

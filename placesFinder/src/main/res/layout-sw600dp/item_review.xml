@@ -6,14 +6,28 @@
 
     <TextView
         android:id="@+id/tv_name_user"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10sp"
         android:layout_marginRight="10sp"
         android:layout_marginTop="10sp"
         android:singleLine="true"
-        android:text="Do Bao"
+        android:text="Yassine El Fadili"
         android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_alignTop="@+id/tv_name_user"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_toRightOf="@+id/tv_name_user"
+        android:singleLine="true"
+        android:text="05/01/2015"
+        android:textColor="@color/bold_grey"
         android:textSize="25sp" />
 
     <RatingBar
@@ -28,19 +42,6 @@
         android:rating="5" />
 
     <TextView
-        android:id="@+id/tv_date"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/user_ratingBar1"
-        android:layout_marginLeft="10sp"
-        android:layout_marginRight="10sp"
-        android:layout_toRightOf="@+id/user_ratingBar1"
-        android:singleLine="true"
-        android:text="05/01/2014"
-        android:textColor="@color/black"
-        android:textSize="25sp" />
-
-    <TextView
         android:id="@+id/tv_content"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -48,7 +49,7 @@
         android:layout_marginLeft="10sp"
         android:layout_marginRight="10sp"
         android:layout_marginTop="5sp"
-        android:text="aaaaaaaaaaaaaaaaaaa"
+        android:text="A very good place, I love it!"
         android:textColor="@color/black"
         android:textSize="25sp" />
 

@@ -21,8 +21,8 @@
     <string name="title_search">...</string>
     <string name="title_quick_distance">Changer le rayon</string>
     
-    <string name="title_place_info">Informations</string>
-    <string name="title_user_reviews">Avis des utilisateurs</string>
+    <string name="title_place_info">INFORMATIONS</string>
+    <string name="title_user_reviews">AVIS DES UTILISATEURS</string>
     
     <string name="format_reviews">%1$s Avis</string>
     <string name="format_review">%1$s Avis</string>
@@ -152,7 +152,7 @@
     <string-array name="list_options">
         <item>Catégories</item>
         <item>Ma localisation</item>
-        <item>Mes favoris</item>
+        <item>Favoris</item>
         <item>Paramètres</item>
         <item>Real World</item>
         <item>À propos</item>

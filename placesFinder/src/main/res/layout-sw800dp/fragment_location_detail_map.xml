@@ -51,7 +51,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10sp"
                         android:singleLine="true"
-                        android:text="Ly Nam De Ha Noi"
+                        android:text="Llah ya rebi llah hadi kolha tri9!"
                         android:textColor="@color/black"
                         android:textSize="25sp" />
                 </LinearLayout>

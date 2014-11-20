@@ -115,6 +115,8 @@ public class MainSearchActivity extends DBFragmentActivity implements IMarocPlac
 	private boolean isAllowAddPage = false;
 	private boolean isStartAddingPage;
 
+    //AnimationDrawable loadingAnimation;
+
 	private View mFooterView;
 	
 	 @Override
@@ -128,7 +130,13 @@ public class MainSearchActivity extends DBFragmentActivity implements IMarocPlac
 	        mLocationListView.setTransitionEffect(mCurrentTransitionEffect);
 	    }
 
-	@Override
+    @Override
+    public void onWindowFocusChanged(boolean hasFocus) {
+        super.onWindowFocusChanged(hasFocus);
+        //loadingAnimation.start();
+    }
+
+    @Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_search_location);
@@ -137,11 +145,15 @@ public class MainSearchActivity extends DBFragmentActivity implements IMarocPlac
             mCurrentTransitionEffect = savedInstanceState.getInt(KEY_TRANSITION_EFFECT, JazzyHelper.TILT);
             setupJazziness(mCurrentTransitionEffect);
         }
+        /*
+        ImageView rocketImage = (ImageView) findViewById(R.id.img_loading);
+        rocketImage.setBackgroundResource(R.drawable.loading);
+        loadingAnimation = (AnimationDrawable) rocketImage.getBackground();
+        */
 
 		mTitle = mDrawerTitle = getTitle();
 		mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
 		mDrawerListView = (ListView) findViewById(R.id.left_drawer);
-		//mLocationListView = (ListView) findViewById(R.id.list_detail_search);
 		mLocationListView = (JazzyListView) findViewById(R.id.list_detail_search);
 		mDrawerLayout.setDrawerShadow(R.drawable.drawer_shadow, GravityCompat.START);
 
@@ -253,7 +265,9 @@ public class MainSearchActivity extends DBFragmentActivity implements IMarocPlac
 							name=mHomeSearchObject.getRealName();
 						}
 						String message = String.format(getString(R.string.info_format_process_find_location), name);
-						showProgressDialog(message);
+						//showProgressDialog(message);
+                        // Custom animated loading
+                        showCustomLoading();
 					}
 
 					@Override
@@ -294,7 +308,8 @@ public class MainSearchActivity extends DBFragmentActivity implements IMarocPlac
 
 					@Override
 					public void onPostExcute() {
-						dimissProgressDialog();
+						dismissProgressDialog();
+                        hideCustomLoading();
 						if (!isSuccess) {
 							Toast.makeText(MainSearchActivity.this, R.string.info_server_error, Toast.LENGTH_LONG).show();
 							isAllowAddPage = false;
@@ -313,7 +328,9 @@ public class MainSearchActivity extends DBFragmentActivity implements IMarocPlac
 			}
 		}
 		else {
-			showProgressDialog(R.string.info_process_find_location);
+			//showProgressDialog(R.string.info_process_find_location);
+            // Custom animated loading
+            showCustomLoading();
 		}
 	}
 

@@ -199,7 +199,7 @@ public class FragmentFavorites extends Fragment implements IMarocPlaceExplorerCo
 					@Override
 					public void run() {
 						isStartFindingLocation=false;
-						mContext.dimissProgressDialog();
+						mContext.dismissProgressDialog();
 						Toast.makeText(mContext, R.string.info_get_location_error, Toast.LENGTH_LONG).show();
 						if(mDBDbLastLocationFinder!=null){
 							mDBDbLastLocationFinder.stopGps();
@@ -221,7 +221,7 @@ public class FragmentFavorites extends Fragment implements IMarocPlaceExplorerCo
 		if(!isFinishFinding){
 			isFinishFinding=true;
 			TotalDataManager.getInstance().setCurrentLocation(mLocation);
-			mContext.dimissProgressDialog();
+			mContext.dismissProgressDialog();
 			if(mCurrentIndex>=0 && mCurrentPlaceObject!=null){
 				startViewDetail(mCurrentIndex, mCurrentPlaceObject);
 			}

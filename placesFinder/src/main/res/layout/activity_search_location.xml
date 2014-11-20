@@ -40,12 +40,34 @@
             android:id="@+id/tv_no_result"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
             android:layout_centerInParent="true"
             android:singleLine="true"
             android:text="@string/info_no_result"
             android:textColor="@color/black"
             android:textSize="15sp"
             android:textStyle="bold"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/img_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tv_no_result"
+            android:layout_centerInParent="true"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tv_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:layout_centerInParent="true"
+            android:singleLine="true"
+            android:text="@string/loading"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="italic"
             android:visibility="gone" />
 
         <include

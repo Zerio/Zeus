@@ -7,6 +7,7 @@ import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.DialogInterface.OnKeyListener;
 import android.graphics.PixelFormat;
+import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
 import android.support.v4.app.FragmentActivity;
@@ -16,6 +17,7 @@ import android.view.MenuInflater;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.ImageView;
 import android.widget.PopupMenu;
 import android.widget.TextView;
 
@@ -34,6 +36,8 @@ public class DBFragmentActivity extends FragmentActivity implements IDBConstantU
 
 	private int screenWidth;
 	private int screenHeight;
+
+    AnimationDrawable loadingAnimation;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -173,7 +177,25 @@ public class DBFragmentActivity extends FragmentActivity implements IDBConstantU
 		}
 	}
 
-	public void dimissProgressDialog() {
+    public void showCustomLoading() {
+        TextView loadingText = (TextView) findViewById(R.id.tv_loading);
+        ImageView loadingImage = (ImageView) findViewById(R.id.img_loading);
+        loadingImage.setBackgroundResource(R.drawable.loading);
+        loadingImage.setVisibility(View.VISIBLE);
+        loadingText.setVisibility(View.VISIBLE);
+        loadingAnimation = (AnimationDrawable) loadingImage.getBackground();
+        loadingAnimation.start();
+    }
+
+    public void hideCustomLoading(){
+        loadingAnimation.stop();
+        ImageView loadingImage = (ImageView) findViewById(R.id.img_loading);
+        TextView loadingText = (TextView) findViewById(R.id.tv_loading);
+        loadingImage.setVisibility(View.GONE);
+        loadingText.setVisibility(View.GONE);
+    }
+
+	public void dismissProgressDialog() {
 		if (mProgressDialog != null) {
 			mProgressDialog.dismiss();
 		}

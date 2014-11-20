@@ -52,6 +52,7 @@ public class DetailLocationActivity extends DBFragmentActivity implements IMaroc
 	private TabsAdapter mTabsAdapter;
 
 	public Typeface mTypeFaceRobotoBold;
+    public Typeface mTypeFaceRobotoMedium;
 	public Typeface mTypeFaceRobotoLight;
     public Typeface mTypeFacechampagne;
 	public ImageFetcher mImgFetcher;
@@ -169,7 +170,7 @@ public class DetailLocationActivity extends DBFragmentActivity implements IMaroc
 
 			@Override
 			public void onPostExcute() {
-				dimissProgressDialog();
+				dismissProgressDialog();
 				if(mPlaceDetailObject==null){
 					Toast.makeText(DetailLocationActivity.this, R.string.info_server_error, Toast.LENGTH_LONG).show();
 					return;
@@ -188,6 +189,7 @@ public class DetailLocationActivity extends DBFragmentActivity implements IMaroc
 
 	private void initTypeFace() {
 		mTypeFaceRobotoBold = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Bold.ttf");
+        mTypeFaceRobotoMedium = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Medium.ttf");
 		mTypeFaceRobotoLight = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Light.ttf");
         mTypeFacechampagne = Typeface.createFromAsset(getAssets(), "fonts/champagne.ttf");
 	}

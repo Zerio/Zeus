@@ -248,7 +248,7 @@ public class FragmentMyLocation extends SupportMapFragment implements IMarocPlac
 				mContext.runOnUiThread(new Runnable() {
 					@Override
 					public void run() {
-						mContext.dimissProgressDialog();
+						mContext.dismissProgressDialog();
 						Toast.makeText(mContext, R.string.info_get_location_error, Toast.LENGTH_LONG).show();
 						if(mDBDbLastLocationFinder!=null){
 							mDBDbLastLocationFinder.stopGps();
@@ -290,7 +290,7 @@ public class FragmentMyLocation extends SupportMapFragment implements IMarocPlac
 						}
 						@Override
 						public void onPostExcute() {
-							mContext.dimissProgressDialog();
+							mContext.dismissProgressDialog();
 							try {
 								mCurrentLatLng = new LatLng(mLocation.getLatitude(), mLocation.getLongitude());
 								mCurrentLocationMarker = new MarkerOptions().position(mCurrentLatLng).title(mContext.getString(R.string.title_my_location)).snippet(mLocationName)

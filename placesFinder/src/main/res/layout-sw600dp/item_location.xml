@@ -6,12 +6,12 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="130sp"
-        android:background="@color/white" >
+        android:background="@drawable/bg_card" >
 
         <ImageView
             android:id="@+id/img_location"
-            android:layout_width="90sp"
-            android:layout_height="90sp"
+            android:layout_width="120sp"
+            android:layout_height="120sp"
             android:layout_centerVertical="true"
             android:layout_marginLeft="5sp"
             android:scaleType="fitXY"
@@ -33,7 +33,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:singleLine="true"
-                android:text="ATM SeABank"
+                android:text="Agence Meditel"
                 android:textColor="@color/black"
                 android:textSize="23sp"
                 android:textStyle="bold" />
@@ -45,24 +45,24 @@
                 android:layout_marginRight="5sp"
                 android:layout_marginTop="5sp"
                 android:singleLine="true"
-                android:text="Phan chau trinh"
+                android:text="Casablanca"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
         </LinearLayout>
-
         <TextView
             android:id="@+id/tv_distance"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:layout_marginRight="10sp"
-            android:layout_marginTop="10sp"
             android:background="@drawable/round_rect_distance"
             android:singleLine="true"
             android:text="1.2 Miles"
             android:textColor="@color/white"
             android:textSize="20sp"
-            android:textStyle="italic" />
+            android:textStyle="italic"
+            android:layout_alignTop="@+id/ratingBar1"
+            android:layout_alignParentEnd="true" />
 
         <RatingBar
             android:id="@+id/ratingBar1"

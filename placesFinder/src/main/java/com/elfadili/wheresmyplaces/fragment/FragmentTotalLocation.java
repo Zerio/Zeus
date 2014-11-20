@@ -246,7 +246,7 @@ public class FragmentTotalLocation extends Fragment implements IMarocPlaceExplor
 					
 					@Override
 					public void onPostExcute() {
-						mContext.dimissProgressDialog();
+						mContext.dismissProgressDialog();
 						try {
 							mCurrentLatLng = new LatLng(mLocation.getLatitude(), mLocation.getLongitude());
 							mCurrentLocationMarker = new MarkerOptions().position(mCurrentLatLng).title(mContext.getString(R.string.title_my_location))
