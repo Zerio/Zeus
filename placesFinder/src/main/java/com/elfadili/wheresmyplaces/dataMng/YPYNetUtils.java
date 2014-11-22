@@ -6,7 +6,8 @@ import android.content.Context;
 import android.location.Location;
 import android.util.Log;
 
-import com.elfadili.wheresmyplaces.constanst.IMarocPlaceExplorerConstants;
+import com.elfadili.wheresmyplaces.constants.IMarocPlaceExplorerConstants;
+import com.elfadili.wheresmyplaces.object.ResponsePlaceResult;
 import com.ypyproductions.location.utils.LocationUtils;
 import com.ypyproductions.utils.DownloadUtils;
 import com.ypyproductions.utils.StringUtils;
@@ -16,7 +17,6 @@ import com.elfadili.helperslib.utils.DownloadUtils;
 import com.elfadili.helperslib.utils.StringUtils;
 */
 import com.elfadili.wheresmyplaces.object.PlaceDetailObject;
-import com.elfadili.wheresmyplaces.object.ResponcePlaceResult;
 import com.elfadili.wheresmyplaces.object.RouteObject;
 import com.elfadili.wheresmyplaces.settings.SettingManager;
 
@@ -24,7 +24,7 @@ public class YPYNetUtils implements IMarocPlaceExplorerConstants {
 
 	private static final String TAG = YPYNetUtils.class.getSimpleName();
 
-	public static ResponcePlaceResult getListPlacesBaseOnType(Context mContext, double lng, double lat, String types) {
+	public static ResponsePlaceResult getListPlacesBaseOnType(Context mContext, double lng, double lat, String types) {
 		boolean sensor = LocationUtils.isEnableGPS(mContext);
 		String url = String.format(FORMAT_URL_TYPE_SEARCH, String.valueOf(lat), String.valueOf(lng), String.valueOf(SettingManager.getRadius(mContext) * 1000), types, sensor,
 				API_KEY);
@@ -36,7 +36,7 @@ public class YPYNetUtils implements IMarocPlaceExplorerConstants {
 		return null;
 	}
 
-	public static ResponcePlaceResult getListNextPlacesBaseOnType(Context mContext, double lng, double lat, String types,String pageToken) {
+	public static ResponsePlaceResult getListNextPlacesBaseOnType(Context mContext, double lng, double lat, String types,String pageToken) {
 		boolean sensor = LocationUtils.isEnableGPS(mContext);
 		String url = String.format(FORMAT_NEXTPAGE_TYPE_SEARCH_URL, String.valueOf(lat), String.valueOf(lng), String.valueOf(SettingManager.getRadius(mContext) * 1000), types, sensor,
 				API_KEY,pageToken);
@@ -48,7 +48,7 @@ public class YPYNetUtils implements IMarocPlaceExplorerConstants {
 		return null;
 	}
 
-	public static ResponcePlaceResult getListPlacesBaseOnText(Context mContext, double lng, double lat, String textSearch) {
+	public static ResponsePlaceResult getListPlacesBaseOnText(Context mContext, double lng, double lat, String textSearch) {
 		boolean sensor = LocationUtils.isEnableGPS(mContext);
 		
 		String url = String.format(FORMAT_URL_TEXT_SEARCH, String.valueOf(lat), String.valueOf(lng), String.valueOf(SettingManager.getRadius(mContext) * 1000),
@@ -62,7 +62,7 @@ public class YPYNetUtils implements IMarocPlaceExplorerConstants {
 		return null;
 	}
 	
-	public static ResponcePlaceResult getListNextPlacesBaseOnText(Context mContext, double lng, double lat, String textSearch,String pageToken) {
+	public static ResponsePlaceResult getListNextPlacesBaseOnText(Context mContext, double lng, double lat, String textSearch,String pageToken) {
 		boolean sensor = LocationUtils.isEnableGPS(mContext);
 		
 		String url = String.format(FORMAT_NEXTPAGE_TEXT_SEARCH_URL, String.valueOf(lat), String.valueOf(lng), String.valueOf(SettingManager.getRadius(mContext) * 1000), 

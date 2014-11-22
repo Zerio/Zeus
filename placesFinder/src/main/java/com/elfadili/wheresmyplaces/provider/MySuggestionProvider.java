@@ -16,7 +16,7 @@ import android.database.sqlite.SQLiteQueryBuilder;
 import android.net.Uri;
 import android.provider.BaseColumns;
 
-import com.elfadili.wheresmyplaces.constanst.IMarocPlaceExplorerConstants;
+import com.elfadili.wheresmyplaces.constants.IMarocPlaceExplorerConstants;
 import com.ypyproductions.utils.DBLog;
 
 

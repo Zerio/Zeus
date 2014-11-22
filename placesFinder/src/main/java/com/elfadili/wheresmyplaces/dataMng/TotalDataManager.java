@@ -9,7 +9,7 @@ import org.json.JSONArray;
 import android.content.Context;
 import android.location.Location;
 
-import com.elfadili.wheresmyplaces.constanst.IMarocPlaceExplorerConstants;
+import com.elfadili.wheresmyplaces.constants.IMarocPlaceExplorerConstants;
 import com.ypyproductions.net.task.IDBCallback;
 import com.ypyproductions.utils.ApplicationUtils;
 import com.ypyproductions.utils.DBListExcuteAction;
@@ -154,17 +154,16 @@ public class TotalDataManager implements IMarocPlaceExplorerConstants {
 		if (keyword.equals("ATM")) {
 			return R.drawable.icon_pin_atm;
 		}
-		else if (keyword.equals("BANK")) {
+		else if (keyword.equals("BANQUE")) {
 			return R.drawable.icon_pin_bank;
 		}
 		else if (keyword.equals("POLICE")) {
 			return R.drawable.icon_pin_police;
-
 		}
-		else if (keyword.equals("UNIVERSITY")) {
+		else if (keyword.equals("UNIVERSITÉ")) {
 			return R.drawable.icon_pin_university;
 		}
-		else if (keyword.equals("GAS")) {
+		else if (keyword.equals("SERVICES")) {
 			return R.drawable.icon_pin_gas;
 		}
 		else if (keyword.equals("TAXI")) {
@@ -173,13 +172,13 @@ public class TotalDataManager implements IMarocPlaceExplorerConstants {
 		else if (keyword.equals("BUS")) {
 			return R.drawable.icon_pin_bus;
 		}
-		else if (keyword.equals("AIRPORT")) {
+		else if (keyword.equals("AÉROPORT")) {
 			return R.drawable.icon_pin_airport;
 		}
-		else if (keyword.equals("HOSPITAL")) {
+		else if (keyword.equals("HÔPITAL")) {
 			return R.drawable.icon_pin_hospital;
 		}
-		else if (keyword.equals("HOTEL")) {
+		else if (keyword.equals("HÔTEL")) {
 			return R.drawable.icon_pin_hotel;
 		}
 		else if (keyword.equals("PARK")) {
@@ -194,7 +193,7 @@ public class TotalDataManager implements IMarocPlaceExplorerConstants {
 		else if (keyword.equals("SHOPPING")) {
 			return R.drawable.icon_pin_shop;
 		}
-		else if (keyword.equals("CAFE")) {
+		else if (keyword.equals("CAFÉ")) {
 			return R.drawable.icon_pin_cafe;
 		}
 		else if (keyword.equals("BAR")) {
@@ -207,20 +206,19 @@ public class TotalDataManager implements IMarocPlaceExplorerConstants {
 		if (StringUtils.isStringEmpty(keyword)) {
 			return -1;
 		}
-		if (keyword.equals("ATM")) {
-			return R.drawable.atm;
+		if (keyword.equals("HÔTEL")) {
+			return R.drawable.hotel;
 		}
-		else if (keyword.equals("BANK")) {
+		else if (keyword.equals("BANQUE")) {
 			return R.drawable.bank;
 		}
 		else if (keyword.equals("POLICE")) {
 			return R.drawable.police;
-
 		}
-		else if (keyword.equals("UNIVERSITY")) {
+		else if (keyword.equals("UNIVERSITÉ")) {
 			return R.drawable.university;
 		}
-		else if (keyword.equals("GAS")) {
+		else if (keyword.equals("SERVICES")) {
 			return R.drawable.gas_station;
 		}
 		else if (keyword.equals("TAXI")) {
@@ -229,14 +227,14 @@ public class TotalDataManager implements IMarocPlaceExplorerConstants {
 		else if (keyword.equals("BUS")) {
 			return R.drawable.bus_station;
 		}
-		else if (keyword.equals("AIRPORT")) {
+		else if (keyword.equals("AÉROPORT")) {
 			return R.drawable.airport;
 		}
-		else if (keyword.equals("HOSPITAL")) {
+		else if (keyword.equals("HÔPITAL")) {
 			return R.drawable.hospital;
 		}
-		else if (keyword.equals("HOTEL")) {
-			return R.drawable.hotel;
+		else if (keyword.equals("ATM")) {
+			return R.drawable.atm;
 		}
 		else if (keyword.equals("PARK")) {
 			return R.drawable.park;
@@ -250,7 +248,7 @@ public class TotalDataManager implements IMarocPlaceExplorerConstants {
 		else if (keyword.equals("SHOPPING")) {
 			return R.drawable.shop;
 		}
-		else if (keyword.equals("CAFE")) {
+		else if (keyword.equals("CAFÉ")) {
 			return R.drawable.cafe;
 		}
 		else if (keyword.equals("BAR")) {
@@ -266,17 +264,16 @@ public class TotalDataManager implements IMarocPlaceExplorerConstants {
 		if (name.equals("ATM")) {
 			return R.drawable.mini_atm;
 		}
-		else if (name.equals("BANK")) {
+		else if (name.equals("BANQUE")) {
 			return R.drawable.mini_bank;
 		}
 		else if (name.equals("POLICE")) {
 			return R.drawable.mini_police;
-
 		}
-		else if (name.equals("UNIVERSITY")) {
+		else if (name.equals("UNIVERSITÉ")) {
 			return R.drawable.mini_university;
 		}
-		else if (name.equals("GAS")) {
+		else if (name.equals("SERVICES")) {
 			return R.drawable.mini_gas_station;
 		}
 		else if (name.equals("TAXI")) {
@@ -285,13 +282,13 @@ public class TotalDataManager implements IMarocPlaceExplorerConstants {
 		else if (name.equals("BUS")) {
 			return R.drawable.mini_bus_station;
 		}
-		else if (name.equals("AIRPORT")) {
+		else if (name.equals("AÉROPORT")) {
 			return R.drawable.mini_airport;
 		}
-		else if (name.equals("HOSPITAL")) {
+		else if (name.equals("HÔPITAL")) {
 			return R.drawable.mini_hospital;
 		}
-		else if (name.equals("HOTEL")) {
+		else if (name.equals("HÔTEL")) {
 			return R.drawable.mini_hotel;
 		}
 		else if (name.equals("PARK")) {
@@ -306,7 +303,7 @@ public class TotalDataManager implements IMarocPlaceExplorerConstants {
 		else if (name.equals("SHOPPING")) {
 			return R.drawable.mini_shop;
 		}
-		else if (name.equals("CAFE")) {
+		else if (name.equals("CAFÉ")) {
 			return R.drawable.mini_cafe;
 		}
 		else if (name.equals("BAR")) {

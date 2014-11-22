@@ -17,7 +17,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.elfadili.wheresmyplaces.DetailLocationActivity;
-import com.elfadili.wheresmyplaces.constanst.IMarocPlaceExplorerConstants;
+import com.elfadili.wheresmyplaces.constants.IMarocPlaceExplorerConstants;
 import com.ypyproductions.location.DBLastLocationFinder;
 import com.ypyproductions.location.DBLastLocationFinder.ILastLocationFinder;
 import com.ypyproductions.location.utils.LocationUtils;

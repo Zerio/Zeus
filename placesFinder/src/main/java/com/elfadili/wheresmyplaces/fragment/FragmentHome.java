@@ -12,7 +12,7 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.GridView;
 
-import com.elfadili.wheresmyplaces.constanst.IMarocPlaceExplorerConstants;
+import com.elfadili.wheresmyplaces.constants.IMarocPlaceExplorerConstants;
 import com.ypyproductions.utils.DirectionUtils;
 import com.places.nearby.R;
 import com.elfadili.wheresmyplaces.MainActivity;

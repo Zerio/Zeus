@@ -1,4 +1,4 @@
-package com.elfadili.wheresmyplaces.constanst;
+package com.elfadili.wheresmyplaces.constants;
 
 import android.graphics.Color;
 import android.net.Uri;
@@ -6,11 +6,16 @@ import android.net.Uri;
 import com.places.nearby.R;
 
 public interface IMarocPlaceExplorerConstants {
-	
+
+    // https://developers.google.com/places/usage
+    // 100 000 requests per 24 hour period!
 	public static final String MAP_KEY = "AIzaSyC-w3Rb8V3Asgk0wIDewR7KLkZgqM1uIaw";
 	public static final String API_KEY = "AIzaSyDusxiAhOhd7JGncPp6_rKXMyCgmpFVVGs";
-	// https://developers.google.com/places/usage
-	// Currently I have 100 000 requests per 24 hour period
+
+    // https://parse.com
+    // Unlimited number of push notifications to up to 1 million unique recipients!
+    public static final String PUSH_APP_ID = "AKu2vNqIZNOqI7r3cp0JzJrewtyHH86AE96cMePS";
+    public static final String PUSH_CLIENT_KEY = "Uy331eftK4YD15eEWLKLSMuUTJGHalxbODPBlv0Z";
 	
 	public static final String URL_API_BASE = "http://api.elfadili.com";
 	public static final String URL_API_GGLE = "https://maps.googleapis.com/maps/api/place";

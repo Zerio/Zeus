@@ -13,7 +13,7 @@ public class HomeSearchObject {
 	private String keyword;
 	private String img;
 	private boolean isSelected;
-	private ResponcePlaceResult responcePlaceResult;
+	private ResponsePlaceResult responcePlaceResult;
 	private String realName="";
 	
 	public HomeSearchObject(int type, String name, String keyword, String img) {
@@ -57,11 +57,11 @@ public class HomeSearchObject {
 		this.isSelected = isSelected;
 	}
 
-	public ResponcePlaceResult getResponcePlaceResult() {
+	public ResponsePlaceResult getResponcePlaceResult() {
 		return responcePlaceResult;
 	}
 
-	public void setResponcePlaceResult(ResponcePlaceResult responcePlaceResult) {
+	public void setResponcePlaceResult(ResponsePlaceResult responcePlaceResult) {
 		if(this.responcePlaceResult!=null){
 			this.responcePlaceResult.onDestroy();
 			this.responcePlaceResult=null;

@@ -14,7 +14,8 @@ import android.location.Location;
 import android.location.LocationManager;
 import android.util.JsonReader;
 
-import com.elfadili.wheresmyplaces.constanst.IMarocPlaceExplorerConstants;
+import com.elfadili.wheresmyplaces.constants.IMarocPlaceExplorerConstants;
+import com.elfadili.wheresmyplaces.object.ResponsePlaceResult;
 import com.ypyproductions.utils.DBLog;
 import com.ypyproductions.utils.StringUtils;
 import com.elfadili.wheresmyplaces.object.HomeSearchObject;
@@ -22,7 +23,6 @@ import com.elfadili.wheresmyplaces.object.KeywordObject;
 import com.elfadili.wheresmyplaces.object.PlaceDetailObject;
 import com.elfadili.wheresmyplaces.object.PlaceObject;
 import com.elfadili.wheresmyplaces.object.PlacePhotoObject;
-import com.elfadili.wheresmyplaces.object.ResponcePlaceResult;
 import com.elfadili.wheresmyplaces.object.RouteObject;
 import com.elfadili.wheresmyplaces.object.StepObject;
 import com.elfadili.wheresmyplaces.object.UserReviewObject;
@@ -137,14 +137,14 @@ public class JsonParsingUtils implements IMarocPlaceExplorerConstants {
 		return null;
 	}
 
-	public static ResponcePlaceResult parsingListPlaceObjects(InputStream mInputStream) {
+	public static ResponsePlaceResult parsingListPlaceObjects(InputStream mInputStream) {
 		if (mInputStream == null) {
 			new Exception(TAG + " data can not null").printStackTrace();
 			return null;
 		}
 		try {
 			JsonReader reader = new JsonReader(new InputStreamReader(mInputStream, "UTF-8"));
-			ResponcePlaceResult mResponcePlaceResult = new ResponcePlaceResult();
+			ResponsePlaceResult mResponcePlaceResult = new ResponsePlaceResult();
 			reader.beginObject();
 			while (reader.hasNext()) {
 				String tag = reader.nextName();

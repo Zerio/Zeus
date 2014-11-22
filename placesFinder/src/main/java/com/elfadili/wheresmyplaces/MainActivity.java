@@ -38,10 +38,12 @@ import android.widget.PopupMenu;
 import android.widget.SearchView;
 import android.widget.TextView;
 
-import com.elfadili.wheresmyplaces.constanst.IMarocPlaceExplorerConstants;
+import com.elfadili.wheresmyplaces.constants.IMarocPlaceExplorerConstants;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.android.gms.maps.GoogleMap;
+import com.parse.Parse;
+import com.parse.PushService;
 import com.ypyproductions.bitmap.ImageCache.ImageCacheParams;
 import com.ypyproductions.bitmap.ImageFetcher;
 import com.ypyproductions.dialog.utils.AlertDialogUtils;

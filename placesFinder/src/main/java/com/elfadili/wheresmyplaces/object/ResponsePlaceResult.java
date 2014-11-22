@@ -2,16 +2,16 @@ package com.elfadili.wheresmyplaces.object;
 
 import java.util.ArrayList;
 
-public class ResponcePlaceResult extends ResultObject {
+public class ResponsePlaceResult extends ResultObject {
 	
 	private String pageToken;
 	private ArrayList<PlaceObject> listPlaceObjects;
 	
-	public ResponcePlaceResult() {
+	public ResponsePlaceResult() {
 		super();
 	}
 
-	public ResponcePlaceResult(String status) {
+	public ResponsePlaceResult(String status) {
 		super(status);
 	}
 	

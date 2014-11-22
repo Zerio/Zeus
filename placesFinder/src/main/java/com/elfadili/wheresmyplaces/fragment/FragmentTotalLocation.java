@@ -14,7 +14,8 @@ import android.view.ViewGroup;
 import android.view.ViewTreeObserver.OnGlobalLayoutListener;
 import android.widget.Toast;
 
-import com.elfadili.wheresmyplaces.constanst.IMarocPlaceExplorerConstants;
+import com.elfadili.wheresmyplaces.constants.IMarocPlaceExplorerConstants;
+import com.elfadili.wheresmyplaces.object.ResponsePlaceResult;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.GoogleMap.OnInfoWindowClickListener;
@@ -38,7 +39,6 @@ import com.elfadili.wheresmyplaces.dataMng.TotalDataManager;
 import com.elfadili.wheresmyplaces.object.HomeSearchObject;
 import com.elfadili.wheresmyplaces.object.PlaceObject;
 import com.elfadili.wheresmyplaces.object.PlacePhotoObject;
-import com.elfadili.wheresmyplaces.object.ResponcePlaceResult;
 
 public class FragmentTotalLocation extends Fragment implements IMarocPlaceExplorerConstants, OnMarkerClickListener {
 
@@ -116,7 +116,7 @@ public class FragmentTotalLocation extends Fragment implements IMarocPlaceExplor
 
 		final HomeSearchObject mHomeSearchObject = TotalDataManager.getInstance().getHomeSearchSelected();
 		if (mHomeSearchObject != null) {
-			ResponcePlaceResult mResponcePlaceResult = mHomeSearchObject.getResponcePlaceResult();
+			ResponsePlaceResult mResponcePlaceResult = mHomeSearchObject.getResponcePlaceResult();
 			if (mResponcePlaceResult != null) {
 				ArrayList<PlaceObject> mListPlaceObjects = mResponcePlaceResult.getListPlaceObjects();
 

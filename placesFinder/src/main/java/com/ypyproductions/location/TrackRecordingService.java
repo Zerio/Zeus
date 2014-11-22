@@ -12,7 +12,7 @@ import android.os.PowerManager.WakeLock;
 import android.os.RemoteException;
 import android.util.Log;
 
-import com.elfadili.wheresmyplaces.constanst.IMarocPlaceExplorerConstants;
+import com.elfadili.wheresmyplaces.constants.IMarocPlaceExplorerConstants;
 import com.google.android.gms.location.LocationListener;
 import com.ypyproductions.location.utils.LocationUtils;
 import com.ypyproductions.location.utils.SystemUtils;

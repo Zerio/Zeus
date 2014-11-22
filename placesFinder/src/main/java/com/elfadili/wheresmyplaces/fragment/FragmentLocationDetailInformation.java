@@ -20,7 +20,7 @@ import android.widget.RatingBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.elfadili.wheresmyplaces.constanst.IMarocPlaceExplorerConstants;
+import com.elfadili.wheresmyplaces.constants.IMarocPlaceExplorerConstants;
 import com.ypyproductions.net.task.IDBCallback;
 import com.ypyproductions.utils.DateTimeUtils;
 import com.ypyproductions.utils.ResolutionUtils;

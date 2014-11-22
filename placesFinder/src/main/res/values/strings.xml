@@ -4,7 +4,7 @@
     <string name="app_name">Maroc Place Explorer</string>
     <string name="action_settings">Paramètres</string>
     <string name="hello_world">3iw!</string>
-    <string name="loading">Please wait...</string>
+    <string name="loading">Patientez...</string>
     <string name="title_info">Information</string>
     <string name="title_my_location">Mon emplacement</string>
     <string name="title_unknown_location">Unknown Location</string>

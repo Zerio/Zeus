@@ -13,7 +13,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.PopupMenu;
 
-import com.elfadili.wheresmyplaces.constanst.IMarocPlaceExplorerConstants;
+import com.elfadili.wheresmyplaces.constants.IMarocPlaceExplorerConstants;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.maps.GoogleMap;
 import com.ypyproductions.bitmap.ImageCache.ImageCacheParams;

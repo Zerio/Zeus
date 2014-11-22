@@ -21,8 +21,9 @@ import android.widget.TabHost;
 import android.widget.TabWidget;
 import android.widget.Toast;
 
-import com.elfadili.wheresmyplaces.constanst.IMarocPlaceExplorerConstants;
+import com.elfadili.wheresmyplaces.constants.IMarocPlaceExplorerConstants;
 import com.elfadili.wheresmyplaces.fragment.FragmentLocationDetailInformation;
+import com.elfadili.wheresmyplaces.object.ResponsePlaceResult;
 import com.google.android.gms.maps.GoogleMap;
 import com.ypyproductions.bitmap.ImageCache.ImageCacheParams;
 import com.ypyproductions.bitmap.ImageFetcher;
@@ -38,7 +39,6 @@ import com.elfadili.wheresmyplaces.fragment.FragmentLocationDetailMap;
 import com.elfadili.wheresmyplaces.object.HomeSearchObject;
 import com.elfadili.wheresmyplaces.object.PlaceDetailObject;
 import com.elfadili.wheresmyplaces.object.PlaceObject;
-import com.elfadili.wheresmyplaces.object.ResponcePlaceResult;
 import com.elfadili.wheresmyplaces.object.RouteObject;
 
 public class DetailLocationActivity extends DBFragmentActivity implements IMarocPlaceExplorerConstants, OnMenuItemClickListener {
@@ -113,7 +113,7 @@ public class DetailLocationActivity extends DBFragmentActivity implements IMaroc
 		if(!mStartFrom.equals(START_FROM_MAIN)){
 			HomeSearchObject mHomeSearchObject = mTotalMng.getHomeSearchSelected();
 			if (mHomeSearchObject != null) {
-				ResponcePlaceResult mResponcePlaceResult = mHomeSearchObject.getResponcePlaceResult();
+				ResponsePlaceResult mResponcePlaceResult = mHomeSearchObject.getResponcePlaceResult();
 				if (mResponcePlaceResult != null) {
 					ArrayList<PlaceObject> mListPlaceObjects = mResponcePlaceResult.getListPlaceObjects();
 					if (mListPlaceObjects != null && mListPlaceObjects.size() > 0) {

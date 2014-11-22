@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 import com.elfadili.wheresmyplaces.MainActivity;
-import com.elfadili.wheresmyplaces.constanst.IMarocPlaceExplorerConstants;
+import com.elfadili.wheresmyplaces.constants.IMarocPlaceExplorerConstants;
 import com.places.nearby.R;
 
 public class FragmentStep4 extends Fragment implements IMarocPlaceExplorerConstants {

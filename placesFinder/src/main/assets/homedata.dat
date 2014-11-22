@@ -1,14 +1,14 @@
 [
     {
         "type": 1,
-        "name": "ATM",
-		"realname":"Atms",
-        "keyword": "atm",
-        "img": "atm.png"
+        "name": "HÔTEL",
+        "realname":"Hotels",
+        "keyword": "lodging",
+        "img": "hotel.png"
     },
     {
         "type": 1,
-        "name": "BANK",
+        "name": "BANQUE",
 		"realname":"Banks",
         "keyword": "bank",
         "img": "bank.png"
@@ -22,14 +22,14 @@
     },
 	{
         "type": 1,
-        "name": "UNIVERSITY",
+        "name": "UNIVERSITÉ",
 		"realname":"Universities",
         "keyword": "university",
         "img": "university.png"
     },
     {
         "type": 1,
-        "name": "GAS",
+        "name": "SERVICES",
 		"realname":"Gas Stations",
         "keyword": "gas_station",
         "img": "gas_station.png"
@@ -50,24 +50,24 @@
     },
     {
         "type": 1,
-        "name": "AIRPORT",
+        "name": "AÉROPORT",
 		"realname":"Airports",
         "keyword": "airport",
         "img": "airport.png"
     },
     {
         "type": 1,
-        "name": "HOSPITAL",
+        "name": "HÔPITAL",
 		"realname":"Hospitals",
         "keyword": "doctor|hospital",
         "img": "hospital.png"
     },
     {
         "type": 1,
-        "name": "HOTEL",
-		"realname":"Hotels",
-        "keyword": "lodging",
-        "img": "hotel.png"
+        "name": "ATM",
+        "realname":"Atms",
+        "keyword": "atm",
+        "img": "atm.png"
     },
     {
         "type": 1,
@@ -99,7 +99,7 @@
     },
     {
         "type": 1,
-        "name": "CAFE",
+        "name": "CAFÉ",
 		"realname":"Cafes",
         "keyword": "cafe",
         "img": "cafe.png"

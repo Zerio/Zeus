@@ -1,19 +1,8 @@
 package com.elfadili.wheresmyplaces.object;
 
-import com.elfadili.wheresmyplaces.constanst.IMarocPlaceExplorerConstants;
+import com.elfadili.wheresmyplaces.constants.IMarocPlaceExplorerConstants;
 import com.ypyproductions.utils.StringUtils;
 
-/**
- * 
- * PhotoObject.java
- * @author  :DOBAO
- * @Email   :dotrungbao@gmail.com
- * @Skype   :baopfiev_k50
- * @Phone   :+84983028786
- * @Date    :Nov 21, 2013
- * @project :WhereMyLocation
- * @Package :com.ypyproductions.wheremylocation.object
- */
 public class PlacePhotoObject implements IMarocPlaceExplorerConstants {
 	private String photoReference;
 	private int width;

@@ -39,7 +39,8 @@ import android.widget.SearchView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.elfadili.wheresmyplaces.constanst.IMarocPlaceExplorerConstants;
+import com.elfadili.wheresmyplaces.constants.IMarocPlaceExplorerConstants;
+import com.elfadili.wheresmyplaces.object.ResponsePlaceResult;
 import com.ypyproductions.bitmap.ImageCache.ImageCacheParams;
 import com.ypyproductions.bitmap.ImageFetcher;
 import com.ypyproductions.location.TrackRecordServiceController;
@@ -63,7 +64,6 @@ import com.elfadili.wheresmyplaces.dataMng.YPYNetUtils;
 import com.elfadili.wheresmyplaces.object.HomeSearchObject;
 import com.elfadili.wheresmyplaces.object.KeywordObject;
 import com.elfadili.wheresmyplaces.object.PlaceObject;
-import com.elfadili.wheresmyplaces.object.ResponcePlaceResult;
 import com.elfadili.wheresmyplaces.provider.MySuggestionDAO;
 import com.elfadili.wheresmyplaces.settings.SettingManager;
 
@@ -109,6 +109,8 @@ public class MainSearchActivity extends DBFragmentActivity implements IMarocPlac
 
 	private TextView mTvResult;
     private ImageView imgResult;
+    private TextView mTvServerError;
+    private ImageView imgServerError;
 
 	private boolean isAllowDestroyAll = true;
 
@@ -131,12 +133,6 @@ public class MainSearchActivity extends DBFragmentActivity implements IMarocPlac
 	    }
 
     @Override
-    public void onWindowFocusChanged(boolean hasFocus) {
-        super.onWindowFocusChanged(hasFocus);
-        //loadingAnimation.start();
-    }
-
-    @Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_search_location);
@@ -145,11 +141,6 @@ public class MainSearchActivity extends DBFragmentActivity implements IMarocPlac
             mCurrentTransitionEffect = savedInstanceState.getInt(KEY_TRANSITION_EFFECT, JazzyHelper.TILT);
             setupJazziness(mCurrentTransitionEffect);
         }
-        /*
-        ImageView rocketImage = (ImageView) findViewById(R.id.img_loading);
-        rocketImage.setBackgroundResource(R.drawable.loading);
-        loadingAnimation = (AnimationDrawable) rocketImage.getBackground();
-        */
 
 		mTitle = mDrawerTitle = getTitle();
 		mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -159,6 +150,8 @@ public class MainSearchActivity extends DBFragmentActivity implements IMarocPlac
 
 		mTvResult = (TextView) findViewById(R.id.tv_no_result);
         imgResult = (ImageView) findViewById(R.id.img_no_result);
+        mTvServerError = (TextView) findViewById(R.id.tv_server_error);
+        imgServerError = (ImageView) findViewById(R.id.img_server_error);
 		
 		this.mFooterView = findViewById(R.id.layout_footer);
 
@@ -234,7 +227,7 @@ public class MainSearchActivity extends DBFragmentActivity implements IMarocPlac
             imgResult.setVisibility(View.GONE);
 			final HomeSearchObject mHomeSearchObject = mTotalMng.getHomeSearchSelected();
 			if (mHomeSearchObject != null) {
-				ResponcePlaceResult mResponcePlaceResult = mHomeSearchObject.getResponcePlaceResult();
+				ResponsePlaceResult mResponcePlaceResult = mHomeSearchObject.getResponcePlaceResult();
 				if (mResponcePlaceResult != null) {
 					ArrayList<PlaceObject> mListPlaceObjects = mResponcePlaceResult.getListPlaceObjects();
 					if (mListPlaceObjects == null) {
@@ -272,7 +265,7 @@ public class MainSearchActivity extends DBFragmentActivity implements IMarocPlac
 
 					@Override
 					public void onDoInBackground() {
-						ResponcePlaceResult mResponcePlaceResult = null;
+						ResponsePlaceResult mResponcePlaceResult = null;
 						if (mHomeSearchObject.getType() == TYPE_SEARCH_BY_TYPES) {
 							mResponcePlaceResult = YPYNetUtils.getListPlacesBaseOnType(MainSearchActivity.this, mCurrentLocation.getLongitude(), mCurrentLocation.getLatitude(),
 									mHomeSearchObject.getKeyword());
@@ -311,11 +304,16 @@ public class MainSearchActivity extends DBFragmentActivity implements IMarocPlac
 						dismissProgressDialog();
                         hideCustomLoading();
 						if (!isSuccess) {
+                            // server error
+                            imgServerError.setVisibility(View.VISIBLE);
+                            mTvServerError.setVisibility(View.VISIBLE);
 							Toast.makeText(MainSearchActivity.this, R.string.info_server_error, Toast.LENGTH_LONG).show();
 							isAllowAddPage = false;
 						}
 						else {
-							ResponcePlaceResult mResponcePlaceResult = mHomeSearchObject.getResponcePlaceResult();
+                            imgServerError.setVisibility(View.GONE);
+                            mTvServerError.setVisibility(View.GONE);
+							ResponsePlaceResult mResponcePlaceResult = mHomeSearchObject.getResponcePlaceResult();
 							ArrayList<PlaceObject> mListPlaceObjects = mResponcePlaceResult.getListPlaceObjects();
 							if (mListPlaceObjects == null) {
 								mListPlaceObjects = new ArrayList<PlaceObject>();
@@ -334,7 +332,7 @@ public class MainSearchActivity extends DBFragmentActivity implements IMarocPlac
 		}
 	}
 
-	private void updateOrCreatePlaceAdapter(ResponcePlaceResult mResponcePlaceResult,final ArrayList<PlaceObject> mListPlaceObjects) {
+	private void updateOrCreatePlaceAdapter(ResponsePlaceResult mResponcePlaceResult,final ArrayList<PlaceObject> mListPlaceObjects) {
 		if (mListPlaceObjects != null) {
 			if (mListPlaceObjects.size() == 0) {
 				mTvResult.setVisibility(View.VISIBLE);
@@ -686,7 +684,7 @@ public class MainSearchActivity extends DBFragmentActivity implements IMarocPlac
 			}
 			final HomeSearchObject mHomeSearchObject = mTotalMng.getHomeSearchSelected();
 			if (mHomeSearchObject != null) {
-				ResponcePlaceResult mResponcePlaceResult = mHomeSearchObject.getResponcePlaceResult();
+				ResponsePlaceResult mResponcePlaceResult = mHomeSearchObject.getResponcePlaceResult();
 				if (mResponcePlaceResult == null || mResponcePlaceResult.getListPlaceObjects() == null || mResponcePlaceResult.getListPlaceObjects().size() == 0) {
 					Toast.makeText(this, R.string.info_no_location, Toast.LENGTH_LONG).show();
 					return super.onOptionsItemSelected(item);
@@ -788,13 +786,13 @@ public class MainSearchActivity extends DBFragmentActivity implements IMarocPlac
 	private void onLoadNextPlaceObject() {
 		final HomeSearchObject mHomeSearchObject = mTotalMng.getHomeSearchSelected();
 		if (mHomeSearchObject != null) {
-			final ResponcePlaceResult mResponcePlaceResult = mHomeSearchObject.getResponcePlaceResult();
+			final ResponsePlaceResult mResponcePlaceResult = mHomeSearchObject.getResponcePlaceResult();
 			if (mResponcePlaceResult != null) {
 				final ArrayList<PlaceObject> mListPlaceObjects = mResponcePlaceResult.getListPlaceObjects();
 				if (mListPlaceObjects != null && mListPlaceObjects.size() > 0) {
 					mDBTask = new DBTask(new IDBTaskListener() {
 						private boolean isSuccess;
-						private ResponcePlaceResult mNewResponcePlaceResult;
+						private ResponsePlaceResult mNewResponcePlaceResult;
 
 						@Override
 						public void onPreExcute() {
