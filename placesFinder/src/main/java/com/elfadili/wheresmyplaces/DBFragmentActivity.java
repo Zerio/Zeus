@@ -180,7 +180,7 @@ public class DBFragmentActivity extends FragmentActivity implements IDBConstantU
     public void showCustomLoading() {
         TextView loadingText = (TextView) findViewById(R.id.tv_loading);
         ImageView loadingImage = (ImageView) findViewById(R.id.img_loading);
-        loadingImage.setBackgroundResource(R.drawable.loading);
+        loadingImage.setBackgroundResource(R.drawable.finding_places);
         loadingImage.setVisibility(View.VISIBLE);
         loadingText.setVisibility(View.VISIBLE);
         loadingAnimation = (AnimationDrawable) loadingImage.getBackground();

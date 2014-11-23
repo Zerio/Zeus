@@ -53,7 +53,7 @@
                 android:layout_marginLeft="15sp"
                 custom:max="50"
                 custom:orientation="horizontal"
-                custom:progress="3"
+                custom:progress="0"
                 custom:slidebar="@drawable/slider"
                 custom:thumb="@drawable/thumb" />
 

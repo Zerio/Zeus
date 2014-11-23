@@ -20,7 +20,7 @@ import com.ypyproductions.utils.DBLog;
 import com.elfadili.wheresmyplaces.object.PlacePhotoObject;
 
 /**
- * This class wraps up completing some arbitrary long running work when loading
+ * This class wraps up completing some arbitrary long running work when finding_places
  * a bitmap to an ImageView. It handles things like using a memory and disk
  * cache, running the work in a background thread and setting a placeholder
  * image.
@@ -419,7 +419,7 @@ public abstract class ImageWorker {
 			// BitmapDrawable mBitmapDrawable =new BitmapDrawable(mResources,
 			// mLoadingBitmap);
 			final TransitionDrawable td = new TransitionDrawable(new Drawable[] { new ColorDrawable(android.R.color.transparent), drawable });
-			// Set background to loading bitmap
+			// Set background to finding_places bitmap
 			imageView.setImageDrawable(td);
 			td.startTransition(FADE_IN_TIME);
 		}

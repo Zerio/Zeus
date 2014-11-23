@@ -259,7 +259,7 @@ public class MainSearchActivity extends DBFragmentActivity implements IMarocPlac
 						}
 						String message = String.format(getString(R.string.info_format_process_find_location), name);
 						//showProgressDialog(message);
-                        // Custom animated loading
+                        // Custom animated finding_places
                         showCustomLoading();
 					}
 
@@ -327,7 +327,7 @@ public class MainSearchActivity extends DBFragmentActivity implements IMarocPlac
 		}
 		else {
 			//showProgressDialog(R.string.info_process_find_location);
-            // Custom animated loading
+            // Custom animated finding_places
             showCustomLoading();
 		}
 	}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item android:drawable="@drawable/finding_places_000" android:duration="50" />
+    <item android:drawable="@drawable/finding_places_001" android:duration="50" />
+    <item android:drawable="@drawable/finding_places_002" android:duration="50" />
+    <item android:drawable="@drawable/finding_places_003" android:duration="50" />
+    <item android:drawable="@drawable/finding_places_004" android:duration="50" />
+    <item android:drawable="@drawable/finding_places_005" android:duration="50" />
+    <item android:drawable="@drawable/finding_places_006" android:duration="50" />
+    <item android:drawable="@drawable/finding_places_007" android:duration="50" />
+    <item android:drawable="@drawable/finding_places_008" android:duration="50" />
+    <item android:drawable="@drawable/finding_places_009" android:duration="50" />
+    <item android:drawable="@drawable/finding_places_010" android:duration="50" />
+    <item android:drawable="@drawable/finding_places_011" android:duration="50" />
+    <item android:drawable="@drawable/finding_places_012" android:duration="50" />
+    <item android:drawable="@drawable/finding_places_013" android:duration="50" />
+    <item android:drawable="@drawable/finding_places_014" android:duration="50" />
+    <item android:drawable="@drawable/finding_places_015" android:duration="50" />
+    <item android:drawable="@drawable/finding_places_016" android:duration="50" />
+    <item android:drawable="@drawable/finding_places_017" android:duration="50" />
+    <item android:drawable="@drawable/finding_places_018" android:duration="50" />
+    <item android:drawable="@drawable/finding_places_019" android:duration="50" />
+    <item android:drawable="@drawable/finding_places_020" android:duration="50" />
+    <item android:drawable="@drawable/finding_places_021" android:duration="50" />
+    <item android:drawable="@drawable/finding_places_022" android:duration="50" />
+
+</animation-list>

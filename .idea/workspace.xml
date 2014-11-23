@@ -56,99 +56,58 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.places.nearby" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9e0c9e3-d4dd-4b16-bd08-f9f2dab22f64" name="Default" comment="Adjust tablets size">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-xxhdpi/frame_000.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-xxhdpi/frame_001.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-xxhdpi/frame_002.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-xxhdpi/frame_003.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-xxhdpi/frame_004.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-xxhdpi/frame_005.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-xxhdpi/frame_006.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-xxhdpi/frame_007.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-xxhdpi/frame_008.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-xxhdpi/frame_009.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-xxhdpi/frame_010.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-xxhdpi/frame_011.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-xxhdpi/start.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/constants/GlobalState.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/provider/Receiver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable/bg_card_without_shadow.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/crouton_1_8_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/helperslib.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/httpmime_4_2_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/library_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_6_1_71.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_20_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_20_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/view_pager_transforms_1_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/ypylibs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-ldpi/xbig_star_half_on.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-ldpi/xbig_star_off.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-ldpi/xbig_star_on.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-mdpi/xbig_star_half_on.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-mdpi/xbig_star_off.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-mdpi/xbig_star_on.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-sw720dp/xbig_star_half_on.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-sw720dp/xbig_star_off.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-sw720dp/xbig_star_on.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-xxhdpi/empty.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-xxhdpi/not_found.png" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/constanst/IMarocPlaceExplorerConstants.java" afterPath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/constants/IMarocPlaceExplorerConstants.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/object/ResponcePlaceResult.java" afterPath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/object/ResponsePlaceResult.java" />
+    <list default="true" id="b9e0c9e3-d4dd-4b16-bd08-f9f2dab22f64" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-hdpi/empty.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-hdpi/finding_places_000.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-hdpi/finding_places_001.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-hdpi/finding_places_002.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-hdpi/finding_places_003.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-hdpi/finding_places_004.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-hdpi/finding_places_005.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-hdpi/finding_places_006.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-hdpi/finding_places_007.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-hdpi/finding_places_008.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-hdpi/finding_places_009.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-hdpi/finding_places_010.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-hdpi/finding_places_011.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-hdpi/finding_places_012.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-hdpi/finding_places_013.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-hdpi/finding_places_014.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-hdpi/finding_places_015.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-hdpi/finding_places_016.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-hdpi/finding_places_017.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-hdpi/finding_places_018.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-hdpi/finding_places_019.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-hdpi/finding_places_020.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-hdpi/finding_places_021.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-hdpi/finding_places_022.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable/finding_places.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-xxhdpi/frame_000.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-xxhdpi/frame_001.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-xxhdpi/frame_002.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-xxhdpi/frame_003.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-xxhdpi/frame_004.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-xxhdpi/frame_005.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-xxhdpi/frame_006.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-xxhdpi/frame_007.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-xxhdpi/frame_008.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-xxhdpi/frame_009.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-xxhdpi/frame_010.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-xxhdpi/frame_011.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/drawable/loading.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/model_data.bin" afterPath="$PROJECT_DIR$/build/intermediates/model_data.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-hdpi/small_star_half_on.png" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-hdpi/small_star_half_on.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-ldpi/small_star_half_on.png" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-ldpi/small_star_half_on.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-mdpi/small_star_half_on.png" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-mdpi/small_star_half_on.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-sw720dp/small_star_half_on.png" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-sw720dp/small_star_half_on.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-hdpi/small_star_off.png" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-hdpi/small_star_off.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-ldpi/small_star_off.png" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-ldpi/small_star_off.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-mdpi/small_star_off.png" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-mdpi/small_star_off.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-sw720dp/small_star_off.png" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-sw720dp/small_star_off.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-hdpi/small_star_on.png" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-hdpi/small_star_on.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-ldpi/small_star_on.png" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-ldpi/small_star_on.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-mdpi/small_star_on.png" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-mdpi/small_star_on.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-sw720dp/small_star_on.png" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-sw720dp/small_star_on.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/adapter/AboutUsAdapter.java" afterPath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/adapter/AboutUsAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-xxhdpi/thumb.png" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-xxhdpi/thumb.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/placesFinder/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/DetailLocationActivity.java" afterPath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/DetailLocationActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/adapter/DrawerAdapter.java" afterPath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/adapter/DrawerAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/adapter/DrawerSearchAdapter.java" afterPath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/adapter/DrawerSearchAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/adapter/FavoritePlaceAdapter.java" afterPath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/adapter/FavoritePlaceAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/fragment/FragmentAR.java" afterPath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/fragment/FragmentAR.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/fragment/FragmentAboutUs.java" afterPath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/fragment/FragmentAboutUs.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/fragment/FragmentFavorites.java" afterPath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/fragment/FragmentFavorites.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/fragment/FragmentHome.java" afterPath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/fragment/FragmentHome.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/fragment/FragmentLocationDetailInformation.java" afterPath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/fragment/FragmentLocationDetailInformation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/fragment/FragmentLocationDetailMap.java" afterPath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/fragment/FragmentLocationDetailMap.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/fragment/FragmentMyLocation.java" afterPath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/fragment/FragmentMyLocation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/fragment/FragmentSettings.java" afterPath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/fragment/FragmentSettings.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/fragment/FragmentStep4.java" afterPath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/fragment/FragmentStep4.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/fragment/FragmentTotalLocation.java" afterPath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/fragment/FragmentTotalLocation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/adapter/HomeAdapter.java" afterPath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/adapter/HomeAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/object/HomeSearchObject.java" afterPath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/object/HomeSearchObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/dataMng/JsonParsingUtils.java" afterPath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/dataMng/JsonParsingUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/MainActivity.java" afterPath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/DBFragmentActivity.java" afterPath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/DBFragmentActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/constants/GlobalState.java" afterPath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/constants/GlobalState.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/java/com/ypyproductions/bitmap/ImageWorker.java" afterPath="$PROJECT_DIR$/placesFinder/src/main/java/com/ypyproductions/bitmap/ImageWorker.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/MainSearchActivity.java" afterPath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/MainSearchActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/provider/MySuggestionDAO.java" afterPath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/provider/MySuggestionDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/provider/MySuggestionProvider.java" afterPath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/provider/MySuggestionProvider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/adapter/PlaceAdapter.java" afterPath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/adapter/PlaceAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/object/PlacePhotoObject.java" afterPath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/object/PlacePhotoObject.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/build/generated/source/r/debug/cn/pedant/SweetAlert/R.java" afterPath="$PROJECT_DIR$/placesFinder/build/generated/source/r/debug/cn/pedant/SweetAlert/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/build/generated/source/r/debug/com/google/android/gms/R.java" afterPath="$PROJECT_DIR$/placesFinder/build/generated/source/r/debug/com/google/android/gms/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/build/generated/source/r/debug/com/places/nearby/R.java" afterPath="$PROJECT_DIR$/placesFinder/build/generated/source/r/debug/com/places/nearby/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/settings/SettingManager.java" afterPath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/settings/SettingManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/ShowUrlActivity.java" afterPath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/ShowUrlActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/SplashActivity.java" afterPath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/SplashActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/dataMng/TotalDataManager.java" afterPath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/dataMng/TotalDataManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/TotalLocationInMapActivity.java" afterPath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/TotalLocationInMapActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/java/com/ypyproductions/location/TrackRecordingService.java" afterPath="$PROJECT_DIR$/placesFinder/src/main/java/com/ypyproductions/location/TrackRecordingService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/dataMng/YPYNetUtils.java" afterPath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/dataMng/YPYNetUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/provider/Receiver.java" afterPath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/provider/Receiver.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/layout/activity_search_location.xml" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/layout/activity_search_location.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/build.gradle" afterPath="$PROJECT_DIR$/placesFinder/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/layout/fragment_home.xml" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/layout/fragment_home.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/assets/homedata.dat" afterPath="$PROJECT_DIR$/placesFinder/src/main/assets/homedata.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/placesFinder.iml" afterPath="$PROJECT_DIR$/placesFinder/placesFinder.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/layout/dialog_quick_distance.xml" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/layout/dialog_quick_distance.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="2e1a9b45-19e7-4eaa-a94f-f38ffdf3db2f" name="New changelist" comment="" />
@@ -178,45 +137,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/placesFinder/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1883" max-vertical-offset="2445">
-              <caret line="132" column="19" selection-start-line="132" selection-start-column="19" selection-end-line="132" selection-end-column="19" />
-              <folding>
-                <element signature="e#1671#1689#0" expanded="true" />
-                <element signature="e#2063#2081#0" expanded="true" />
-                <element signature="e#2686#2704#0" expanded="true" />
-                <element signature="e#3575#3593#0" expanded="true" />
-                <element signature="e#4288#4306#0" expanded="true" />
-                <element signature="e#4694#4712#0" expanded="true" />
-                <element signature="e#5044#5062#0" expanded="true" />
-                <element signature="e#5287#5326#0" expanded="true" />
-              </folding>
-            </state>
+      <file leaf-file-name="dialog_quick_distance.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/placesFinder/src/main/res/layout/dialog_quick_distance.xml">
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Receiver.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/provider/Receiver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-              <caret line="0" column="44" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GlobalState.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/constants/GlobalState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="143" max-vertical-offset="525">
-              <caret line="21" column="61" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.34895834" vertical-offset="429" max-vertical-offset="1185">
+              <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -2935,7 +2864,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/fragment/FragmentLocationDetailMap.java" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout/fragment_favorites.xml" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout/item_review.xml" />
@@ -2946,7 +2874,6 @@
         <option value="$PROJECT_DIR$/placesFinder/src/main/res/drawable/round_rect_distance.xml" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout/item_progress_bar_c.xml" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout/item_progress_bar.xml" />
-        <option value="$PROJECT_DIR$/placesFinder/src/main/res/drawable/loading.xml" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/DBFragmentActivity.java" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout-sw600dp/fragment_favorites.xml" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout-sw800dp/fragment_favorites.xml" />
@@ -2973,7 +2900,6 @@
         <option value="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/MainSearchActivity.java" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/object/ResponsePlaceResult.java" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout-sw800dp/fragment_location_detail_infomation.xml" />
-        <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout/activity_search_location.xml" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout/fragment_location_detail_infomation.xml" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/object/PlacePhotoObject.java" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/constanst/IMarocPlaceExplorerConstants.java" />
@@ -2982,10 +2908,13 @@
         <option value="$PROJECT_DIR$/placesFinder/build.gradle" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/constanst/GlobalState.java" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/MainActivity.java" />
-        <option value="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/constants/GlobalState.java" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/constants/IMarocPlaceExplorerConstants.java" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/provider/Receiver.java" />
+        <option value="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/constants/GlobalState.java" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/placesFinder/src/main/res/drawable/loading.xml" />
+        <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout/activity_search_location.xml" />
+        <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout/dialog_quick_distance.xml" />
       </list>
     </option>
   </component>
@@ -3021,6 +2950,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -3047,6 +2978,38 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="placesFinder" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlacesFinder" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="placesFinder" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlacesFinder" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="placesFinder" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -3115,33 +3078,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="provider" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PlacesFinder" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="placesFinder" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wheresmyplaces" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="constants" />
+              <option name="myItemId" value="fragment" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -3161,8 +3098,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -3493,7 +3428,11 @@
       <created>1416464666148</created>
       <updated>1416464666148</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Add push notifications + loading">
+      <created>1416638297651</created>
+      <updated>1416638297651</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -3524,10 +3463,12 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.49960783" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7408585" sideWeight="0.49960783" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3529412" sideWeight="0.50039214" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3529412" sideWeight="0.50039214" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.49960783" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.50039214" order="1" side_tool="true" content_ui="tabs" />
@@ -3546,22 +3487,20 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7408585" sideWeight="0.49960783" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="149" y="96" width="1117" height="572" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="149" y="96" width="1117" height="572" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.49960783" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0015898251" sideWeight="0.50039214" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.49960783" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.50039214" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.49960783" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.50039214" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.49960783" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.49960783" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30431372" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
@@ -3579,8 +3518,8 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.49960783" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6216216" sideWeight="0.49960783" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -3613,7 +3552,8 @@
     <MESSAGE value=".." />
     <MESSAGE value="Add custom loading and improve tablet views" />
     <MESSAGE value="Adjust tablets size" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adjust tablets size" />
+    <MESSAGE value="Add push notifications + loading" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add push notifications + loading" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3621,42 +3561,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/res/drawable/bg_card.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="602">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/res/xml/searchable.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="602">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/res/values/dimens.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="602">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/res/menu/menu_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="602">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/res/menu/location_options.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <caret line="13" column="34" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/placesFinder/src/main/res/menu/menu_favorite.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
@@ -3781,13 +3685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/MainSearchActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49066213" vertical-offset="3401" max-vertical-offset="13050">
-          <caret line="311" column="25" selection-start-line="311" selection-start-column="25" selection-end-line="311" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/placesFinder/src/main/res/layout-sw360dp/splash.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
@@ -3815,7 +3712,6 @@
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3941,16 +3837,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/res/layout/activity_search_location.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="1785">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/placesFinder/src/main/res/layout/fragment_home.xml">
       <provider editor-type-id="android-designer">
         <state />
@@ -3983,7 +3869,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3999,7 +3884,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15280136" vertical-offset="480" max-vertical-offset="9375">
           <caret line="107" column="47" selection-start-line="107" selection-start-column="47" selection-end-line="107" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4007,44 +3891,91 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17826825" vertical-offset="0" max-vertical-offset="2385">
           <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/provider/Receiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49833888" vertical-offset="0" max-vertical-offset="1035">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/constants/GlobalState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/fragment/FragmentSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3495">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/fragment/FragmentLocationDetailInformation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="945" max-vertical-offset="5130">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/placesFinder/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1883" max-vertical-offset="2445">
-          <caret line="132" column="19" selection-start-line="132" selection-start-column="19" selection-end-line="132" selection-end-column="19" />
-          <folding>
-            <element signature="e#1671#1689#0" expanded="true" />
-            <element signature="e#2063#2081#0" expanded="true" />
-            <element signature="e#2686#2704#0" expanded="true" />
-            <element signature="e#3575#3593#0" expanded="true" />
-            <element signature="e#4288#4306#0" expanded="true" />
-            <element signature="e#4694#4712#0" expanded="true" />
-            <element signature="e#5044#5062#0" expanded="true" />
-            <element signature="e#5287#5326#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.74533105" vertical-offset="1856" max-vertical-offset="2445">
+          <caret line="153" column="57" selection-start-line="153" selection-start-column="57" selection-end-line="153" selection-end-column="57" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/constants/GlobalState.java">
+    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/res/drawable/finding_places.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
-          <caret line="21" column="61" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.5481728" vertical-offset="0" max-vertical-offset="602">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/provider/Receiver.java">
+    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/DBFragmentActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-          <caret line="0" column="44" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.4091681" vertical-offset="1934" max-vertical-offset="3345">
+          <caret line="182" column="56" selection-start-line="182" selection-start-column="56" selection-end-line="182" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/MainSearchActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3594306" vertical-offset="2708" max-vertical-offset="12585">
+          <caret line="262" column="34" selection-start-line="262" selection-start-column="34" selection-end-line="262" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/res/layout/activity_search_location.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36458334" vertical-offset="750" max-vertical-offset="1800">
+          <caret line="64" column="32" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/res/layout/dialog_quick_distance.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34895834" vertical-offset="429" max-vertical-offset="1185">
+          <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
