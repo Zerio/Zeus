@@ -4,11 +4,15 @@ import java.io.File;
 import java.util.ArrayList;
 
 import android.content.Intent;
+import android.graphics.Typeface;
+import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.KeyEvent;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.elfadili.wheresmyplaces.constants.IMarocPlaceExplorerConstants;
@@ -30,7 +34,6 @@ public class SplashActivity extends DBFragmentActivity implements IDBTaskListene
 
     public static final String TAG = SplashActivity.class.getSimpleName();
 
-    private ProgressBar mProgressBar;
     private boolean isPressBack;
     private DBTask mDBTask;
 
@@ -38,13 +41,25 @@ public class SplashActivity extends DBFragmentActivity implements IDBTaskListene
     private ArrayList<HomeSearchObject> mListHomeObjects;
     private ArrayList<KeywordObject> mListKeywordObjects;
 
+    private TextView mTvAppName;
+    public Typeface mTypeFacechampagne;
+    AnimationDrawable splashloadingAnimation;
+    ImageView splashloadingImage;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         this.setContentView(R.layout.splash);
-        this.mProgressBar = (ProgressBar) findViewById(R.id.progressBar1);
 
-        DBLog.setDebug(DEBUG);
+        mTypeFacechampagne = Typeface.createFromAsset(getAssets(), "fonts/champagne.ttf");
+        this.mTvAppName = (TextView) findViewById(R.id.app_title);
+        this.mTvAppName.setTypeface(mTypeFacechampagne);
+        splashloadingImage = (ImageView) findViewById(R.id.splash_loading);
+
+        splashloadingImage.setBackgroundResource(R.drawable.splash_loading);
+        splashloadingImage.setVisibility(View.VISIBLE);
+        splashloadingAnimation = (AnimationDrawable) splashloadingImage.getBackground();
+        splashloadingAnimation.start();
     }
 
     @Override
@@ -80,7 +95,7 @@ public class SplashActivity extends DBFragmentActivity implements IDBTaskListene
 
     @Override
     public void onPreExcute() {
-        this.mProgressBar.setVisibility(View.VISIBLE);
+        //
     }
 
     @Override
@@ -124,7 +139,8 @@ public class SplashActivity extends DBFragmentActivity implements IDBTaskListene
             Toast.makeText(this, R.string.info_parse_error, Toast.LENGTH_LONG).show();
             return;
         }
-        this.mProgressBar.setVisibility(View.INVISIBLE);
+        splashloadingImage.setVisibility(View.INVISIBLE);
+        splashloadingAnimation.stop();
         Intent mIntent = new Intent(SplashActivity.this, MainActivity.class);
         mIntent.putExtra(KEY_START_FROM, START_FROM_SPLASH);
         DirectionUtils.changeActivity(this, R.anim.slide_in_from_bottom, R.anim.slide_out_to_top, true, mIntent);

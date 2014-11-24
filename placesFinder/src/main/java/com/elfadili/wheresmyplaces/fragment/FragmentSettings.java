@@ -2,15 +2,18 @@ package com.elfadili.wheresmyplaces.fragment;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.elfadili.wheresmyplaces.WelcomeActivity;
 import com.elfadili.wheresmyplaces.constants.IMarocPlaceExplorerConstants;
 import com.places.nearby.R;
 import com.elfadili.wheresmyplaces.MainActivity;
@@ -27,22 +30,23 @@ public class FragmentSettings extends Fragment implements IMarocPlaceExplorerCon
 	private MainActivity mContext;
 
 	private boolean isFindView;
+
 	private TextView mTvInfoRadius;
 	private TextView mTvMinRadius;
 	private TextView mTvMaxRadius;
-
 	private DBSeekBarView mDBSeekbar;
 
 	private TextView mTvTitlePiority;
-
 	private TextView mTvTitleMetric;
 
 	private TextView mTvMetric;
 	private TextView mTvPiority;
 
 	private TextView mTvTitleTravelMode;
-
 	private TextView mTvTravelMode;
+
+    private Button btnStartTuto;
+    private TextView mTvTitleStartTutorial;
 	
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -72,6 +76,9 @@ public class FragmentSettings extends Fragment implements IMarocPlaceExplorerCon
 		this.mTvMetric = (TextView) mRootView.findViewById(R.id.tv_metric);
 		this.mTvPiority = (TextView) mRootView.findViewById(R.id.tv_piority);
 		this.mTvTravelMode = (TextView) mRootView.findViewById(R.id.tv_travel_mode);
+
+        this.mTvTitleStartTutorial = (TextView) mRootView.findViewById(R.id.tv_title_start_tutorial);
+        this.btnStartTuto = (Button) mRootView.findViewById(R.id.btn_start_tutorial);
 		
 		this.mTvMinRadius.setTypeface(mContext.mTypeFaceRobotoLight);
 		this.mTvMaxRadius.setTypeface(mContext.mTypeFaceRobotoLight);
@@ -83,8 +90,17 @@ public class FragmentSettings extends Fragment implements IMarocPlaceExplorerCon
 		this.mTvTitleMetric.setTypeface(mContext.mTypeFaceRobotoBold);
 		this.mTvTitlePiority.setTypeface(mContext.mTypeFaceRobotoBold);
 		this.mTvTitleTravelMode.setTypeface(mContext.mTypeFaceRobotoBold);
+        this.mTvTitleStartTutorial.setTypeface(mContext.mTypeFaceRobotoBold);
+
+        this.btnStartTuto.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), WelcomeActivity.class);
+                startActivity(intent);
+            }
+        });
 		
-		updateInfoRadius(SettingManager.getRadius(mContext),true);
+		updateInfoRadius(SettingManager.getRadius(mContext), true);
 		
 		this.mDBSeekbar =(DBSeekBarView)mRootView.findViewById(R.id.dBSeekBarView1);
 		this.mDBSeekbar.setOnSeekBarChangeListener(new OnSeekBarChangeListener() {
@@ -151,7 +167,6 @@ public class FragmentSettings extends Fragment implements IMarocPlaceExplorerCon
 		else if(travelMode.equals(TRAVEL_MODE_WALKING)){
 			mTvTravelMode.setText(getString(R.string.title_walking));
 		}
-		
 	}
 	
 	private void updateInfoRadius(int process, boolean isInit){
