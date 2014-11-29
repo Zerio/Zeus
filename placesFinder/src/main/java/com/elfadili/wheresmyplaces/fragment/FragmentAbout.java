@@ -22,9 +22,9 @@ import com.elfadili.wheresmyplaces.MainActivity;
 import com.elfadili.wheresmyplaces.adapter.AboutUsAdapter;
 import com.elfadili.wheresmyplaces.object.AboutUsObject;
 
-public class FragmentAboutUs extends Fragment implements IMarocPlaceExplorerConstants {
+public class FragmentAbout extends Fragment implements IMarocPlaceExplorerConstants {
 	
-	public static final String TAG = FragmentAboutUs.class.getSimpleName();
+	public static final String TAG = FragmentAbout.class.getSimpleName();
 	
 	private View mRootView;
 
@@ -36,10 +36,8 @@ public class FragmentAboutUs extends Fragment implements IMarocPlaceExplorerCons
 	private ArrayList<AboutUsObject> mListAboutObjects = new ArrayList<AboutUsObject>();
 	private AboutUsAdapter mAboutUsAdapter;
 
-	private TextView mTvVersion;
-
 	private TextView mTvAboutUs;
-	
+
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 		mRootView = inflater.inflate(R.layout.fragment_about, container, false);
@@ -58,13 +56,8 @@ public class FragmentAboutUs extends Fragment implements IMarocPlaceExplorerCons
 	private void findView(){
 		this.mContext = (MainActivity) getActivity();
 		this.mListViewAbout =(ListView) mRootView.findViewById(R.id.list_abouts);
-		this.mTvVersion = (TextView) mRootView.findViewById(R.id.tv_version);
-		this.mTvAboutUs = (TextView) mRootView.findViewById(R.id.tv_content_about);
+		this.mTvAboutUs = (TextView) mRootView.findViewById(R.id.tv_content_title_about);
 		
-		String versionFormat = String.format(mContext.getString(R.string.info_version_format), ApplicationUtils.getVersionName(mContext));
-		mTvVersion.setText(versionFormat);
-		
-		mTvVersion.setTypeface(mContext.mTypeFaceRobotoBold);
 		mTvAboutUs.setTypeface(mContext.mTypeFaceRobotoLight);
 		
 		int size = LIST_CONTENT_ABOUTS.length;

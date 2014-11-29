@@ -8,31 +8,31 @@ package com.twotoasters.jazzylistview;
 
 public final class R {
 	public static final class attr {
-		public static final int effect = 0x7f010008;
-		public static final int max_velocity = 0x7f01000c;
-		public static final int only_animate_fling = 0x7f01000a;
-		public static final int only_animate_new_items = 0x7f010009;
-		public static final int simulate_grid_with_list = 0x7f01000b;
+		public static final int effect = 0x7f01000d;
+		public static final int max_velocity = 0x7f010011;
+		public static final int only_animate_fling = 0x7f01000f;
+		public static final int only_animate_new_items = 0x7f01000e;
+		public static final int simulate_grid_with_list = 0x7f010010;
 	}
 	public static final class id {
-		public static final int cards = 0x7f0e0002;
-		public static final int curl = 0x7f0e0003;
-		public static final int fade = 0x7f0e0004;
-		public static final int fan = 0x7f0e0005;
-		public static final int flip = 0x7f0e0006;
-		public static final int fly = 0x7f0e0007;
-		public static final int grow = 0x7f0e0008;
-		public static final int helix = 0x7f0e0009;
-		public static final int reverse_fly = 0x7f0e000a;
-		public static final int slide_in = 0x7f0e000b;
-		public static final int standard = 0x7f0e000c;
-		public static final int tilt = 0x7f0e000d;
-		public static final int twirl = 0x7f0e000e;
-		public static final int wave = 0x7f0e000f;
-		public static final int zipper = 0x7f0e0010;
+		public static final int cards = 0x7f0e0004;
+		public static final int curl = 0x7f0e0005;
+		public static final int fade = 0x7f0e0006;
+		public static final int fan = 0x7f0e0007;
+		public static final int flip = 0x7f0e0008;
+		public static final int fly = 0x7f0e0009;
+		public static final int grow = 0x7f0e000a;
+		public static final int helix = 0x7f0e000b;
+		public static final int reverse_fly = 0x7f0e000c;
+		public static final int slide_in = 0x7f0e000d;
+		public static final int standard = 0x7f0e000e;
+		public static final int tilt = 0x7f0e000f;
+		public static final int twirl = 0x7f0e0010;
+		public static final int wave = 0x7f0e0011;
+		public static final int zipper = 0x7f0e0012;
 	}
 	public static final class styleable {
-		public static final int[] JazzyListView = { 0x7f010008, 0x7f010009, 0x7f01000a, 0x7f01000b, 0x7f01000c };
+		public static final int[] JazzyListView = { 0x7f01000d, 0x7f01000e, 0x7f01000f, 0x7f010010, 0x7f010011 };
 		public static final int JazzyListView_effect = 0;
 		public static final int JazzyListView_max_velocity = 4;
 		public static final int JazzyListView_only_animate_fling = 2;

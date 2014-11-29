@@ -211,6 +211,30 @@
     </RelativeLayout>
 
     <RelativeLayout
+        android:id="@+id/layout_notifications"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp"
+        android:layout_marginTop="5sp"
+        android:background="@drawable/bg_card_without_shadow"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_title_notifications"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:singleLine="true"
+            android:text="Rrappels par notifications"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
         android:id="@+id/layout_start_tutorial"
         android:layout_width="match_parent"
         android:layout_height="60sp"

@@ -14,11 +14,41 @@
         revision="21.1.1"
         sha1="ac1684fa1e9105fca9400a1176a1919ba73c9774"/>
     <item
-        dex="/home/yassine/Desktop/MarocPlaceExplorer/placesFinder/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-fbf06e649e3755800807d9d7ae25c9b64cd171cd.jar"
-        jar="/home/yassine/Desktop/MarocPlaceExplorer/placesFinder/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/libs/internal_impl-20.0.0.jar"
+        dex="/home/yassine/Desktop/MarocPlaceExplorer/placesFinder/build/intermediates/pre-dexed/debug/bolts-android-1.1.2-bfdabac7dc1febf1c73059c39f5bf226168aecde.jar"
+        jar="/home/yassine/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.2/91c20388c9a45f62b5ed8fe0502bb76ff6251fc7/bolts-android-1.1.2.jar"
         jumboMode="false"
         revision="21.1.1"
-        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
+        sha1="91c20388c9a45f62b5ed8fe0502bb76ff6251fc7"/>
+    <item
+        dex="/home/yassine/PlacesFinder/placesFinder/build/intermediates/pre-dexed/debug/httpmime-4.2.2-23d83dba002c7a7ed9927c5b5e024a3b5727597e.jar"
+        jar="/home/yassine/PlacesFinder/placesFinder/libs/httpmime-4.2.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="92b7ae91cb55150192341962dd7254ef898768ca"/>
+    <item
+        dex="/home/yassine/Desktop/MarocPlaceExplorer/placesFinder/build/intermediates/pre-dexed/debug/Parse-1.7.1-1a34a4f48ea2d0880d2f2092d64f681f1ebf5a61.jar"
+        jar="/home/yassine/Desktop/MarocPlaceExplorer/placesFinder/libs/Parse-1.7.1.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="87c45f9f66da531a65f065ee32f603c7e6db1528"/>
+    <item
+        dex="/home/yassine/Desktop/MarocPlaceExplorer/placesFinder/build/intermediates/pre-dexed/debug/classes-fa8cea2ca79e2146ef4c8e383558d2edf9cd8677.jar"
+        jar="/home/yassine/Desktop/MarocPlaceExplorer/placesFinder/build/intermediates/exploded-aar/com.ToxicBakery.viewpager.transforms/view-pager-transforms/1.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="c418d21b2c378aee586a310cec01d1c244a7ec9a"/>
+    <item
+        dex="/home/yassine/Desktop/MarocPlaceExplorer/placesFinder/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-d5782921792b09ff13d7221783df496cd4978e5e.jar"
+        jar="/home/yassine/Desktop/MarocPlaceExplorer/placesFinder/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0"/>
+    <item
+        dex="/home/yassine/Desktop/MarocPlaceExplorer/placesFinder/build/intermediates/pre-dexed/debug/classes-f806163642f9a4a485b3ad3c934c006eb4f2aec2.jar"
+        jar="/home/yassine/Desktop/MarocPlaceExplorer/placesFinder/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6"/>
     <item
         dex="/home/yassine/PlacesFinder/placesFinder/build/intermediates/pre-dexed/debug/classes-8bc35e884001ad435191d0ef4c9f7c047d5ebfed.jar"
         jar="/home/yassine/PlacesFinder/placesFinder/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/classes.jar"
@@ -32,23 +62,11 @@
         revision="21.1.1"
         sha1="c01cdd9faf066a719d2a12b3152eb7a9ebdd6c7c"/>
     <item
-        dex="/home/yassine/Desktop/MarocPlaceExplorer/placesFinder/build/intermediates/pre-dexed/debug/bolts-android-1.1.2-bfdabac7dc1febf1c73059c39f5bf226168aecde.jar"
-        jar="/home/yassine/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.2/91c20388c9a45f62b5ed8fe0502bb76ff6251fc7/bolts-android-1.1.2.jar"
+        dex="/home/yassine/Desktop/MarocPlaceExplorer/placesFinder/build/intermediates/pre-dexed/debug/classes-5c1d95fca60f4a30c2758f7de5fd76379a728ebe.jar"
+        jar="/home/yassine/Desktop/MarocPlaceExplorer/placesFinder/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.0/classes.jar"
         jumboMode="false"
         revision="21.1.1"
-        sha1="91c20388c9a45f62b5ed8fe0502bb76ff6251fc7"/>
-    <item
-        dex="/home/yassine/Desktop/MarocPlaceExplorer/placesFinder/build/intermediates/pre-dexed/debug/classes-95cfee84dadf1028afd7b6e9c1320bdbfd7feb76.jar"
-        jar="/home/yassine/Desktop/MarocPlaceExplorer/placesFinder/build/intermediates/exploded-aar/com.daimajia.easing/library/1.0.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.1"
-        sha1="e88a9ed27f98f8c0701d03d5553ce6111ca34a5b"/>
-    <item
-        dex="/home/yassine/PlacesFinder/placesFinder/build/intermediates/pre-dexed/debug/httpmime-4.2.2-23d83dba002c7a7ed9927c5b5e024a3b5727597e.jar"
-        jar="/home/yassine/PlacesFinder/placesFinder/libs/httpmime-4.2.2.jar"
-        jumboMode="false"
-        revision="21.1.1"
-        sha1="92b7ae91cb55150192341962dd7254ef898768ca"/>
+        sha1="efeda77c808750cb670ee9c48d8a1835d89dbcb2"/>
     <item
         dex="/home/yassine/PlacesFinder/placesFinder/build/intermediates/pre-dexed/debug/classes-5f8eceef1f071e6b1ce59096ec44c7641706b1b6.jar"
         jar="/home/yassine/PlacesFinder/placesFinder/build/intermediates/exploded-aar/PlacesFinder/nineOldAndroids/unspecified/classes.jar"
@@ -56,29 +74,17 @@
         revision="21.1.1"
         sha1="5128eed742a6a1f3f2cf467b0bed6a2fe663424c"/>
     <item
-        dex="/home/yassine/Desktop/MarocPlaceExplorer/placesFinder/build/intermediates/pre-dexed/debug/classes-c9ac2b01cfc5159a2ded570383081117ff8b80a5.jar"
-        jar="/home/yassine/Desktop/MarocPlaceExplorer/placesFinder/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/classes.jar"
+        dex="/home/yassine/Desktop/MarocPlaceExplorer/placesFinder/build/intermediates/pre-dexed/debug/classes-2b75baf09c0ecc194af2309f5f4171a75d5ef785.jar"
+        jar="/home/yassine/Desktop/MarocPlaceExplorer/placesFinder/build/intermediates/exploded-aar/com.melnykov/floatingactionbutton/1.0.8/classes.jar"
         jumboMode="false"
         revision="21.1.1"
-        sha1="8694693636ab36910c8100ce527c258ff3ebece0"/>
-    <item
-        dex="/home/yassine/Desktop/MarocPlaceExplorer/placesFinder/build/intermediates/pre-dexed/debug/library-2.4.0-cdc38b3f2b935a3973fe03ec1dc31ec21eab72bf.jar"
-        jar="/home/yassine/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
-        jumboMode="false"
-        revision="21.1.1"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb"/>
+        sha1="d55d9af8bd2fe5711c04db921950afbf64f8cafd"/>
     <item
         dex="/home/yassine/PlacesFinder/placesFinder/build/intermediates/pre-dexed/debug/classes-b4bc0d60ca6bac8246c89687b3c8e7c3464e24d0.jar"
         jar="/home/yassine/PlacesFinder/placesFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/classes.jar"
         jumboMode="false"
         revision="21.1.1"
         sha1="0f6d5c1ef2e982c3b7858408e3df389cf5d202da"/>
-    <item
-        dex="/home/yassine/Desktop/MarocPlaceExplorer/placesFinder/build/intermediates/pre-dexed/debug/classes-e2f7e31a7b36338388d4130dba0404d09bafdc3c.jar"
-        jar="/home/yassine/Desktop/MarocPlaceExplorer/placesFinder/build/intermediates/exploded-aar/com.github.manuelpeinado.fadingactionbar/fadingactionbar/3.1.2/classes.jar"
-        jumboMode="false"
-        revision="21.1.1"
-        sha1="1db28e119b406a5fe367b63fb1be083d5dfe298a"/>
     <item
         dex="/home/yassine/PlacesFinder/placesFinder/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-e46cc1711dad16263de6869a399d4bf2480d4092.jar"
         jar="/home/yassine/PlacesFinder/placesFinder/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/libs/internal_impl-20.0.0.jar"
@@ -92,29 +98,17 @@
         revision="21.1.1"
         sha1="522420544c75f067a7a0879549c63f333809732f"/>
     <item
-        dex="/home/yassine/Desktop/MarocPlaceExplorer/placesFinder/build/intermediates/pre-dexed/debug/classes-eba8892c7783b0f53ba8b412f279872729e30bff.jar"
-        jar="/home/yassine/Desktop/MarocPlaceExplorer/placesFinder/build/intermediates/exploded-aar/com.daimajia.androidanimations/library/1.1.3/classes.jar"
-        jumboMode="false"
-        revision="21.1.1"
-        sha1="8cec50fc9cc847bad0d6ed7d93814f4b34744521"/>
-    <item
         dex="/home/yassine/PlacesFinder/placesFinder/build/intermediates/pre-dexed/debug/crouton-1.8.2-0f6109aec4408d09cb50b09adacafe6dd8d5a19d.jar"
         jar="/home/yassine/PlacesFinder/placesFinder/libs/crouton-1.8.2.jar"
         jumboMode="false"
         revision="21.1.1"
         sha1="ba14b78124a9945dab574c195b8b60633fd61f99"/>
     <item
-        dex="/home/yassine/Desktop/MarocPlaceExplorer/placesFinder/build/intermediates/pre-dexed/debug/Parse-1.7.1-1a34a4f48ea2d0880d2f2092d64f681f1ebf5a61.jar"
-        jar="/home/yassine/Desktop/MarocPlaceExplorer/placesFinder/libs/Parse-1.7.1.jar"
+        dex="/home/yassine/Desktop/MarocPlaceExplorer/placesFinder/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-5993be6c6c0264b762b6b0402a667b3ade42fd03.jar"
+        jar="/home/yassine/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
         jumboMode="false"
         revision="21.1.1"
-        sha1="87c45f9f66da531a65f065ee32f603c7e6db1528"/>
-    <item
-        dex="/home/yassine/Desktop/MarocPlaceExplorer/placesFinder/build/intermediates/pre-dexed/debug/classes-fa8cea2ca79e2146ef4c8e383558d2edf9cd8677.jar"
-        jar="/home/yassine/Desktop/MarocPlaceExplorer/placesFinder/build/intermediates/exploded-aar/com.ToxicBakery.viewpager.transforms/view-pager-transforms/1.0.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.1"
-        sha1="c418d21b2c378aee586a310cec01d1c244a7ec9a"/>
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e"/>
     <item
         dex="/home/yassine/PlacesFinder/placesFinder/build/intermediates/pre-dexed/debug/helperslib-1f4b0d6e1c9d0bdc4e0ee95b1f3743cfd827d5d8.jar"
         jar="/home/yassine/PlacesFinder/placesFinder/libs/helperslib.jar"

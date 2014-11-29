@@ -57,7 +57,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9e0c9e3-d4dd-4b16-bd08-f9f2dab22f64" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable/splash_loading.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PlacesFinder.iml" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/crouton_1_8_2.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/helperslib.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/httpmime_4_2_2.xml" afterPath="" />
@@ -67,20 +67,33 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_20_0_0.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/view_pager_transforms_1_0_0.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/ypylibs.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/fragment/FragmentSettings.java" afterPath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/fragment/FragmentSettings.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-xxhdpi/start.png" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/fragment/FragmentAboutUs.java" afterPath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/fragment/FragmentAbout.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/model_data.bin" afterPath="$PROJECT_DIR$/build/intermediates/model_data.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-xxhdpi/slider.png" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-xxhdpi/slider.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-xxhdpi/thumb.png" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/drawable-xxhdpi/thumb.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/DetailLocationActivity.java" afterPath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/DetailLocationActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/fragment/FragmentAR.java" afterPath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/fragment/FragmentAR.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/fragment/FragmentLocationDetailInformation.java" afterPath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/fragment/FragmentLocationDetailInformation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/MainActivity.java" afterPath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/MainSearchActivity.java" afterPath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/MainSearchActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/build/generated/source/r/debug/cn/pedant/SweetAlert/R.java" afterPath="$PROJECT_DIR$/placesFinder/build/generated/source/r/debug/cn/pedant/SweetAlert/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/build/generated/source/r/debug/com/google/android/gms/R.java" afterPath="$PROJECT_DIR$/placesFinder/build/generated/source/r/debug/com/google/android/gms/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/build/generated/source/r/debug/com/places/nearby/R.java" afterPath="$PROJECT_DIR$/placesFinder/build/generated/source/r/debug/com/places/nearby/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/SplashActivity.java" afterPath="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/SplashActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/build/generated/source/r/debug/com/twotoasters/jazzylistview/R.java" afterPath="$PROJECT_DIR$/placesFinder/build/generated/source/r/debug/com/twotoasters/jazzylistview/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/build/generated/source/r/debug/fr/castorflex/android/smoothprogressbar/R.java" afterPath="$PROJECT_DIR$/placesFinder/build/generated/source/r/debug/fr/castorflex/android/smoothprogressbar/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/layout/activity_search_location.xml" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/layout/activity_search_location.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/build.gradle" afterPath="$PROJECT_DIR$/placesFinder/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/layout/fragment_settings.xml" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/layout/fragment_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/values/colors.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/layout/fragment_about.xml" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/layout/fragment_about.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/layout-sw360dp/fragment_about.xml" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/layout-sw360dp/fragment_about.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/layout-sw360dp/fragment_settings.xml" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/layout-sw360dp/fragment_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/layout-sw600dp/fragment_settings.xml" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/layout-sw600dp/fragment_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/layout-sw800dp/fragment_settings.xml" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/layout-sw800dp/fragment_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/layout/splash.xml" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/layout/splash.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/layout-sw360dp/splash.xml" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/layout-sw360dp/splash.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/layout-sw600dp/splash.xml" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/layout-sw600dp/splash.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/layout-sw800dp/splash.xml" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/layout-sw800dp/splash.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/layout/item_location.xml" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/layout/item_location.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/layout-sw600dp/item_location.xml" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/layout-sw600dp/item_location.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/layout-sw800dp/item_location.xml" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/layout-sw800dp/item_location.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/placesFinder.iml" afterPath="$PROJECT_DIR$/placesFinder/placesFinder.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/placesFinder/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/placesFinder/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="2e1a9b45-19e7-4eaa-a94f-f38ffdf3db2f" name="New changelist" comment="" />
@@ -109,77 +122,7 @@
     <favorites_list name="PlacesFinder" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="FragmentSettings.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/fragment/FragmentSettings.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35826087" vertical-offset="889" max-vertical-offset="4125">
-              <caret line="92" column="77" selection-start-line="92" selection-start-column="77" selection-end-line="92" selection-end-column="77" />
-              <folding>
-                <element signature="e#3540#3780#0" expanded="true" />
-                <element signature="e#3769#3770#0" expanded="true" />
-                <element signature="e#4726#4831#0" expanded="true" />
-                <element signature="e#4826#4827#0" expanded="true" />
-                <element signature="e#4870#4976#0" expanded="true" />
-                <element signature="e#4971#4972#0" expanded="true" />
-                <element signature="e#5019#5123#0" expanded="true" />
-                <element signature="e#5118#5119#0" expanded="true" />
-                <element signature="e#5247#5281#0" expanded="true" />
-                <element signature="e#5353#5385#0" expanded="true" />
-                <element signature="e#5734#5767#0" expanded="true" />
-                <element signature="e#5850#5883#0" expanded="true" />
-                <element signature="e#6061#6103#0" expanded="true" />
-                <element signature="e#6349#6391#0" expanded="true" />
-                <element signature="e#6896#6918#0" expanded="true" />
-                <element signature="e#6986#7424#0" expanded="true" />
-                <element signature="e#7205#7239#0" expanded="true" />
-                <element signature="e#7353#7385#0" expanded="true" />
-                <element signature="e#7419#7420#0" expanded="true" />
-                <element signature="e#7842#7862#0" expanded="true" />
-                <element signature="e#7929#8645#0" expanded="true" />
-                <element signature="e#8640#8641#0" expanded="true" />
-                <element signature="e#9089#9116#0" expanded="true" />
-                <element signature="e#9188#9646#0" expanded="true" />
-                <element signature="e#9416#9449#0" expanded="true" />
-                <element signature="e#9574#9607#0" expanded="true" />
-                <element signature="e#9641#9642#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fragment_settings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/placesFinder/src/main/res/layout/fragment_settings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.461538" vertical-offset="3114" max-vertical-offset="3780">
-              <caret line="224" column="52" selection-start-line="224" selection-start-column="29" selection-end-line="224" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fragment_settings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/placesFinder/src/main/res/layout-sw360dp/fragment_settings.xml">
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2964" max-vertical-offset="3780">
-              <caret line="220" column="42" selection-start-line="220" selection-start-column="42" selection-end-line="220" selection-end-column="42" />
-              <folding>
-                <element signature="e#1045#1068#0" expanded="true" />
-                <element signature="e#3869#3890#0" expanded="true" />
-                <element signature="e#5607#5630#0" expanded="true" />
-                <element signature="e#7360#7388#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -1852,19 +1795,24 @@
                 <option name="name" value="prepareCnPedantSweetalertLibrary11Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-v4:20.0.0" />
+                <option name="description" value="Prepare com.android.support:recyclerview-v7:21.0.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/placesFinder" />
-                <option name="name" value="prepareComAndroidSupportSupportV42000Library" />
+                <option name="name" value="prepareComAndroidSupportRecyclerviewV72100Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.github.manuelpeinado.fadingactionbar:fadingactionbar:3.1.2" />
+                <option name="description" value="Prepare com.android.support:support-v4:21.0.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/placesFinder" />
-                <option name="name" value="prepareComGithubManuelpeinadoFadingactionbarFadingactionbar312Library" />
+                <option name="name" value="prepareComAndroidSupportSupportV42100Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Prepare com.google.android.gms:play-services:6.1.71" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/placesFinder" />
                 <option name="name" value="prepareComGoogleAndroidGmsPlayServices6171Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.melnykov:floatingactionbutton:1.0.8" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/placesFinder" />
+                <option name="name" value="prepareComMelnykovFloatingactionbutton108Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Prepare com.ToxicBakery.viewpager.transforms:view-pager-transforms:1.0.0" />
@@ -2382,7 +2330,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="8497221722393" />
+        <entry key="$PROJECT_DIR$" value="8497658724251" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2691,14 +2639,16 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/cn.pedant.sweetalert/library/1.1/973ea127c6bbe8ef43c190674b356b43f636dd46/library-1.1.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ToxicBakery.viewpager.transforms/view-pager-transforms/1.0.0/36941c6dae1a224a0b52205d4cc4ce8244e73718/view-pager-transforms-1.0.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ToxicBakery.viewpager.transforms/view-pager-transforms/1.0.0/a02007f653403696b9ff19888d776e2c4db3cc4c/view-pager-transforms-1.0.0.aar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.manuelpeinado.fadingactionbar/fadingactionbar/3.1.2/63548da52a9a4461860c8fcf309f274d49501cf5/fadingactionbar-3.1.2-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.manuelpeinado.fadingactionbar/fadingactionbar/3.1.2/63f5cc2c65bee668ffbff675f1276a9fae601729/fadingactionbar-3.1.2.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.2/aef813279b878e900b49165b1f6b0f91c7d50e5e/bolts-android-1.1.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.2/91c20388c9a45f62b5ed8fe0502bb76ff6251fc7/bolts-android-1.1.2.jar" />
-                            <option value="$USER_HOME$/sdk/extras/android/m2repository/com/android/support/support-v4/20.0.0/support-v4-20.0.0-sources.jar" />
-                            <option value="$USER_HOME$/sdk/extras/android/m2repository/com/android/support/support-v4/20.0.0/support-v4-20.0.0.aar" />
-                            <option value="$USER_HOME$/sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0-sources.jar" />
-                            <option value="$USER_HOME$/sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.melnykov/floatingactionbutton/1.0.8/755177ea958c34067416b075162976e70ad32f7e/floatingactionbutton-1.0.8-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.melnykov/floatingactionbutton/1.0.8/db5b08dda28475a05f6a2f980f9ca8b5164b8c7e/floatingactionbutton-1.0.8.aar" />
+                            <option value="$USER_HOME$/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/21.0.0/recyclerview-v7-21.0.0-sources.jar" />
+                            <option value="$USER_HOME$/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/21.0.0/recyclerview-v7-21.0.0.aar" />
+                            <option value="$USER_HOME$/sdk/extras/android/m2repository/com/android/support/support-v4/21.0.0/support-v4-21.0.0-sources.jar" />
+                            <option value="$USER_HOME$/sdk/extras/android/m2repository/com/android/support/support-v4/21.0.0/support-v4-21.0.0.aar" />
+                            <option value="$USER_HOME$/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0-sources.jar" />
+                            <option value="$USER_HOME$/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar" />
                             <option value="$MODULE_DIR$/libs/crouton-1.8.2.jar" />
                             <option value="$MODULE_DIR$/libs/helperslib.jar" />
                             <option value="$MODULE_DIR$/libs/httpmime-4.2.2.jar" />
@@ -2893,27 +2843,13 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout/item_progress_bar.xml" />
-        <option value="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/DBFragmentActivity.java" />
-        <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout-sw600dp/fragment_favorites.xml" />
-        <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout-sw800dp/fragment_favorites.xml" />
-        <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout-sw600dp/fragment_location_detail_map.xml" />
-        <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout-sw800dp/fragment_location_detail_map.xml" />
-        <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout-sw800dp/item_directions.xml" />
-        <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout-sw600dp/item_directions.xml" />
-        <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout/item_favorite_location.xml" />
-        <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout-sw600dp/item_favorite_location.xml" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout-sw800dp/item_favorite_location.xml" />
-        <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout-sw800dp/item_location.xml" />
-        <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout-sw600dp/item_location.xml" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout-sw600dp/item_review.xml" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout-sw800dp/item_review.xml" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout-sw600dp/fragment_location_detail_infomation.xml" />
-        <option value="$PROJECT_DIR$/placesFinder/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/res/menu/menu_my_location.xml" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/res/menu/menu_favorite.xml" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/dataMng/TotalDataManager.java" />
-        <option value="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/MainSearchActivity.java" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/object/ResponsePlaceResult.java" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout-sw800dp/fragment_location_detail_infomation.xml" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout/fragment_location_detail_infomation.xml" />
@@ -2922,17 +2858,14 @@
         <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout/fragment_ar.xml" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout/fragment_home.xml" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/constanst/GlobalState.java" />
-        <option value="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/MainActivity.java" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/constants/IMarocPlaceExplorerConstants.java" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/provider/Receiver.java" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/constants/GlobalState.java" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/res/drawable/loading.xml" />
-        <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout/activity_search_location.xml" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout/dialog_quick_distance.xml" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout/fragment_step2.xml" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout/fragment_step4.xml" />
-        <option value="$PROJECT_DIR$/placesFinder/build.gradle" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout/splash.xml" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout-sw600dp/splash.xml" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout-sw800dp/splash.xml" />
@@ -2942,16 +2875,33 @@
         <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout/fragment_settings.xml" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout-sw600dp/fragment_settings.xml" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout-sw800dp/fragment_settings.xml" />
-        <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout-sw360dp/fragment_settings.xml" />
         <option value="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/fragment/FragmentSettings.java" />
+        <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout-sw360dp/fragment_settings.xml" />
+        <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout/header.xml" />
+        <option value="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/fragment/FragmentAboutUs.java" />
+        <option value="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/fragment/FragmentAR.java" />
+        <option value="$PROJECT_DIR$/placesFinder/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout-sw360dp/fragment_about.xml" />
+        <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout/fragment_about.xml" />
+        <option value="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/fragment/FragmentAbout.java" />
+        <option value="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/MainActivity.java" />
+        <option value="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/fragment/FragmentLocationDetailInformation.java" />
+        <option value="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/DetailLocationActivity.java" />
+        <option value="$PROJECT_DIR$/placesFinder/build.gradle" />
+        <option value="$PROJECT_DIR$/placesFinder/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout/activity_search_location.xml" />
+        <option value="$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/MainSearchActivity.java" />
+        <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout-sw600dp/item_location.xml" />
+        <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout-sw800dp/item_location.xml" />
+        <option value="$PROJECT_DIR$/placesFinder/src/main/res/layout/item_location.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="49" />
-    <option name="y" value="24" />
+    <option name="y" value="-4" />
     <option name="width" value="1317" />
-    <option name="height" value="744" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -3057,7 +3007,7 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="fragment_settings.xml" />
+              <option name="myItemId" value="item_location.xml" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResGroupNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -3101,58 +3051,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PlacesFinder" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="placesFinder" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wheresmyplaces" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fragment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PlacesFinder" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="placesFinder" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wheresmyplaces" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adapter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -3179,7 +3077,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/placesFinder/src/main/res/drawable" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/placesFinder/src/main/res/layout" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.SHOW" value="false" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteToolWindowManager.SHOW" value="true" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="75" />
@@ -3499,7 +3397,11 @@
       <created>1416800927161</created>
       <updated>1416800927161</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Add loading to splash screen + add help to settings">
+      <created>1416811519744</created>
+      <updated>1416811519744</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -3523,8 +3425,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="24" width="1317" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="49" y="-4" width="1317" height="772" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.49960783" order="8" side_tool="false" content_ui="tabs" />
@@ -3532,6 +3434,7 @@
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7408585" sideWeight="0.49960783" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.50039214" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -3539,22 +3442,21 @@
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.50039214" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.49960783" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.66931635" sideWeight="0.49960783" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34499204" sideWeight="0.49960783" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.49960783" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2917647" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2917647" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.49960783" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Documentation" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="149" y="96" width="1117" height="572" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="149" y="96" width="1117" height="572" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7408585" sideWeight="0.49960783" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -3622,7 +3524,8 @@
     <MESSAGE value="Add push notifications + loading" />
     <MESSAGE value="Change loading while searching places + improvments" />
     <MESSAGE value="Backup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Backup" />
+    <MESSAGE value="Add loading to splash screen + add help to settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add loading to splash screen + add help to settings" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3630,111 +3533,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/res/layout-sw600dp/fragment_location_detail_infomation.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1050" max-vertical-offset="2595">
-          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/res/layout/fragment_home.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="330">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="602">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/res/layout-sw360dp/fragment_home.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/provider/Receiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49833888" vertical-offset="0" max-vertical-offset="1035">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/constants/GlobalState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74533105" vertical-offset="1856" max-vertical-offset="2445">
-          <caret line="153" column="57" selection-start-line="153" selection-start-column="57" selection-end-line="153" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/res/layout/dialog_quick_distance.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.625" vertical-offset="0" max-vertical-offset="1200">
-          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/res/layout/fragment_step1.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/res/layout/fragment_step4.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.923077" vertical-offset="0" max-vertical-offset="465">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/adapter/PlaceAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1350" max-vertical-offset="2145">
-          <caret line="122" column="29" selection-start-line="122" selection-start-column="29" selection-end-line="122" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/constants/IMarocPlaceExplorerConstants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2385">
           <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3753,7 +3555,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="602">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3761,7 +3562,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3769,7 +3569,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="602">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3795,19 +3594,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.4" vertical-offset="0" max-vertical-offset="2490">
-          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/smoothProgressBar/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="602">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3815,7 +3605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="602">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3823,7 +3612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="602">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3845,15 +3633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.9259257" vertical-offset="488" max-vertical-offset="3645">
           <caret line="77" column="8" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/placesFinder/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
-          <caret line="33" column="61" selection-start-line="33" selection-start-column="61" selection-end-line="33" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3874,14 +3653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.2801358" vertical-offset="225" max-vertical-offset="5505">
           <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/fragment/FragmentLocationDetailInformation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.8336163" vertical-offset="90" max-vertical-offset="5130">
-          <caret line="117" column="17" selection-start-line="117" selection-start-column="17" selection-end-line="117" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -3889,13 +3660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.10186757" vertical-offset="0" max-vertical-offset="1065">
           <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/fragment/FragmentAboutUs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="1470">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -3947,19 +3711,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/MainSearchActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.419929" vertical-offset="5394" max-vertical-offset="12585">
-          <caret line="262" column="34" selection-start-line="262" selection-start-column="34" selection-end-line="262" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/placesFinder/src/main/res/drawable/finding_places.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.30379745" vertical-offset="45" max-vertical-offset="495">
           <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3978,7 +3733,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1980" max-vertical-offset="3345">
           <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3986,26 +3740,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5232558" vertical-offset="0" max-vertical-offset="602">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/res/layout/activity_search_location.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1005" max-vertical-offset="1800">
-          <caret line="67" column="34" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10186757" vertical-offset="0" max-vertical-offset="9375">
-          <caret line="73" column="13" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4013,7 +3747,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-18.96" vertical-offset="2481" max-vertical-offset="3045">
           <caret line="198" column="0" selection-start-line="198" selection-start-column="0" selection-end-line="198" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4033,10 +3766,10 @@
         <state vertical-scroll-proportion="0.24479167" vertical-offset="3069" max-vertical-offset="3765">
           <caret line="214" column="46" selection-start-line="214" selection-start-column="25" selection-end-line="214" selection-end-column="46" />
           <folding>
-            <element signature="e#1053#1076#0" expanded="true" />
-            <element signature="e#3882#3903#0" expanded="true" />
-            <element signature="e#5626#5649#0" expanded="true" />
-            <element signature="e#7385#7413#0" expanded="true" />
+            <element signature="e#1053#1076#0" expanded="false" />
+            <element signature="e#3882#3903#0" expanded="false" />
+            <element signature="e#5626#5649#0" expanded="false" />
+            <element signature="e#7385#7413#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -4044,33 +3777,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/res/layout-sw360dp/fragment_settings.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2964" max-vertical-offset="3780">
-          <caret line="220" column="42" selection-start-line="220" selection-start-column="42" selection-end-line="220" selection-end-column="42" />
-          <folding>
-            <element signature="e#1045#1068#0" expanded="true" />
-            <element signature="e#3869#3890#0" expanded="true" />
-            <element signature="e#5607#5630#0" expanded="true" />
-            <element signature="e#7360#7388#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/SplashActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7009967" vertical-offset="493" max-vertical-offset="2310">
           <caret line="61" column="39" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2580#2769#0" expanded="true" />
-            <element signature="e#2758#2759#0" expanded="true" />
-            <element signature="e#3800#3839#0" expanded="true" />
-            <element signature="e#5277#5302#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4085,40 +3795,193 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/fragment/FragmentSettings.java">
+    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/res/layout-sw360dp/fragment_settings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35826087" vertical-offset="889" max-vertical-offset="4125">
-          <caret line="92" column="77" selection-start-line="92" selection-start-column="77" selection-end-line="92" selection-end-column="77" />
+        <state vertical-scroll-proportion="-8.076923" vertical-offset="3285" max-vertical-offset="4140">
+          <caret line="233" column="0" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/res/drawable/start.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/fragment/FragmentAR.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24916944" vertical-offset="0" max-vertical-offset="602">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2100" max-vertical-offset="2490">
+          <caret line="140" column="46" selection-start-line="140" selection-start-column="46" selection-end-line="140" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="602">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/res/layout/fragment_about.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.230769" vertical-offset="348" max-vertical-offset="1185">
+          <caret line="34" column="47" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/res/layout-sw360dp/fragment_about.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.4583334" vertical-offset="0" max-vertical-offset="1185">
+          <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
           <folding>
-            <element signature="e#3540#3780#0" expanded="true" />
-            <element signature="e#3769#3770#0" expanded="true" />
-            <element signature="e#4726#4831#0" expanded="true" />
-            <element signature="e#4826#4827#0" expanded="true" />
-            <element signature="e#4870#4976#0" expanded="true" />
-            <element signature="e#4971#4972#0" expanded="true" />
-            <element signature="e#5019#5123#0" expanded="true" />
-            <element signature="e#5118#5119#0" expanded="true" />
-            <element signature="e#5247#5281#0" expanded="true" />
-            <element signature="e#5353#5385#0" expanded="true" />
-            <element signature="e#5734#5767#0" expanded="true" />
-            <element signature="e#5850#5883#0" expanded="true" />
-            <element signature="e#6061#6103#0" expanded="true" />
-            <element signature="e#6349#6391#0" expanded="true" />
-            <element signature="e#6896#6918#0" expanded="true" />
-            <element signature="e#6986#7424#0" expanded="true" />
-            <element signature="e#7205#7239#0" expanded="true" />
-            <element signature="e#7353#7385#0" expanded="true" />
-            <element signature="e#7419#7420#0" expanded="true" />
-            <element signature="e#7842#7862#0" expanded="true" />
-            <element signature="e#7929#8645#0" expanded="true" />
-            <element signature="e#8640#8641#0" expanded="true" />
-            <element signature="e#9089#9116#0" expanded="true" />
-            <element signature="e#9188#9646#0" expanded="true" />
-            <element signature="e#9416#9449#0" expanded="true" />
-            <element signature="e#9574#9607#0" expanded="true" />
-            <element signature="e#9641#9642#0" expanded="true" />
+            <element signature="e#2111#2134#0" expanded="false" />
           </folding>
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/fragment/FragmentAbout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="1365">
+          <caret line="79" column="57" selection-start-line="79" selection-start-column="57" selection-end-line="79" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56196946" vertical-offset="1394" max-vertical-offset="9375">
+          <caret line="182" column="75" selection-start-line="182" selection-start-column="75" selection-end-line="182" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/fragment/FragmentLocationDetailInformation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1440" max-vertical-offset="6105">
+          <caret line="96" column="65" selection-start-line="96" selection-start-column="65" selection-end-line="96" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/fragment/FragmentSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="3630">
+          <caret line="89" column="62" selection-start-line="89" selection-start-column="62" selection-end-line="89" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/res/layout/fragment_location_detail_infomation.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="2520">
+          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/DetailLocationActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.6926994" vertical-offset="135" max-vertical-offset="5880">
+          <caret line="193" column="78" selection-start-line="193" selection-start-column="78" selection-end-line="193" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/placesFinder/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2531645" vertical-offset="0" max-vertical-offset="600">
+          <caret line="33" column="53" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/java/com/elfadili/wheresmyplaces/MainSearchActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="7.5185184" vertical-offset="2708" max-vertical-offset="13890">
+          <caret line="167" column="40" selection-start-line="167" selection-start-column="40" selection-end-line="167" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5906#6223#0" expanded="true" />
+            <element signature="e#6212#6213#0" expanded="true" />
+            <element signature="e#13597#14367#0" expanded="true" />
+            <element signature="e#13802#13828#0" expanded="true" />
+            <element signature="e#14360#14361#0" expanded="true" />
+            <element signature="e#15780#15806#0" expanded="true" />
+            <element signature="e#17546#17572#0" expanded="true" />
+            <element signature="e#24146#24172#0" expanded="true" />
+            <element signature="e#25103#25129#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/res/layout/activity_search_location.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.346153" vertical-offset="90" max-vertical-offset="2130">
+          <caret line="43" column="47" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/res/layout/item_location.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="639" max-vertical-offset="1230">
+          <caret line="68" column="43" selection-start-line="68" selection-start-column="43" selection-end-line="68" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/res/layout-sw600dp/item_location.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64480877" vertical-offset="726" max-vertical-offset="1275">
+          <caret line="72" column="12" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/placesFinder/src/main/res/layout-sw800dp/item_location.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8333333" vertical-offset="225" max-vertical-offset="1245">
+          <caret line="47" column="36" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
   </component>

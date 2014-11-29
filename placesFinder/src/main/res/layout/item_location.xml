@@ -6,8 +6,6 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="104sp"
-        android:layout_marginLeft="6dp"
-        android:layout_marginRight="6dp"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="6dp"
         android:background="@drawable/bg_card">
@@ -25,9 +23,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5sp"
-            android:layout_marginRight="5sp"
             android:layout_marginTop="5sp"
-            android:layout_toLeftOf="@+id/tv_distance"
             android:layout_toRightOf="@+id/img_location"
             android:singleLine="true"
             android:text="Agence Meditel"
@@ -39,10 +35,12 @@
             android:id="@+id/tv_sumary"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/tv_name_location"
+            android:layout_toRightOf="@+id/img_location"
             android:layout_below="@+id/tv_name_location"
             android:layout_marginRight="5sp"
+            android:layout_marginLeft="5sp"
             android:layout_marginTop="15sp"
+            android:lines="2"
             android:maxLines="2"
             android:text="Casablanca"
             android:textColor="@color/black"
@@ -68,9 +66,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="3sp"
+            android:layout_marginLeft="5sp"
             android:rating="5"
             android:isIndicator="true"
-            android:layout_alignLeft="@+id/tv_name_location"
+            android:layout_toRightOf="@+id/img_location"
+            android:layout_alignLeft="@+id/layout_text"
             android:layout_below="@+id/tv_sumary" />
     </RelativeLayout>
 

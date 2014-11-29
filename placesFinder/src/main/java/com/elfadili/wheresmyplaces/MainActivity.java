@@ -39,11 +39,10 @@ import android.widget.SearchView;
 import android.widget.TextView;
 
 import com.elfadili.wheresmyplaces.constants.IMarocPlaceExplorerConstants;
+import com.elfadili.wheresmyplaces.fragment.FragmentAbout;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.android.gms.maps.GoogleMap;
-import com.parse.Parse;
-import com.parse.PushService;
 import com.ypyproductions.bitmap.ImageCache.ImageCacheParams;
 import com.ypyproductions.bitmap.ImageFetcher;
 import com.ypyproductions.dialog.utils.AlertDialogUtils;
@@ -58,7 +57,6 @@ import com.places.nearby.R;
 import com.elfadili.wheresmyplaces.adapter.DrawerAdapter;
 import com.elfadili.wheresmyplaces.dataMng.TotalDataManager;
 import com.elfadili.wheresmyplaces.fragment.FragmentAR;
-import com.elfadili.wheresmyplaces.fragment.FragmentAboutUs;
 import com.elfadili.wheresmyplaces.fragment.FragmentFavorites;
 import com.elfadili.wheresmyplaces.fragment.FragmentHome;
 import com.elfadili.wheresmyplaces.fragment.FragmentMyLocation;
@@ -300,7 +298,7 @@ public class MainActivity extends DBFragmentActivity implements IMarocPlaceExplo
         }
         if (mFragment == null) {
             if (mTag.equals(TAG_ABOUT)) {
-                FragmentAboutUs mFragmentAboutUs = new FragmentAboutUs();
+                FragmentAbout mFragmentAboutUs = new FragmentAbout();
                 mFragmentTransaction.add(R.id.content_frame, mFragmentAboutUs, mTag);
                 mListFragments.add(mFragmentAboutUs);
             }

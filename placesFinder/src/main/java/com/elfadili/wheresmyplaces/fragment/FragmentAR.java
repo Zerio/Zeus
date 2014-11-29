@@ -11,7 +11,7 @@ import com.places.nearby.R;
 import com.elfadili.wheresmyplaces.MainActivity;
 
 public class FragmentAR  extends Fragment implements IMarocPlaceExplorerConstants {
-    public static final String TAG = FragmentAboutUs.class.getSimpleName();
+    public static final String TAG = FragmentAR.class.getSimpleName();
 
     private View mRootView;
 

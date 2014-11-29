@@ -53,6 +53,7 @@ public class DetailLocationActivity extends DBFragmentActivity implements IMaroc
 
 	public Typeface mTypeFaceRobotoBold;
     public Typeface mTypeFaceRobotoMedium;
+    public Typeface mTypeFaceRobotoRegular;
 	public Typeface mTypeFaceRobotoLight;
     public Typeface mTypeFacechampagne;
 	public ImageFetcher mImgFetcher;
@@ -190,6 +191,7 @@ public class DetailLocationActivity extends DBFragmentActivity implements IMaroc
 	private void initTypeFace() {
 		mTypeFaceRobotoBold = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Bold.ttf");
         mTypeFaceRobotoMedium = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Medium.ttf");
+        mTypeFaceRobotoRegular = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Regular.ttf");
 		mTypeFaceRobotoLight = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Light.ttf");
         mTypeFacechampagne = Typeface.createFromAsset(getAssets(), "fonts/champagne.ttf");
 	}

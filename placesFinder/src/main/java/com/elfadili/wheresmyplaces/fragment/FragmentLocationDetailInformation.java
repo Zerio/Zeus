@@ -94,8 +94,8 @@ public class FragmentLocationDetailInformation extends Fragment implements IMaro
 		this.mTvTitlePlaceInfos=(TextView) mRootView.findViewById(R.id.tv_title_info);
 		this.mTvTitleUserReviews=(TextView) mRootView.findViewById(R.id.tv_title_user_reviews);
 		
-		this.mTvTitlePlaceInfos.setTypeface(mContext.mTypeFaceRobotoBold);
-		this.mTvTitleUserReviews.setTypeface(mContext.mTypeFaceRobotoBold);
+		this.mTvTitlePlaceInfos.setTypeface(mContext.mTypeFaceRobotoRegular);
+		this.mTvTitleUserReviews.setTypeface(mContext.mTypeFaceRobotoRegular);
 		
 		this.mLayoutImg =(LinearLayout) mRootView.findViewById(R.id.layout_img);
 		this.mLayoutDetailInfo=(LinearLayout) mRootView.findViewById(R.id.layout_detail_info);

@@ -41,6 +41,7 @@ import android.widget.Toast;
 
 import com.elfadili.wheresmyplaces.constants.IMarocPlaceExplorerConstants;
 import com.elfadili.wheresmyplaces.object.ResponsePlaceResult;
+import com.melnykov.fab.FloatingActionButton;
 import com.ypyproductions.bitmap.ImageCache.ImageCacheParams;
 import com.ypyproductions.bitmap.ImageFetcher;
 import com.ypyproductions.location.TrackRecordServiceController;
@@ -90,6 +91,8 @@ public class MainSearchActivity extends DBFragmentActivity implements IMarocPlac
 	public Typeface mTypeFaceRobotoBold;
 	public Typeface mTypeFaceRobotoLight;
     public Typeface mTypeFacechampagne;
+
+    FloatingActionButton fab;
 
 	public ImageFetcher mImgFetcher;
 
@@ -154,6 +157,18 @@ public class MainSearchActivity extends DBFragmentActivity implements IMarocPlac
         imgServerError = (ImageView) findViewById(R.id.img_server_error);
 		
 		this.mFooterView = findViewById(R.id.layout_footer);
+
+        fab = (FloatingActionButton) findViewById(R.id.fab);
+        fab.hide(false);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent myIntent = new Intent(MainSearchActivity.this, WelcomeActivity.class);
+                myIntent.putExtra("Cat", "Get Category name");
+                startActivity(myIntent);
+            }
+        });
+
 
 		getActionBar().setDisplayHomeAsUpEnabled(true);
 		getActionBar().setHomeButtonEnabled(true);
@@ -225,6 +240,7 @@ public class MainSearchActivity extends DBFragmentActivity implements IMarocPlac
 		if (mCurrentLocation != null) {
 			mTvResult.setVisibility(View.GONE);
             imgResult.setVisibility(View.GONE);
+            fab.show();
 			final HomeSearchObject mHomeSearchObject = mTotalMng.getHomeSearchSelected();
 			if (mHomeSearchObject != null) {
 				ResponsePlaceResult mResponcePlaceResult = mHomeSearchObject.getResponcePlaceResult();
@@ -307,12 +323,14 @@ public class MainSearchActivity extends DBFragmentActivity implements IMarocPlac
                             // server error
                             imgServerError.setVisibility(View.VISIBLE);
                             mTvServerError.setVisibility(View.VISIBLE);
+                            fab.hide();
 							Toast.makeText(MainSearchActivity.this, R.string.info_server_error, Toast.LENGTH_LONG).show();
 							isAllowAddPage = false;
 						}
 						else {
                             imgServerError.setVisibility(View.GONE);
                             mTvServerError.setVisibility(View.GONE);
+                            fab.show();
 							ResponsePlaceResult mResponcePlaceResult = mHomeSearchObject.getResponcePlaceResult();
 							ArrayList<PlaceObject> mListPlaceObjects = mResponcePlaceResult.getListPlaceObjects();
 							if (mListPlaceObjects == null) {
@@ -350,6 +368,7 @@ public class MainSearchActivity extends DBFragmentActivity implements IMarocPlac
 			if (mPlaceAdapter == null) {
 				mPlaceAdapter = new PlaceAdapter(MainSearchActivity.this, mListPlaceObjects, mTypeFacechampagne, mTypeFaceRobotoLight, mImgFetcher);
 				mLocationListView.setAdapter(mPlaceAdapter);
+                fab.attachToListView(mLocationListView);
 				mLocationListView.setOnItemClickListener(new OnItemClickListener() {
 					@Override
 					public void onItemClick(AdapterView<?> arg0, View arg1, int position, long id) {
