@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MarocPlaceExplorer.iml" filepath="$PROJECT_DIR$/MarocPlaceExplorer.iml" />
       <module fileurl="file://$PROJECT_DIR$/PlacesFinder.iml" filepath="$PROJECT_DIR$/PlacesFinder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/placesFinder/libraries/floatlabel/floatlabel.iml" filepath="$PROJECT_DIR$/placesFinder/libraries/floatlabel/floatlabel.iml" />
       <module fileurl="file://$PROJECT_DIR$/jazzyListView/jazzyListView.iml" filepath="$PROJECT_DIR$/jazzyListView/jazzyListView.iml" />
       <module fileurl="file://$PROJECT_DIR$/nineOldAndroids/nineOldAndroids.iml" filepath="$PROJECT_DIR$/nineOldAndroids/nineOldAndroids.iml" />
       <module fileurl="file://$PROJECT_DIR$/placesFinder/placesFinder.iml" filepath="$PROJECT_DIR$/placesFinder/placesFinder.iml" />

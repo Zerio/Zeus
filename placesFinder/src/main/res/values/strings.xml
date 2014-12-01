@@ -17,16 +17,12 @@
     <string name="title_all_place">Tous les lieux</string>
     <string name="title_refresh">Rafraîchir</string>
     <string name="title_settings">Paramètres</string>
-    
     <string name="title_search">...</string>
     <string name="title_quick_distance">Changer le rayon</string>
-    
     <string name="title_place_info">INFORMATIONS</string>
     <string name="title_user_reviews">AVIS DES UTILISATEURS</string>
-    
     <string name="format_reviews">%1$s Avis</string>
     <string name="format_review">%1$s Avis</string>
-    
     <string name="format_radius">Rayon: %1$s %2$s</string>
     <string name="format_address">Address: %1$s </string>
     <string name="format_area">Région: %1$s</string>
@@ -36,17 +32,14 @@
     <string name="format_country_code">Code du pays: %1$s</string>
     <string name="format_add_favorite">%1$s est parmi vos endroits préférés</string>
     <string name="format_remove_favorite">%1$s n\'est plus parmi vos endroits préférés</string>
-    
     <string name="title_units">Système d\'unités</string>
     <string name="title_piority">Classment par</string>
     <string name="title_travel_modes">Modes de déplacement</string>
-    
+    <string name="title_notification">Activer les notifications</string>
     <string name="info_loading_more">Finding more locations surrounding you.Please wait...</string>
-    
     <string name="title_improve_location">Améliorez votre localisation</string>
     <string name="title_location_services_disable">Le service de localisation est désactivé</string>
     <string name="info_location_services_disable">Maroc Place Explorer needs access to your location. Please turn on location access</string>
-    
     <string name="title_enable">Activer</string>
     <string name="info_get_location_error">Erreur de localisation! Veuillez réessayer plus tard</string>
     <string name="info_gps_enable">Turn on the following to improve your location:GPS</string>
@@ -55,49 +48,42 @@
     <string name="info_format_process_detail_location">Start getting information of %1$s </string>
     <string name="info_show_again">Ne plus afficher</string>
     <string name="info_no_location">Can\'t not find locations surrounding you!</string>
-    
     <string name="menu_location_terrain">Terrain View</string>
     <string name="menu_location_satellite">Satellite View</string>
     <string name="menu_location_traffic">Traffic View</string>
     <string name="menu_location_details">Détails</string>
-    
     <string name="tab_infomation">Information</string>
     <string name="tab_map">Carte</string>
 
-    <!-- Start - Settings-->
+    <!-- Start - Settings -->
     <string-array name="metric_array">
         <item>Kilometers</item>
         <item>Miles</item>
     </string-array>
-    
     <string-array name="sorting_array">
         <item>Distance</item>
         <item>Évaluation</item>
     </string-array>
-    
     <string-array name="travel_mode_array">
         <item>En voiture</item>
         <item>À pied</item>
     </string-array>
-    
+
     <string name="title_distance">Distance</string>
     <string name="title_rating">Évaluation</string>
     <string name="format_distance">Distance: ~%1$s</string>
-    
     <string name="title_get_directions">Itinéraire</string>
-    
     <string name="title_sort_by_distance">Par distance</string>
     <string name="title_sort_by_rating">Par évaluation</string>
-
     <string name="title_driving">En voiture</string>
     <string name="title_walking">À pied</string>
-    <!-- End - Settings-->
+    <!-- End - Settings -->
 
     <string name="title_contact_us">Contact me</string>
     <string name="info_contact_us">Contactez-moi si vous avez besoin d\'aide!</string>
     <string name="link_contact_us">Email</string>
 
-    <!-- Start - Confirmation and popups-->
+    <!-- Start - Confirmation and popups -->
     <string name="title_confirm_call">Confirmation d\'appel</string>
     <string name="confirm_call">Voulez-vous appeler?</string>
     <string name="title_yes">Oui</string>
@@ -110,7 +96,9 @@
     <string name="confirm_deleted">Vos adresses préférées sont supprimées!</string>
     <string name="title_cancelled">"Annulé!"</string>
     <string name="confirm_cancelled">Vos adresses préférées sont toujours là!</string>
-    <!-- End - Confirmation and popups-->
+    <string name="quit_message">Voulez-vous quitter cette application?</string>
+    <string name="info_delete_favorites">Voulez-vous supprimer tous vos favoris?</string>
+    <!-- End - Confirmation and popups -->
 
     <string name="title_website">Website</string>
     <string name="info_website">Visit my website</string>
@@ -123,8 +111,6 @@
     <string name="title_more_app">More apps</string>
     <string name="info_more_app">Feel fun with my application</string>
     <string name="info_no_result">La liste est vide!</string>
-    <string name="quit_message">Voulez-vous quitter cette application?</string>
-    <string name="info_delete_favorites">Voulez-vous supprimer tous vos favoris?</string>
     <string name="info_no_delete_favorites">Aucun emplacement favori à supprimer!</string>
     <string name="title_warning_close">Quittez</string>
     <string name="info_lose_internet">Veuillez vérifier votre connexion Internet!</string>
@@ -143,11 +129,29 @@
     <string name="info_distance_km_format">~ %1$s Km</string>
     <string name="info_distance_miles_format">~ %1$s Mi</string>
     <string name="copyright">© 2014 EL FADILI YASSINE</string>
-    <string name ="format_start_address"><Data><![CDATA[<font color=\'#999999\'>De&nbsp;</font><font color=\'#000000\'>%1$s</font>]]></Data></string>
-    <string name ="format_end_address"><Data><![CDATA[<font color=\'#999999\'>To&nbsp;</font><font color=\'#000000\'>%1$s</font>]]></Data></string>
-    <string name ="format_duration_distance"><Data><![CDATA[<font color=\'#000000\'>%1$s&nbsp;</font><font color=\'#999999\'>(%2$s)</font>]]></Data></string>
-    <string name ="format_sumary"><Data><![CDATA[<font color=\'#999999\'>Par %1$s</font>]]></Data></string>
+    <string name="format_start_address"><Data><![CDATA[<font color=\'#999999\'>De&nbsp;</font><font color=\'#000000\'>%1$s</font>]]></Data></string>
+    <string name="format_end_address"><Data><![CDATA[<font color=\'#999999\'>To&nbsp;</font><font color=\'#000000\'>%1$s</font>]]></Data></string>
+    <string name="format_duration_distance"><Data><![CDATA[<font color=\'#000000\'>%1$s&nbsp;</font><font color=\'#999999\'>(%2$s)</font>]]></Data></string>
+    <string name="format_sumary"><Data><![CDATA[<font color=\'#999999\'>Par %1$s</font>]]></Data></string>
     <string name="no_result">Aucun résultat</string>
+    <string name="btn_help">Aide</string>
+    <string name="btn_send">Envoyer</string>
+    <string name="btn_success">Succès!</string>
+    <string name="btn_error">Erreur!</string>
+    <string name="btn_loading">Envoi en cours!</string>
+    <string name="msg_success">Merci! Votre proposition a été envoyée avec succès, en attente de modération!</string>
+    <string name="msg_error">Une erreur est survenue!</string>
+    <string name="name_hint">Nom</string>
+    <string name="address_hint">Adresse</string>
+    <string name="phone_hint">Téléphone</string>
+    <string name="web_hint">Site web</string>
+    <string name="email_hint">Vore adresse e-mail</string>
+    <string name="field_cannot_be_empty">Veuillez remplir ce champ</string>
+    <string name="name_error">Le nom n\'est pas valide!</string>
+    <string name="address_error">L\'adresse n\'est pas valide!</string>
+    <string name="phone_error">Le téléphone n\'est pas valide!</string>
+    <string name="web_error">Le site web n\'est pas valide!</string>
+    <string name="email_error">L\'adresse e-mail n\'est pas valide!</string>
 
     <string-array name="list_options">
         <item>Catégories</item>
@@ -157,5 +161,7 @@
         <item>Real World</item>
         <item>À propos</item>
     </string-array>
+
+    <string name="title_activity_add_place">AddPlaceActivity</string>
 
 </resources>

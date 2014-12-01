@@ -1,4 +1,5 @@
-include ':nineOldAndroids'
+include ':nineOldAndroids', ':floatlabel'
 include ':jazzyListView'
 include ':smoothProgressBar'
 include ':placesFinder'
+project(':floatlabel').projectDir = new File('placesFinder/libraries/floatlabel')

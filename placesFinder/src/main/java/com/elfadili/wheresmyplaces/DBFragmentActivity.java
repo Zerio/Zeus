@@ -112,7 +112,6 @@ public class DBFragmentActivity extends FragmentActivity implements IDBConstantU
                 .setCancelClickListener(new SweetAlertDialog.OnSweetClickListener() {
                     @Override
                     public void onClick(SweetAlertDialog sweetAlertDialog) {
-                        // 7bas bla mat3ayet
                         sweetAlertDialog.dismiss();
                     }
                 })

@@ -168,6 +168,4 @@ public class TotalLocationInMapActivity extends DBFragmentActivity implements IM
 		FragmentTotalLocation mFragmentTotalLocation = (FragmentTotalLocation)getSupportFragmentManager().findFragmentById(R.id.fragment_location_home);
 		mFragmentTotalLocation.setMapType(viewMode, mStrName);
 	}
-	
-
 }

@@ -13,6 +13,8 @@ import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.dd.processbutton.FlatButton;
+import com.dd.processbutton.iml.ActionProcessButton;
 import com.elfadili.wheresmyplaces.WelcomeActivity;
 import com.elfadili.wheresmyplaces.constants.IMarocPlaceExplorerConstants;
 import com.places.nearby.R;
@@ -45,9 +47,9 @@ public class FragmentSettings extends Fragment implements IMarocPlaceExplorerCon
 	private TextView mTvTitleTravelMode;
 	private TextView mTvTravelMode;
 
-    private Button btnStartTuto;
-    private TextView mTvTitleStartTutorial;
-	
+    private FlatButton btnStartTuto;
+    private TextView mTvTitleNotification;
+
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 		mRootView = inflater.inflate(R.layout.fragment_settings, container, false);
@@ -77,8 +79,8 @@ public class FragmentSettings extends Fragment implements IMarocPlaceExplorerCon
 		this.mTvPiority = (TextView) mRootView.findViewById(R.id.tv_piority);
 		this.mTvTravelMode = (TextView) mRootView.findViewById(R.id.tv_travel_mode);
 
-        this.mTvTitleStartTutorial = (TextView) mRootView.findViewById(R.id.tv_title_start_tutorial);
-        this.btnStartTuto = (Button) mRootView.findViewById(R.id.btn_start_tutorial);
+        this.mTvTitleNotification = (TextView) mRootView.findViewById(R.id.tv_title_notifications);
+        this.btnStartTuto = (FlatButton) mRootView.findViewById(R.id.btn_start_tutorial);
 		
 		this.mTvMinRadius.setTypeface(mContext.mTypeFaceRobotoLight);
 		this.mTvMaxRadius.setTypeface(mContext.mTypeFaceRobotoLight);
@@ -90,7 +92,7 @@ public class FragmentSettings extends Fragment implements IMarocPlaceExplorerCon
 		this.mTvTitleMetric.setTypeface(mContext.mTypeFaceRobotoBold);
 		this.mTvTitlePiority.setTypeface(mContext.mTypeFaceRobotoBold);
 		this.mTvTitleTravelMode.setTypeface(mContext.mTypeFaceRobotoBold);
-        this.mTvTitleStartTutorial.setTypeface(mContext.mTypeFaceRobotoBold);
+        this.mTvTitleNotification.setTypeface(mContext.mTypeFaceRobotoBold);
 
         this.btnStartTuto.setOnClickListener(new View.OnClickListener() {
             @Override

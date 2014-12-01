@@ -231,7 +231,7 @@ public class MainActivity extends DBFragmentActivity implements IMarocPlaceExplo
                 }
                 else if (position == AR_INDEX) {
                     showFragmentByTag(TAG_AR, AR_INDEX);
-                    setVisibleButtonMenu(true);
+                    setVisibleButtonMenu(false);
                 }
                 else if (position == FAVORITES_INDEX) {
                     showFragmentByTag(TAG_FAVORITE, FAVORITES_INDEX);

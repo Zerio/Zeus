@@ -40,6 +40,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.elfadili.wheresmyplaces.constants.IMarocPlaceExplorerConstants;
+import com.elfadili.wheresmyplaces.fragment.FragmentAR;
 import com.elfadili.wheresmyplaces.object.ResponsePlaceResult;
 import com.melnykov.fab.FloatingActionButton;
 import com.ypyproductions.bitmap.ImageCache.ImageCacheParams;
@@ -73,7 +74,7 @@ public class MainSearchActivity extends DBFragmentActivity implements IMarocPlac
 	public static final String TAG = MainSearchActivity.class.getSimpleName();
 	
 	private static final String KEY_TRANSITION_EFFECT = "transition_effect";
-	
+    private String CATEGORY;
 	private int mCurrentTransitionEffect = JazzyHelper.TILT;
 	// FLY, FADILI, FLIP, CARDS
 
@@ -92,7 +93,7 @@ public class MainSearchActivity extends DBFragmentActivity implements IMarocPlac
 	public Typeface mTypeFaceRobotoLight;
     public Typeface mTypeFacechampagne;
 
-    FloatingActionButton fab;
+    private FloatingActionButton fab;
 
 	public ImageFetcher mImgFetcher;
 
@@ -119,8 +120,6 @@ public class MainSearchActivity extends DBFragmentActivity implements IMarocPlac
 
 	private boolean isAllowAddPage = false;
 	private boolean isStartAddingPage;
-
-    //AnimationDrawable loadingAnimation;
 
 	private View mFooterView;
 	
@@ -163,8 +162,8 @@ public class MainSearchActivity extends DBFragmentActivity implements IMarocPlac
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent myIntent = new Intent(MainSearchActivity.this, WelcomeActivity.class);
-                myIntent.putExtra("Cat", "Get Category name");
+                Intent myIntent = new Intent(MainSearchActivity.this, AddPlaceActivity.class);
+                myIntent.putExtra("Category", CATEGORY);
                 startActivity(myIntent);
             }
         });
@@ -301,6 +300,7 @@ public class MainSearchActivity extends DBFragmentActivity implements IMarocPlac
 										float distance = LocationUtils.calculateDistance(mCurrentLocation, mPlaceObject.getLocation()) / 1000f;
 										mPlaceObject.setDistance(distance);
 										mPlaceObject.setCategory(mHomeSearchObject.getName());
+                                        CATEGORY = mPlaceObject.getCategory();
 									}
 									String typeSorting = SettingManager.getPiority(MainSearchActivity.this);
 									if (typeSorting.equals(PIORITY_DISTANCE)) {

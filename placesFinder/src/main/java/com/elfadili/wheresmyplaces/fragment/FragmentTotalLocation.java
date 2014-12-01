@@ -85,7 +85,8 @@ public class FragmentTotalLocation extends Fragment implements IMarocPlaceExplor
 
 	private void setUpMapIfNeeded() {
 		if (mMap == null) {
-			mMap = ((SupportMapFragment) mContext.getSupportFragmentManager().findFragmentById(R.id.detail_map)).getMap();
+            //Toast.makeText(getActivity(), ((SupportMapFragment) mContext.getSupportFragmentManager().findFragmentById(R.id.detail_map)).toString(), Toast.LENGTH_LONG).show();
+			//mMap = ((SupportMapFragment) mContext.getSupportFragmentManager().findFragmentById(R.id.detail_map)).getMap();
 		}
 	}
 

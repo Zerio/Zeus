@@ -1,0 +1,97 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:elfadili="http://schemas.android.com/apk/res-auto"
+    xmlns:floatlabel="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:id="@+id/AddPlace"
+    tools:context="com.elfadili.wheresmyplaces.AddPlaceActivity">
+
+    <ImageView
+        android:id="@+id/img_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/cafe"/>
+
+    <com.andreabaccega.widget.FormEditText
+        android:id="@+id/plc_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_category"
+        android:hint="@string/name_hint"
+        android:inputType="textEmailAddress|textCapWords"
+        elfadili:testType="nocheck"
+        elfadili:emptyErrorString="@string/field_cannot_be_empty"
+        elfadili:testErrorString="@string/name_error" />
+
+    <com.andreabaccega.widget.FormEditText
+        android:id="@+id/plc_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/plc_name"
+        android:hint="@string/address_hint"
+        android:inputType="textPostalAddress"
+        elfadili:testType="nocheck"
+        elfadili:emptyErrorString="@string/field_cannot_be_empty"
+        elfadili:testErrorString="@string/address_error" />
+
+    <com.andreabaccega.widget.FormEditText
+        android:id="@+id/plc_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/plc_address"
+        android:hint="@string/phone_hint"
+        android:inputType="phone"
+        elfadili:testType="phone"
+        elfadili:emptyAllowed="true"
+        elfadili:testErrorString="@string/phone_error" />
+
+    <com.andreabaccega.widget.FormEditText
+        android:id="@+id/plc_web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/plc_phone"
+        android:hint="@string/web_hint"
+        android:inputType="textWebEditText"
+        elfadili:testType="webUrl"
+        elfadili:emptyAllowed="true"
+        elfadili:testErrorString="@string/web_error" />
+
+    <com.andreabaccega.widget.FormEditText
+        android:id="@+id/plc_email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/plc_web"
+        android:hint="@string/email_hint"
+        android:inputType="textEmailAddress"
+        elfadili:testType="email"
+        elfadili:emptyErrorString="@string/field_cannot_be_empty"
+        elfadili:testErrorString="@string/email_error" />
+
+    <com.dd.processbutton.iml.ActionProcessButton
+        android:id="@+id/btnSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/plc_email"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/btn_send"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        custom:pb_colorComplete="@color/distance_green"
+        custom:pb_colorNormal="@color/primary"
+        custom:pb_colorPressed="@color/primary_pressed"
+        custom:pb_colorProgress="@color/purple_progress"
+        custom:pb_textComplete="@string/btn_success"
+        custom:pb_textProgress="@string/btn_loading"
+        custom:pb_textError="@string/btn_error"
+        custom:pb_colorError="@color/accent_pressed" />
+
+</RelativeLayout>
